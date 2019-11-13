@@ -1484,3 +1484,7 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+#timeline tr td {
+  border-top: 3px solid #dd356e;
+  padding: 20px;
+}
