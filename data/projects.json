@@ -75,13 +75,13 @@
         "name": "IRIS OAuth Integration for Role-Based Access to Admin Panel",
         "organisation": "NITK Website",
         "link": "https://drive.google.com/open?id=1azhmvrlBSKjRkRWyXU1M1NyQX3wL05Mm",
-        "short_desc": "To integrate IRIS OAuth  for the ease of users."
+        "short_desc": "To integrate IRIS OAuth for Admin Panel Authentication."
     },
     {
         "name": "Shifting to JSON/YAML based configuration",
         "organisation": "NITK Website",
         "link": "https://drive.google.com/open?id=17T7arOPrCay_s7yd6KbAOCCCf0_R5Q83",
-        "short_desc": "To shift static hard-coded contents of NITK Website pages to JSON."
+        "short_desc": "Convert Static Data to JSON based configurable via Admin GUI"
     },
     {
         "name": "UI UX Improvements",
@@ -93,7 +93,7 @@
         "name": "Visual Page Builder",
         "organisation": "NITK Website",
         "link": "https://drive.google.com/open?id=1N9QOWFilZ2HIMQUadBCGcMKgS8ANbPw2",
-        "short_desc": "To develop a visual Drag and Drop based interface"
+        "short_desc": "To develop a visual page builder for Admin"
     },
     {
         "name": "Raft Consensus Algorithm",
