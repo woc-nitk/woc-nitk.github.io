@@ -57,19 +57,19 @@
         "name": "Cache-sim",
         "organisation": "IEEE NITK",
         "link": "https://drive.google.com/open?id=1zj6roqozn4ohrKJxrvPaldF2mpjzFT5nYjSIMGJWQ0I",
-        "short_desc": "To develop an entire Cache simulator in C++."
+        "short_desc": "To develop a Cache simulator in C++."
     },
     {
         "name": "CP Judge",
         "organisation": "IEEE NITK",
         "link": "https://drive.google.com/open?id=1hx-n5JVRHY7n15dVtzUQz9m0aVaIch3wryDhCEf0EZw",
-        "short_desc": "To build a platform like Hackerank for programming contests ."
+        "short_desc": "To build a competetive programming platform like Hackerank."
     },
     {
         "name": "Dockerization and CI/CD Pipeline Integration",
         "organisation": "NITK Website",
         "link": "https://drive.google.com/open?id=1dXbYtbCEq6_GQ8WSd2S9NmX8ulB2dQM3",
-        "short_desc": "To move existing deployment of the NITK Websie to a Docker container."
+        "short_desc": "To move existing deployment of the NITK Website to a Docker container."
     },
     {
         "name": "IRIS OAuth Integration for Role-Based Access to Admin Panel",
@@ -99,7 +99,7 @@
         "name": "Raft Consensus Algorithm",
         "organisation": "Individual",
         "link": "https://drive.google.com/open?id=1b5mx0lovT9I1q907Q4WpOBJdPuWQcTok",
-        "short_desc": "To simulate the Raft Consensus algorithm in Golang."
+        "short_desc": "To implement the Raft Consensus algorithm in Golang."
     },
     {
         "name": "Night Canteen Management System",

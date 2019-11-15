@@ -26,7 +26,7 @@ body {
   height: 100%;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: 0.5s; 
 }
 .offcanvas #page {
   overflow: hidden;
@@ -617,7 +617,10 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-content-section,
 #fh5co-contact,
-#fh5co-footer {
+#fh5co-footer,
+.fh5co-cover {
+  background-image: url('https://media.giphy.com/media/1eKtYfNa9GMPC/giphy.gif');
+  background-size: cover;
   padding: 7em 0;
   clear: both;
 }

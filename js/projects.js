@@ -8,7 +8,7 @@ $(function() {
             
             var project_box = document.createElement('div');
             project_box.className = "fh5co-blog";
-            //project_box.style.height = "400px";
+            project_box.style.height = "400px";
             col.appendChild(project_box);
 
             var blog_body = document.createElement('div');
@@ -36,6 +36,7 @@ $(function() {
             var link_container = document.createElement('li');
             var link = document.createElement('a');
             link.setAttribute('href', data[i].link);
+            link.setAttribute('target', '_blank');
             link.innerHTML = 'Read More<i class="icon-arrow-right22"></i>';
             link_container.appendChild(link);
             footer.appendChild(link_container);
