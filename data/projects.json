@@ -27,12 +27,12 @@
         "name": "Chatsapp",
         "organisation": "IE NITK",
         "link": "https://drive.google.com/drive/folders/1sk0WjAl7nri26G65Dp5HYWvF98Xd1MKH",
-        "short_desc": "Build a backend to a typical chat application, like WhatsApp.."
+        "short_desc": "Build a backend to a typical chat application, like WhatsApp."
     },
     {
         "name": "Infer Migration to Docusaurus",
         "organisation": "IE NITK",
-        "link": "https://drive.google.com/open?id=12YweIBHzMIjHS8_dOoVNKitlpZINt1YgWgqMD4v91kA",
+        "link": "https://drive.google.com/drive/folders/19ifiU_bNK7SH6c9xA3b1QOGAtQP4NnCW",
         "short_desc": "Migrating the infer documentation to Docusaurus."
     },
     {
@@ -69,7 +69,7 @@
         "name": "Dockerization and CI/CD Pipeline Integration",
         "organisation": "NITK Website",
         "link": "https://drive.google.com/open?id=1dXbYtbCEq6_GQ8WSd2S9NmX8ulB2dQM3",
-        "short_desc": "To move existing deployment of the NITK Websie to a Docker container,"
+        "short_desc": "To move existing deployment of the NITK Websie to a Docker container."
     },
     {
         "name": "IRIS OAuth Integration for Role-Based Access to Admin Panel",
