@@ -4,9 +4,11 @@ $(function() {
         for(i=0; i < data.length; i++) {
             var col = document.createElement('div');
             col.className = "col-md-4";
-            
+            col.style.height = "400px";
+
             var project_box = document.createElement('div');
             project_box.className = "fh5co-blog";
+            project_box.style.height = "400px";
             col.appendChild(project_box);
 
             var blog_body = document.createElement('div');
