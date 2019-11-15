@@ -8,7 +8,7 @@ $(function() {
             
             var project_box = document.createElement('div');
             project_box.className = "fh5co-blog";
-            project_box.style.height = "400px";
+            //project_box.style.height = "400px";
             col.appendChild(project_box);
 
             var blog_body = document.createElement('div');
