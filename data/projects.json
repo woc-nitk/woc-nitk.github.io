@@ -24,6 +24,12 @@
         "short_desc": "Improve the UI and UX of ACM-NITK website."
     },
     {
+        "name": "Spamassassin",
+        "organisation": "IE NITK",
+        "link": "https://drive.google.com/drive/u/0/folders/1bUuL-hfMs1WTJ0mQpUzH7ifnfC2FvVxO",
+        "short_desc": "Build a custom plugin for mail classification for Spamassassin"
+    },
+    {
         "name": "Chatsapp",
         "organisation": "IE NITK",
         "link": "https://drive.google.com/open?id=11ovpUQOVbaXGjKOhkg1AbltP7f2oyfT0",
