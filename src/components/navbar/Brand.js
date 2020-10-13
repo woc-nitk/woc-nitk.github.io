@@ -1,15 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
-
 import logo from "../../assets/logo-min.png";
 
 const Brand = () => {
-  return <Image src={logo} alt="Company Logo" />;
+  return <Link to="/" style={{ width: "50px" }}><Image src={logo} alt="Winter of Code Logo" /></Link>;
 };
 
 export default Brand;
 
 const Image = styled.img`
-  height: 85%;
+  height: 50px;
   margin: auto 0;
 `;

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1080"
+   height="1080"
+   viewBox="0 0 285.75001 285.75001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="woclogo.svg"
+   inkscape:export-filename="/home/z0marlin/Desktop/exps/design/woclogo2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <rect
+       x="105.22706"
+       y="132.46202"
+       width="135.3164"
+       height="83.913854"
+       id="rect888" />
+    <rect
+       x="102.21511"
+       y="124.14041"
+       width="27.904859"
+       height="13.603591"
+       id="rect852" />
+    <rect
+       x="102.21511"
+       y="124.14041"
+       width="27.90486"
+       height="13.603591"
+       id="rect852-5" />
+    <rect
+       x="102.21511"
+       y="124.14041"
+       width="27.90486"
+       height="13.603591"
+       id="rect865" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="232.85714"
+     inkscape:cy="614.28571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1003">
+      <path
+         sodipodi:type="star"
+         style="fill:#93c2db;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         id="path12"
+         sodipodi:sides="6"
+         sodipodi:cx="142.87502"
+         sodipodi:cy="161.34091"
+         sodipodi:r1="124.40909"
+         sodipodi:r2="107.74143"
+         sodipodi:arg1="1.5707963"
+         sodipodi:arg2="2.0943951"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 142.87502,285.75 -107.741434,-62.20454 -3e-6,-124.409089 107.741427,-62.204547 107.74143,62.204541 10e-6,124.409085 z" />
+      <path
+         sodipodi:type="star"
+         style="fill:#4177a1;fill-opacity:0.678431;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         id="path837"
+         sodipodi:sides="6"
+         sodipodi:cx="142.87502"
+         sodipodi:cy="161.34091"
+         sodipodi:r1="86.466301"
+         sodipodi:r2="74.882004"
+         sodipodi:arg1="1.5707963"
+         sodipodi:arg2="2.0943951"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 142.87502,247.80721 -74.882017,-43.23315 -2e-6,-86.4663 74.882009,-43.233149 74.88202,43.233149 0,86.4663 z" />
+      <path
+         style="fill:#172540;fill-opacity:0.841994;stroke:none;stroke-width:0.336235px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 35.133567,99.136374 142.87501,36.931825 250.61643,99.136366 217.75701,118.10777 142.87501,74.874616 67.992988,118.10777 Z"
+         id="path842" />
+      <path
+         style="fill:#bdd9d0;fill-opacity:1;stroke:none;stroke-width:0.327276px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 38.00429,60.54714 142.87501,2.01562e-6 247.74571,60.547132 215.76182,79.013052 142.87501,36.931825 69.988186,79.013052 Z"
+         id="path844" />
+      <path
+         style="fill:#e1e7c7;fill-opacity:1;stroke:none;stroke-width:0.327276px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 38.00429,60.54714 c 4e-6,36.931821 4e-6,36.931821 4e-6,36.931821 L 69.988183,79.01305 Z"
+         id="path846" />
+      <path
+         style="fill:#e1e7c7;fill-opacity:1;stroke:none;stroke-width:0.327276px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 247.74571,60.547141 c 0,36.931821 0,36.931821 0,36.931821 l -31.98389,-18.46591 z"
+         id="path848" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true">
+    <g
+       id="g897"
+       transform="matrix(1.0910206,0,0,1.0910206,-14.449955,7.2253537)">
+      <text
+         xml:space="preserve"
+         id="text850"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect852-5);fill:#ffffff;fill-opacity:1;stroke:none;"
+         transform="matrix(1.2495949,0,0,1.2495949,-39.050753,-46.815899)"><tspan
+           x="102.21484"
+           y="133.86767"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">NITK</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text886"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect888);fill:#ffffff;fill-opacity:1;stroke:none;"
+         transform="matrix(1.8964846,0,0,1.8964846,-109.57724,-126.49592)"><tspan
+           x="105.22656"
+           y="142.18993"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:10.5833px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Winter Of
+</tspan></tspan><tspan
+           x="105.22656"
+           y="155.41906"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:10.5833px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Code</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

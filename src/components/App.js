@@ -72,7 +72,7 @@ function App() {
 
 
   return (
-    <div className={`App ${theme}`} style={{ minHeight: "100vh" }}>
+    <div className="App" style={{ minHeight: "100vh" }}>
       <Router>
         <UserContext.Provider value={[user, setUser]}>
           <ThemeContext.Provider value={[theme, setTheme]}>
@@ -81,16 +81,16 @@ function App() {
               <div className="page">
                 <Route path="/" exact component={Home} />
                 <Route path="/about/" exact component={About} />
-                <Route path="/login/" exact component={Login} />
+                {/* <Route path="/login/" exact component={Login} />
                 <Route path="/logout/" exact component={Logout} />
-                <Route path="/signup/" exact component={SignUp} />
+                <Route path="/signup/" exact component={SignUp} /> */}
                 <Route path="/projects/" exact component={Projects} />
                 <Route path="/organizations/" exact component={Organizations} />
-                <Route
+                {/* <Route
                   exact
                   path="/profile"
                   render={() => <Profile user={user} setUser={setUser} />}
-                />
+                /> */}
                 <Route
                   exact
                   path="/project/:projectId"

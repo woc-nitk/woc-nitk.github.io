@@ -26,31 +26,52 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <NavLink to="/" exact activeStyle={{ display: "none" }}>
+            <NavLink to="/" exact activeStyle={{
+              color: "var(--silver-3)",
+              borderBottom: "2px solid var(--silver-3)",
+            }}>
               Home
             </NavLink>
-            <NavLink to="/about" exact activeStyle={{ display: "none" }}>
+            <NavLink to="/about" exact activeStyle={{
+              color: "var(--silver-3)",
+              borderBottom: "2px solid var(--silver-3)",
+            }}>
               About
             </NavLink>
-            <NavLink to="/projects" exact activeStyle={{ display: "none" }}>
+            <NavLink to="/projects" exact activeStyle={{
+              color: "var(--silver-3)",
+              borderBottom: "2px solid var(--silver-3)",
+            }}>
               Projects
             </NavLink>
             <NavLink
               to="/organizations"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
             >
-              Orgs
+              Organizations
             </NavLink>
-            <NavLink to="/profile" exact activeStyle={{ display: "none" }}>
+            {/* <NavLink to="/profile" exact activeStyle={{
+              color: "var(--silver-3)",
+              borderBottom: "2px solid var(--silver-3)",
+            }}>
               Profile
             </NavLink>
-            <NavLink to="/login" exact activeStyle={{ display: "none" }}>
-            Login
+            <NavLink to="/login" exact activeStyle={{
+              color: "var(--silver-3)",
+              borderBottom: "2px solid var(--silver-3)",
+            }}>
+              Login
           </NavLink>
-          <NavLink to="/signup" exact activeStyle={{ display: "none" }}>
-            Signup
-          </NavLink>
+            <NavLink to="/signup" exact activeStyle={{
+              color: "var(--silver-3)",
+              borderBottom: "2px solid var(--silver-3)",
+            }}>
+              Signup
+          </NavLink> */}
           </NavLinks>
           <RightSide>
             <BurgerWrapper>
@@ -90,7 +111,8 @@ const FlexContainer = styled.div`
   margin: auto;
   padding: 0 2rem;
   justify-content: space-between;
-  height: 5rem;
+  align-items: center;
+  height: 6rem;
 `;
 
 const NavLinks = styled(animated.ul)`
@@ -111,7 +133,7 @@ const NavLinks = styled(animated.ul)`
 
     &:hover {
       color: var(--silver-3);
-      border-bottom: 1px solid var(--silver-3);
+      border-bottom: 2px solid var(--silver-3);
     }
 
     @media (max-width: 768px) {
