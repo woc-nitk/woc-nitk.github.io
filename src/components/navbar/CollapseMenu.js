@@ -24,7 +24,10 @@ const CollapseMenu = (props) => {
             <NavLink
               to="/"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               Home
@@ -34,7 +37,10 @@ const CollapseMenu = (props) => {
             <NavLink
               to="/about"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               About
@@ -44,7 +50,10 @@ const CollapseMenu = (props) => {
             <NavLink
               to="/projects"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               Projects
@@ -54,17 +63,23 @@ const CollapseMenu = (props) => {
             <NavLink
               to="/organizations"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               Orgs
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/profile"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               Profile
@@ -74,22 +89,28 @@ const CollapseMenu = (props) => {
             <NavLink
               to="/login"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               Login
             </NavLink>
-            </li>
-            <li>
+          </li>
+          <li>
             <NavLink
               to="/signup"
               exact
-              activeStyle={{ display: "none" }}
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
               onClick={props.handleNavbar}
             >
               Signup
             </NavLink>
-          </li>
+          </li> */}
         </NavLinks>
       </CollapseWrapper>
     );
@@ -100,10 +121,9 @@ const CollapseMenu = (props) => {
 export default CollapseMenu;
 
 const CollapseWrapper = styled(animated.div)`
-  /* background: #2d3436; */
   background: var(--dark-2);
   position: fixed;
-  top: 4.5rem;
+  top: 6rem;
   left: 0;
   right: 0;
   z-index: 2;
@@ -121,7 +141,6 @@ const NavLinks = styled.ul`
     font-size: 1.4rem;
     line-height: 2;
     color: var(--silver-0);
-    /* color: #dfe6e9; */
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
