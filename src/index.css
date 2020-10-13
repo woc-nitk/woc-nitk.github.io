@@ -27,6 +27,13 @@
   --yellow: #ebcb8b;
   --green: #a3be8c;
   --purple: #b48ead;
+
+  /* Theme colors */
+  --cold-green: #e1e7c7ff;
+  --dark-cold-green: #bdd9d0ff;
+  --light-logo-blue: #93c2dbff;
+  --dark-logo-blue: #4177a1ad;
+  --darker-logo-blue: #172540d7;
 }
 *,
 *::after,
@@ -213,12 +220,13 @@ form {
   display: inline-block;
   font-size: 16px;
   padding: 15px;
-  background-color: var(--silver-2);
+  background-color: var(--cold-green);
   color: var(--dark-5);
   text-decoration: none;
   border-radius: 999px;
   box-shadow: 0px 6px 10px rgba(59, 59, 59, 0.92);
   transition: all 0.3s ease-in-out;
+  font-weight: 800;
 }
 
 .home a:hover{
