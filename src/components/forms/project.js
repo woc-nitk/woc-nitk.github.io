@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery, useMutation } from "@apollo/react-hooks";
-import { getOrgMentorsQuery, addProjectMutation, getOrgAdminQuery } from "../../queries";
+import { getOrgMentorsQuery, addProjectMutation } from "../../queries";
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -8,7 +8,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const ProjectForm = ({ org_id, setState }) => {
-  const [random, setRandom] = React.useState("");
+  // const [random, setRandom] = React.useState("");
   const { loading, data, error } = useQuery(getOrgMentorsQuery, {
     variables: { org_id: org_id },
   });
@@ -18,7 +18,7 @@ const ProjectForm = ({ org_id, setState }) => {
       console.log(err);
     },
     onCompleted() {
-      setRandom("Random");
+      // setRandom("Random");
     },    
   });
 
