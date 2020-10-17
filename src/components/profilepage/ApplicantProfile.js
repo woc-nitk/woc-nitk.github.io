@@ -12,7 +12,7 @@ import { ChangePasswordForm } from "../forms/Organisation";
 
 export default function ApplicantProfile({user, setUser}) {
   const [redirectURL, setURL] = useState(null);
-  const [cookies, setCookie, removeCookie] = useCookies(["refresh", "access"]);
+  const [cookies, , removeCookie] = useCookies(["refresh", "access"]);
   const [updateApp] = useMutation(updateApplcation, {
     onError: (error) => console.log(error)
   });

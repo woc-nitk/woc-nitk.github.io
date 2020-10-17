@@ -10,7 +10,7 @@ import Modal from "react-modal";
 
 export default function MentorProfile({user, setUser}) {
   const [redirectURL, setURL] = useState(null);
-  const [cookies, setCookie, removeCookie] = useCookies(["refresh", "access"]);
+  const [cookies, , removeCookie] = useCookies(["refresh", "access"]);
   const [logOut] = useMutation(logoutMutation, {
     variables: {
       refresh: cookies.refresh

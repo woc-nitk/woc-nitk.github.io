@@ -105,7 +105,7 @@ export default function Footer() {
         <Footer>
             <div className="container">
                 <Title>
-                    <img src={logo}></img>
+                    <img src={logo} alt=""></img>
                 </Title>
                 <Links>
                     <h3>Links</h3>
