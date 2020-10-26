@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { Redirect } from "react-router-dom";
 import { getApplicantQuery, updateApplcation, logoutMutation, changePasswordMutation } from "../../queries";
-import UserDetails from "./UserDetails";
+// import UserDetails from "./UserDetails";
 import styled from "styled-components";
 import ApplicationCard from "../cards/ApplicationCard";
 import Modal from "react-modal";

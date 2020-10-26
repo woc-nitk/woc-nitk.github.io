@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { Redirect } from "react-router-dom";
 import { getMentorQuery, logoutMutation, changePasswordMutation } from "../../queries";
-import UserDetails from "./UserDetails";
+// import UserDetails from "./UserDetails";
 import { useCookies } from "react-cookie";
 import AdminProjects from "./views/Projects";
 import { ChangePasswordForm } from "../forms/Organisation";

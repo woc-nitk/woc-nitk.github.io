@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import { UserContext } from "../../store/UserContext";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { getSuperAdminQuery, addOrgMutation, logoutMutation, changePasswordMutation } from "../../queries";
-import UserDetails from "./UserDetails";
+// import UserDetails from "./UserDetails";
 import Modal from "react-modal";
 import OrganizationForm from "../forms/Organisation";
 import { Redirect } from "react-router-dom";

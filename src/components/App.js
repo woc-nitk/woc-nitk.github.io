@@ -15,9 +15,9 @@ import { refreshMutation } from "../queries";
 import ProjectApplications from "./profilepage/views/ProjectApplications";
 import OrganizationProjects from "./profilepage/views/OrganizationProjects";
 import Footer from "./footer/footer";
-// import Login, { Logout } from "./login/Login";
-// import SignUp from "./signup/applicant";
-// import Profile from "./profilepage/Profile";
+import Login, { Logout } from "./login/Login";
+import SignUp from "./signup/applicant";
+import Profile from "./profilepage/Profile";
 
 function App() {
   const [theme, setTheme] = useState("light");

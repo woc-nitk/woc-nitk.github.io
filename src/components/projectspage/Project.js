@@ -45,7 +45,7 @@ export default function Projects({ match, user }) {
       <h3 style={{ marginTop: "40px", marginBottom: "10px" }}>Work:</h3>
       <p>{data.project.work}</p>
       <h3 style={{ marginTop: "40px", marginBottom: "10px" }}>Deliverables:</h3>
-      <p>Project description <a href={data.project.deliverables} target="_blank" rel="noreferrer noopenner">link</a></p>
+      <p>Project description <a href={data.project.deliverables} target="_blank" rel="noopener noreferrer">link</a></p>
       {/* <h4 style={{ marginTop: "40px", marginBottom: "10px" }}>
         Prerequisites:
       </h4>
