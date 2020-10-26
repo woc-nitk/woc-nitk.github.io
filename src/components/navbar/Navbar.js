@@ -66,12 +66,12 @@ const Navbar = (props) => {
             }}>
               Login
           </NavLink>
-            <NavLink to="/signup" exact activeStyle={{
+            {/* <NavLink to="/signup" exact activeStyle={{
               color: "var(--silver-3)",
               borderBottom: "2px solid var(--silver-3)",
             }}>
               Signup
-          </NavLink>
+          </NavLink> */}
           </NavLinks>
           <RightSide>
             <BurgerWrapper>

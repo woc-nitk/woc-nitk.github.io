@@ -98,7 +98,7 @@ const CollapseMenu = (props) => {
               Login
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/signup"
               exact
@@ -110,7 +110,7 @@ const CollapseMenu = (props) => {
             >
               Signup
             </NavLink>
-          </li>
+          </li> */}
         </NavLinks>
       </CollapseWrapper>
     );

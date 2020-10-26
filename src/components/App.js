@@ -16,7 +16,7 @@ import ProjectApplications from "./profilepage/views/ProjectApplications";
 import OrganizationProjects from "./profilepage/views/OrganizationProjects";
 import Footer from "./footer/footer";
 import Login, { Logout } from "./login/Login";
-import SignUp from "./signup/applicant";
+// import SignUp from "./signup/applicant";
 import Profile from "./profilepage/Profile";
 
 function App() {
@@ -84,7 +84,7 @@ function App() {
                 <Route path="/about/" exact component={About} />
                 <Route path="/login/" exact component={Login} />
                 <Route path="/logout/" exact component={Logout} />
-                <Route path="/signup/" exact component={SignUp} />
+                {/* <Route path="/signup/" exact component={SignUp} /> */}
                 <Route path="/projects/" exact component={Projects} />
                 <Route path="/organizations/" exact component={Organizations} />
                 <Route
