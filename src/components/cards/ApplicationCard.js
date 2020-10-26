@@ -9,7 +9,6 @@ export default function ApplicationCard(props) {
         href={props.url}
         style={{
           fontWeight: "600",
-          color: "black",
           marginTop: "5px",
           textDecoration: "none",
           fontSize: "27px",

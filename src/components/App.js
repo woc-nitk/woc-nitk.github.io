@@ -12,12 +12,12 @@ import Nav from "./navbar/Navbar";
 import { useCookies } from "react-cookie";
 import { useMutation } from "@apollo/react-hooks";
 import { refreshMutation } from "../queries";
-import Login, { Logout } from "./login/Login";
 import ProjectApplications from "./profilepage/views/ProjectApplications";
 import OrganizationProjects from "./profilepage/views/OrganizationProjects";
-import SignUp from "./signup/applicant";
-import Profile from "./profilepage/Profile";
 import Footer from "./footer/footer";
+// import Login, { Logout } from "./login/Login";
+// import SignUp from "./signup/applicant";
+// import Profile from "./profilepage/Profile";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -59,15 +59,16 @@ function App() {
   });
 
   useEffect(() => {
-
+    
     // First time when thge page loads, call the mutation
     refresh({ variables: { refresh: cookies.refresh || "asd" } });
-
+    
     // Call the mutation every 1 hour because every one hour, the access token becomes invalid
     const interval = setInterval(() => {
       refresh({ variables: { refresh: cookies.refresh } });
     }, 3600000);
     return () => clearInterval(interval);
+    // eslint-disable-next-line
   }, []);
 
 

@@ -2,8 +2,8 @@ import React from "react";
 import Timeline from "./Timeline";
 
 const timeline = [
-  { event: "Deadline to submit project proposals by mentors", date: "October 22" },
-  { event: "List of selected Projects released. Students start discussing project details with mentors", date: "October 24" },
+  { event: "Deadline to submit project proposals by mentors", date: "October 24" },
+  { event: "List of selected Projects released. Students start discussing project details with mentors", date: "October 25" },
   { event: "Students start submitting project proposals", date: "October 30" },
   { event: "Last day for Students to submit project proposals", date: "November 14" },
   { event: "List of selected students released", date: "December 1" },
@@ -19,7 +19,7 @@ const Home = () => {
         <div className="text">
           <h1>NITK<br />Winter of Code</h1>
           <p>Kickstart your open source journey</p>
-          <a role="button" target="_blank" href="https://forms.gle/XrM7s18Gp9jjsweW6" rel="noreferrer noopenner">Propose a project</a>
+          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/XrM7s18Gp9jjsweW6">Propose a project</a>
         </div>
       </div>
       <br />

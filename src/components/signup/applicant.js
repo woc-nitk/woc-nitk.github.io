@@ -1,17 +1,17 @@
 import ApplicantForm from "../forms/Applicant";
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { useMutation } from "@apollo/react-hooks";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
+// import { Formik, Form, Field, ErrorMessage } from "formik";
+// import * as Yup from "yup";
 import { signUpMutation } from "../../queries";
 import { useCookies } from "react-cookie";
 import { UserContext } from "../../store/UserContext";
 
 const SignUp = ({ redirect = "/" }) => {
-    const [cookie, setCookie, removeCookie] = useCookies(["refresh", "access"]);
+    const [, setCookie] = useCookies(["refresh", "access"]);
     const [redirectURL, setURL] = useState(null);
-    const [user, setUser] = useContext(UserContext);
+    const [, setUser] = useContext(UserContext);
     const [signUpUser, { error }] = useMutation(signUpMutation, {
         onCompleted({ signUp }) {
             const now = new Date().getTime();

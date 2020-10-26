@@ -3,7 +3,7 @@ import { useQuery, useMutation } from "@apollo/react-hooks";
 import { getOrgAdminQuery, addMentorMutation, logoutMutation, addProjectMutation, changePasswordMutation } from "../../queries";
 import AdminProjects from "./views/Projects";
 import Modal from "react-modal";
-import { useCookies, Cookies } from "react-cookie";
+import { useCookies } from "react-cookie";
 import MentorForm from "../forms/Mentor_nd_orgAdmin";
 import { Redirect } from "react-router-dom";
 import ProjectForm from "../forms/project";
@@ -14,7 +14,7 @@ Modal.setAppElement("#root");
 export default function OrgAdminProfile({user, setUser}) {
 
   const [redirectURL, setURL] = useState(null);
-  const [cookies, setCookie, removeCookie] = useCookies(["refresh", "access"]);
+  const [cookies, , removeCookie] = useCookies(["refresh", "access"]);
   const [logOut] = useMutation(logoutMutation, {
     variables: {
       refresh: cookies.refresh

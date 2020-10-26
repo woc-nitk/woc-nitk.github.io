@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery, useMutation } from "@apollo/react-hooks";
-import { getOrgMentorsQuery, addProjectMutation, getOrgAdminQuery } from "../../queries";
+import { getOrgMentorsQuery, addProjectMutation } from "../../queries";
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";

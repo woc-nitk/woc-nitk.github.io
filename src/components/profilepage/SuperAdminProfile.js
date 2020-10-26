@@ -1,5 +1,5 @@
-import React, { useContext, useState } from "react";
-import { UserContext } from "../../store/UserContext";
+import React, { useState } from "react";
+// import { UserContext } from "../../store/UserContext";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { getSuperAdminQuery, addOrgMutation, logoutMutation, changePasswordMutation } from "../../queries";
 import UserDetails from "./UserDetails";
@@ -15,7 +15,7 @@ Modal.setAppElement("#root");
 export default function SuperAdminProfile({user, setUser}) {
 
   const [redirectURL, setURL] = useState(null);
-  const [cookies, setCookie, removeCookie] = useCookies(["refresh", "access"]);
+  const [cookies, , removeCookie] = useCookies(["refresh", "access"]);
   const [logOut] = useMutation(logoutMutation, {
     variables: {
       refresh: cookies.refresh

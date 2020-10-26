@@ -8,9 +8,9 @@ import { useCookies } from "react-cookie";
 import { UserContext } from "../../store/UserContext";
 
 const Login = ({ redirect = "/profile" }) => {
-  const [cookie, setCookie] = useCookies(["refresh", "access"]);
+  const [, setCookie] = useCookies(["refresh", "access"]);
   const [redirectURL, setURL] = useState(null);
-  const [user, setUser] = useContext(UserContext);
+  const [, setUser] = useContext(UserContext);
   const [logInUser, { error }] = useMutation(loginMutation, {
     onCompleted({ login }) {
       const now = new Date().getTime();
@@ -99,10 +99,10 @@ const Login = ({ redirect = "/profile" }) => {
 };
 
 export const Logout = ({ redirect = "/" }) => {
-  const [cookie, setCookie, removeCookie] = useCookies(["refresh", "access"]);
+  const [cookie, , removeCookie] = useCookies(["refresh", "access"]);
   const [redirectURL, setURL] = useState(null);
-  const [user, setUser] = useContext(UserContext);
-  const [logOut, { error }] = useMutation(logoutMutation, {
+  const [, setUser] = useContext(UserContext);
+  const [logOut] = useMutation(logoutMutation, {
     variables: {
       refresh: cookie.refresh
     },
@@ -134,7 +134,7 @@ export const Logout = ({ redirect = "/" }) => {
   }
 
   return (
-    null
+    logOut()
   );
 };
 
