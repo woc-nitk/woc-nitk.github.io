@@ -127,7 +127,8 @@ label {
 
 .input-feedback {
   color: red;
-  margin-top: 0.25rem;
+  font-size: 12px;
+  margin-bottom: 0.75rem;
 }
 
 button {

@@ -114,7 +114,7 @@ export default function Footer() {
                         <Link to="/about">About</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/organizations">Organizations</Link>
-                        {/* <Link to="/profile">Profile</Link> */}
+                        <Link to="/profile">Profile</Link>
                     </div>
                 </Links>
                 <Contact>

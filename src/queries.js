@@ -37,7 +37,6 @@ export const getApplicantQuery = gql`
       middle_name
       last_name
       email
-      applicant_year
       applications {
         project {
           id
@@ -131,7 +130,6 @@ export const getProjectQuery = gql`
       name
       work
       deliverables
-      prerequisites
       organization {
         name
         id
@@ -165,8 +163,7 @@ export const addProjectMutation = gql`
   mutation(
     $name: CleanString!
     $work: CleanString!
-    $deliverables: CleanString!
-    $prerequisites: [CleanString!]!
+    $deliverables: URL!
     $absolute_year: Year!
     $project_start_date: Date!
     $project_end_date: Date!
@@ -177,7 +174,6 @@ export const addProjectMutation = gql`
       name: $name
       work: $work
       deliverables: $deliverables
-      prerequisites: $prerequisites
       absolute_year: $absolute_year
       project_start_date: $project_start_date
       project_end_date: $project_end_date

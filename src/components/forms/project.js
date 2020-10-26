@@ -4,11 +4,11 @@ import { getOrgMentorsQuery, addProjectMutation, getOrgAdminQuery } from "../../
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
 
 const ProjectForm = ({ org_id, setState }) => {
-  const [random, setRandom] = React.useState("");
+  // const [random, setRandom] = React.useState("");
   const { loading, data, error } = useQuery(getOrgMentorsQuery, {
     variables: { org_id: org_id },
   });
@@ -17,9 +17,9 @@ const ProjectForm = ({ org_id, setState }) => {
     onError(err) {
       console.log(err);
     },
-    onCompleted() {
-      setRandom("Random");
-    },    
+    // onCompleted() {
+    //   setRandom("Random");
+    // },    
   });
 
   if (loading) return <h2>Loading...</h2>;
@@ -33,22 +33,18 @@ const ProjectForm = ({ org_id, setState }) => {
         initialValues={{
           name: "",
           work: "",
-          deliverables: "",
-          projectStartDate: "",
-          projectEndDate: "",
-          prerequisite1: "",
-          prerequisite2: "",
-          prerequisite3: "",
-          prerequisite4: "",
+          url: "",
+          // deliverables: "",
+          // projectStartDate: "",
+          // projectEndDate: "",
+          // prerequisite1: "",
+          // prerequisite2: "",
+          // prerequisite3: "",
+          // prerequisite4: "",
           mentor1: "",
           mentor2: "",
         }}
         onSubmit={(values, { setSubmitting }) => {
-          let prerequisite = [];
-          if (values.prerequisite1) prerequisite.push(values.prerequisite1);
-          if (values.prerequisite2) prerequisite.push(values.prerequisite2);
-          if (values.prerequisite3) prerequisite.push(values.prerequisite3);
-          if (values.prerequisite4) prerequisite.push(values.prerequisite4);
           let mentors = [];
           if (values.mentor1) mentors.push(values.mentor1);
           if (values.mentor2) mentors.push(values.mentor2);
@@ -56,27 +52,29 @@ const ProjectForm = ({ org_id, setState }) => {
           const variables = {
             name: values.name,
             work: values.work,
-            deliverables: values.deliverables,
-            prerequisites: prerequisite,
+            deliverables: values.url,
+            // prerequisites: prerequisite,
             absolute_year: new Date().getFullYear(),
-            project_start_date: `${values.projectStartDate.getFullYear()}-${
-              values.projectStartDate.getMonth() + 1 < 10
-                ? "0" + (values.projectStartDate.getMonth() + 1)
-                : values.projectStartDate.getMonth()
-            }-${
-              values.projectStartDate.getDate() < 10
-                ? "0" + values.projectStartDate.getDate()
-                : values.projectStartDate.getDate()
-            }`,
-            project_end_date: `${values.projectEndDate.getFullYear()}-${
-              values.projectEndDate.getMonth() + 1 < 10
-                ? "0" + (values.projectEndDate.getMonth() + 1)
-                : values.projectEndDate.getMonth()
-            }-${
-              values.projectEndDate.getDate() < 10
-                ? "0" + values.projectEndDate.getDate()
-                : values.projectEndDate.getDate()
-            }`,
+            project_start_date: "2020-12-01",
+            project_end_date: "2021-01-02",
+            // project_start_date: `${values.projectStartDate.getFullYear()}-${
+            //   values.projectStartDate.getMonth() + 1 < 10
+            //     ? "0" + (values.projectStartDate.getMonth() + 1)
+            //     : values.projectStartDate.getMonth()
+            // }-${
+            //   values.projectStartDate.getDate() < 10
+            //     ? "0" + values.projectStartDate.getDate()
+            //     : values.projectStartDate.getDate()
+            // }`,
+            // project_end_date: `${values.projectEndDate.getFullYear()}-${
+            //   values.projectEndDate.getMonth() + 1 < 10
+            //     ? "0" + (values.projectEndDate.getMonth() + 1)
+            //     : values.projectEndDate.getMonth()
+            // }-${
+            //   values.projectEndDate.getDate() < 10
+            //     ? "0" + values.projectEndDate.getDate()
+            //     : values.projectEndDate.getDate()
+            // }`,
             org_id: org_id,
             mentor_ids: mentors,
           };
@@ -86,11 +84,13 @@ const ProjectForm = ({ org_id, setState }) => {
         validationSchema={Yup.object().shape({
           name: Yup.string().required("Required"),
           work: Yup.string().required("Required"),
-          deliverables: Yup.string().required("Required"),
-          prerequisite1: Yup.string().required("Required"),
-          projectStartDate: Yup.date().required("Required"),
-          projectEndDate: Yup.date().required("Required"),
+          url: Yup.string().required("Required"),
+          // deliverables: Yup.string().required("Required"),
+          // prerequisite1: Yup.string().required("Required"),
+          // projectStartDate: Yup.date().required("Required"),
+          // projectEndDate: Yup.date().required("Required"),
           mentor1: Yup.string().required("Required"),
+          mentor2: Yup.string().required("Required"),
         })}
       >
         {({ dirty, handleReset, isSubmitting, setFieldValue, values }) => (
@@ -129,7 +129,20 @@ const ProjectForm = ({ org_id, setState }) => {
               name="work"
               component="div"
             />
-            <label htmlFor="deliverables" style={{ display: "block" }}>
+            <label htmlFor="name" style={{ display: "block" }}>
+              Project description URL
+            </label>
+            <Field
+              type="text"
+              name="url"
+              placeholder="Enter the project details url"
+            />
+            <ErrorMessage
+              className="input-feedback"
+              name="url"
+              component="div"
+            />
+            {/* <label htmlFor="deliverables" style={{ display: "block" }}>
               Deliverables
             </label>
             <Field
@@ -141,8 +154,8 @@ const ProjectForm = ({ org_id, setState }) => {
               className="input-feedback"
               name="deliverables"
               component="div"
-            />
-            <label htmlFor="projectStartDate" style={{ display: "block" }}>
+            /> */}
+            {/* <label htmlFor="projectStartDate" style={{ display: "block" }}>
               Project Start Date
             </label>
             <DatePicker
@@ -173,53 +186,11 @@ const ProjectForm = ({ org_id, setState }) => {
               className="input-feedback"
               name="projectEndDate"
               component="div"
-            />
+            /> */}
 
-            <label htmlFor="prerequisite1" style={{ display: "block" }}>
-              Prerequisites
-            </label>
-            <Field
-              type="text"
-              name="prerequisite1"
-              placeholder="Prerequisite 1(compulsory)"
-            />
-            <ErrorMessage
-              className="input-feedback"
-              name="prerequisite1"
-              component="div"
-            />
-            <Field
-              type="text"
-              name="prerequisite2"
-              placeholder="Prerequisite 2(optional)"
-            />
-            <ErrorMessage
-              className="input-feedback"
-              name="prerequisite2"
-              component="div"
-            />
-            <Field
-              type="text"
-              name="prerequisite3"
-              placeholder="Prerequisite 3(optional)"
-            />
-            <ErrorMessage
-              className="input-feedback"
-              name="prerequisite3"
-              component="div"
-            />
-            <Field
-              type="text"
-              name="prerequisite4"
-              placeholder="Prerequisite 4(optional)"
-            />
-            <ErrorMessage
-              className="input-feedback"
-              name="prerequisite4"
-              component="div"
-            />
+            
             <label htmlFor="mentor1" style={{ display: "block" }}>
-              Mentor
+              Mentor 1
             </label>
             <Field as="select" name="mentor1">
             <option value="">Select</option>
@@ -237,7 +208,7 @@ const ProjectForm = ({ org_id, setState }) => {
               component="div"
             />
             <label htmlFor="mentor2" style={{ display: "block" }}>
-              Mentor(optional)
+              Mentor 2
             </label>
             <Field as="select" name="mentor2">
               <option value="">None</option>

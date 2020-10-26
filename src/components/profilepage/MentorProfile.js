@@ -76,12 +76,15 @@ export default function MentorProfile({user, setUser}) {
 
   return (
     <>
-      <UserDetails
+      {/* <UserDetails
         name={data.mentor.name}
         type={user.type}
         org={data.mentor.organization.name}
         email={data.mentor.email}
-      />
+      /> */}
+      <h3>{data.mentor.name}</h3>
+      <p><i>{data.mentor.email}</i></p>
+      <p>Mentor at {data.mentor.organization.name}</p>
       {
         errorMessage && <div className="input-feedback">{errorMessage}</div>
       }

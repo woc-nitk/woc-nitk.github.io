@@ -30,11 +30,11 @@ export default function Projects({ match, user }) {
   }
   if (error) {
     console.log(error);
-    return <h1 className="container">Error fetching projects</h1>;
+    return <h1 className="container">Error fetching project</h1>;
   }
 
   return (
-    <div key={user.id} className="container" style={{ fontSize: "20px" }}>
+    <div key={user.id} className="container" style={{ fontSize: "16px" }}>
       {success && (
         <div className="input-feedback" style={{ color: "var(--green)" }}>
           Successfully applied to project
@@ -45,8 +45,8 @@ export default function Projects({ match, user }) {
       <h3 style={{ marginTop: "40px", marginBottom: "10px" }}>Work:</h3>
       <p>{data.project.work}</p>
       <h3 style={{ marginTop: "40px", marginBottom: "10px" }}>Deliverables:</h3>
-      <p>{data.project.deliverables}</p>
-      <h4 style={{ marginTop: "40px", marginBottom: "10px" }}>
+      <p>Project description <a href={data.project.deliverables} target="_blank" rel="noreferrer noopenner">link</a></p>
+      {/* <h4 style={{ marginTop: "40px", marginBottom: "10px" }}>
         Prerequisites:
       </h4>
       <ul>
@@ -55,13 +55,13 @@ export default function Projects({ match, user }) {
             return <li key={idx}>{p}</li>;
           } else return null;
         })}
-      </ul>
+      </ul> */}
       <h4 style={{ marginTop: "40px", marginBottom: "10px" }}>
         Project Mentors:
       </h4>
       <ul>
         {data.project.mentors.map((p, idx) => {
-          return <li key={idx}>{p.name}</li>;
+          return <li style={{marginLeft: "15px"}} key={idx}>{p.name}</li>;
         })}
       </ul>
 

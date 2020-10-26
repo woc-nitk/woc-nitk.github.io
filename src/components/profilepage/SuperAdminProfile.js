@@ -94,11 +94,14 @@ export default function SuperAdminProfile({user, setUser}) {
 
   return (
     <>
-      <UserDetails
+      {/* <UserDetails
         name={data.superAdmin.name}
         type={user.type}
         email={data.superAdmin.email}
-      />
+      /> */}
+      <h3>{data.superAdmin.name}</h3>
+      <p><i>{data.superAdmin.email}</i></p>
+      <p>SuperAdmin</p>
       {
         errorMessage && <div className="input-feedback">{errorMessage}</div>
       }

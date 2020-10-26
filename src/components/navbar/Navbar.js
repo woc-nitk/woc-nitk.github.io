@@ -54,7 +54,7 @@ const Navbar = (props) => {
             >
               Organizations
             </NavLink>
-            {/* <NavLink to="/profile" exact activeStyle={{
+            <NavLink to="/profile" exact activeStyle={{
               color: "var(--silver-3)",
               borderBottom: "2px solid var(--silver-3)",
             }}>
@@ -71,7 +71,7 @@ const Navbar = (props) => {
               borderBottom: "2px solid var(--silver-3)",
             }}>
               Signup
-          </NavLink> */}
+          </NavLink>
           </NavLinks>
           <RightSide>
             <BurgerWrapper>

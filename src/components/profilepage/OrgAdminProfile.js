@@ -99,10 +99,9 @@ export default function OrgAdminProfile({user, setUser}) {
   console.log(data);
   return (
     <>
-      <h1>{data.orgAdmin.name}</h1>
-      <h2 style={{textTransform:"capitalize"}}>{user.type}</h2>
-      <h2>Organization: {data.orgAdmin.organization.name}</h2>
-      <i><h3>Email: {data.orgAdmin.email}</h3></i>
+      <h3>{data.orgAdmin.name}</h3>
+      <p>OrgAdmin at {data.orgAdmin.organization.name}</p>
+      <p><i>{data.orgAdmin.email}</i></p>
       {
         errorMessage && <div className="input-feedback">{errorMessage}</div>
       }

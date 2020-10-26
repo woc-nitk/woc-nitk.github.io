@@ -83,16 +83,19 @@ export default function ApplicantProfile({user, setUser}) {
   }
 
   const name = `${data.applicant.first_name} ${data.applicant.middle_name} ${data.applicant.last_name}`;
-  const year = data.applicant.allpicant_year;
+  // const year = data.applicant.appliicant_year;
   return (
-    <div className="container">
+    <div>
       <br></br>
-      <UserDetails
+      {/* <UserDetails
         name={name}
         type={user.type}
         year={year}
         email={data.applicant.email}
-      />
+      /> */}
+      <h3>{name}</h3>
+      <p><i>{data.applicant.email}</i></p>
+
       {
         errorMessage && <div className="input-feedback">{errorMessage}</div>
       }
