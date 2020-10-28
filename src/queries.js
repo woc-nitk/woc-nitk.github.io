@@ -250,7 +250,7 @@ export const addOrgAdminMutation = gql`
 `;
 
 export const addOrgMutation = gql`
-  mutation($orgName: CleanString!, $desc: CleanString!) {
+  mutation($orgName: CleanString!, $desc: String!) {
     addOrganization(org_name: $orgName, description: $desc) {
       id
       name
