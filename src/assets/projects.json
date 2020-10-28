@@ -1,0 +1,129 @@
+[
+    {
+        "mentors": [
+            {
+                "email": "prakriti.181it233@nitk.edu.in",
+                "name": "Prakriti Goyal"
+            }
+        ],
+        "title": "CRIU",
+        "org": "",
+        "summary": "CRIU is a checkpoint restore utility for Linux. It is used to freeze applications and save the application state to disk to be resumed later. CRIU obtains process information by injecting “parasite code” into the process. This includes any open files, network connections, child processes, threads, pipes, etc. This project will help the mentees communicate with the org and work on open issues of their choice.",
+        "url": "https://drive.google.com/open?id=16zyqKZxTve1E2V_Cvu69xhowVG98TkgJ1dbKI0CVDkE"
+    },
+    {
+        "mentors": [
+            {
+                "email": "prakriti.181it233@nitk.edu.in",
+                "name": "Prakriti Goyal"
+            }
+        ],
+        "title": "Redemption: Story App",
+        "org": "IE NITK",
+        "summary": "An Android-based Text Adventure under IE NITK. The application is basically a story told through text. Questions along with some options are displayed to the Player. The concept of the app is similar to Magium (Available on Play Store). Each option would have different outcomes. There are various branching of the story with different endings. Once the App is completely built, it’d be released on the Google Play Store.",
+        "url": "https://drive.google.com/open?id=1T-5GAbNoyalN03KSEqPSjPU38qyH035MHi_TEb7Spmg"
+    },
+    {
+        "mentors": [
+            {
+                "email": "omanshumahawar.181co237@nitk.edu.in",
+                "name": "Omanshu Mahawar"
+            }
+        ],
+        "title": "Resource Sharing Portal",
+        "org": "IE NITK",
+        "summary": "Resource Sharing Portal provides a one-stop platform to the students for easy management and accessibility of resources and course materials. The Web Application allows seniors, professors and students to upload and download resources. This project aims to add new functionalities to the existing Web Application.",
+        "url": "https://drive.google.com/open?id=1uX8zkXLZssIh9NipmK62njyWmTi7wvhc"
+    },
+    {
+        "mentors": [
+            {
+                "email": "abhishek.181co201@nitk.edu.in",
+                "name": "Abhishek Kumar"
+            }
+        ],
+        "title": "Migrate TEDxNITKSurathkal Website to Jekyll",
+        "org": "TEDxNITKSurathkal",
+        "summary": "TEDxNITKSurathkal website is currently implemented as a set of flat HTML files, which makes the changes and maintenance a cumbersome process. We are migrating the website to use Jeykll, a static site generator to use templating and data files to simplify the process",
+        "url": "https://drive.google.com/open?id=1Z3hdm7o7TLp6nAsqtxDeHWB6HBBwUSwS"
+    },
+    {
+        "mentors": [
+            {
+                "email": "manas.181co231@nitk.edu.in",
+                "name": "Manas Trivedi"
+            }
+        ],
+        "title": "JAlloc",
+        "org": "IE NITK",
+        "summary": "JAlloc is a web application similar to JoSAA, which can be used for seat allocation. It shall be built using JSP (i.e. inserting Java code into HTML pages) and shall use the MySQL RDBMS. JAlloc is intended to be configurable, to suit the needs of the orgs using it. The primary technologies involved in creating this project are - JSP, Java, MySQL, JDBC, and HTML.",
+        "url": "https://drive.google.com/open?id=12zMwNR6RklSohy5XapsHOxNOjEK6Cg0N6AuaOaDin9I"
+    },
+    {
+        "mentors": [
+            {
+                "email": "shanthanu.171co242@nitk.edu.in",
+                "name": "Shanthanu S Rai"
+            }
+        ],
+        "title": "NeST Website Redesign",
+        "org": "",
+        "summary": "NeST is a python3 package that handles testbed setup, testbed configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. The project involves redesigning the NeST website and auto generating the documentation page for the package.",
+        "url": "https://drive.google.com/open?id=1Xxshz28aEC0r-hcs4bPRsu1bFRJ__fM6JJiOSa631J4"
+    },
+    {
+        "mentors": [{ "email": "iristeam@nitk.edu.in", "name": "Vithik Shah" }],
+        "title": "Club Page for NITK Website",
+        "org": "NITK Website",
+        "summary": "The project aims to create a detailed page for each club containing a calendar of events, list of club members, social media links, statistics and other information for the benefit of everyone who wishes to know more about the club and aren’t (yet) a student or faculty at NITK.",
+        "url": "https://drive.google.com/open?id=128BgygyREs0GzyPxHC9zDHwPiyUEfIaP"
+    },
+    {
+        "mentors": [
+            {
+                "email": "abhishek.181co201@nitk.edu.in",
+                "name": "Abhishek"
+            }
+        ],
+        "title": "Puptime",
+        "org": "IRIS",
+        "summary": "Puptime is a lightweight system monitoring service. The students will spend time adding improvements to it like improved logging and user interface, more services.",
+        "url": "https://drive.google.com/open?id=1dW6AGhNhkDkm8928BQz2wmcEJ08cnlVs"
+    },
+    {
+        "mentors": [
+            {
+                "email": "feyaz.181co119@nitk.edu.in",
+                "name": "Feyaz Baker"
+            }
+        ],
+        "title": "XT Game",
+        "org": "IET NITK",
+        "summary": "We're making a front-end for a two player game. It's designed to teach the basics of Django and interactive web development. The game itself is simple to implement. PS: The original version was called Ultimate Tic Tac Toe, but that name is shared by a mathematically weaker version, so we stuck with Xtreme Tic Tac Toe.",
+        "url": "https://drive.google.com/open?id=1XOrfrqGD1NAX_cit_mjGFa-hJ_9o2ziq"
+    },
+    {
+        "mentors": [
+            {
+                "email": "nirmal.181it230@nitk.edu.in",
+                "name": "Nirmal Khedkar"
+            }
+        ],
+        "title": "Club Website & Online Judge",
+        "org": "IET NITK",
+        "summary": "Add additional features to the IET NITK Website, including an online judge for testing applicants in the future.",
+        "url": "https://docs.google.com/document/d/1lhZORcc2F5e_1OjPib3aGxLnXI2DdwupEfgX3rHN6yU/edit?usp=sharing"
+    },
+    {
+        "mentors": [
+            {
+                "email": "gaurav.181cv155@nitk.edu.in",
+                "name": "Gaurav Chaurasia"
+            }
+        ],
+        "title": "COVID-TRACKER",
+        "org": "IET-NITK",
+        "summary": "the basic work of this app is to locate any users nearby with symptoms of any contagious disease so that while traveling that area other users could take extra care and safely travel without any risk. proper security measures would also be considered such as we might not want to show other details on the map just the point or little region",
+        "url": "https://docs.google.com/document/d/1B1eUNue_P9IdRcPJsA6jyvRbKRW8t9PLhQAcEKtNlPA/"
+    }
+]
