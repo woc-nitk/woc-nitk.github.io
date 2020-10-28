@@ -123,6 +123,7 @@ const ProjectForm = ({ org_id, setState }) => {
               component="textarea"
               name="work"
               placeholder="Enter the work to be done"
+              style={{minWidth: "100%", fontFamily:"Arial",  fontSize: "16px", padding: "5px"}}
             />
             <ErrorMessage
               className="input-feedback"
