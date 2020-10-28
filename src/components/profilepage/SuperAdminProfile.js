@@ -173,6 +173,20 @@ export default function SuperAdminProfile({user, setUser}) {
         isOpen={orgModal}
         onRequestClose={closeModal}
         contentLabel="OrgModal"
+        style={{
+          content: {
+            minWidth: "300px",
+            // height:"50rem"
+            top: "50%",
+            left: "50%",
+            right: "auto",
+            bottom: "auto",
+            marginRight: "-50%",
+            transform: "translate(-50%,-50%",
+            padding: "3rem",
+            paddingTop: "1rem",
+          },
+        }}
       >
         <div className="modalContent">
           <button
@@ -180,8 +194,11 @@ export default function SuperAdminProfile({user, setUser}) {
             onClick={closeModal}
             style={{
               background: "none",
+              color: "#000000",
               border: "none",
-              fontSize: "36px",
+              margin: "0",
+              padding: "0",
+              boxShadow: "none",
             }}
           >
             x

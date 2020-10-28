@@ -21,7 +21,7 @@ export default function Profile({ user, setUser }) {
       case "superAdmin":
         return <SuperAdminProfile user={user} setUser={setUser} />;
       default:
-        return (<p><Link to="/signup">Sign Up</Link> or <Link to="/login">Login</Link></p>);
+        return (<p><Link to="/login">Login</Link></p>);
     }
   }
 

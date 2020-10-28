@@ -42,6 +42,7 @@ const OrganisationForm = ({ mutation, setState }) => {
               as="textarea"
               name="desc"
               placeholder="Description of the organization"
+              style={{minWidth: "100%"}}
             />
             <ErrorMessage
               className="input-feedback"
