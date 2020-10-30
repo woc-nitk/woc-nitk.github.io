@@ -1,5 +1,9 @@
 [
     {
+        "name": "Network Stack Tester (NeST)",
+        "description": "We are a team of students from NITK Surathkal working on this project under the guidance of Dr. Mohit P. Tahiliani. The main idea is to use Linux network namespaces and provide APIs to create complex emulated networks, run tests and extract the statistics using iproute2 and netperf in a single python script."
+    },
+    {
         "name": "IE NITK",
         "description": "Institution of Engineers, NITK Chapter, is one of the six exclusive clubs in NITK. We are divided by three core Special Interest Groups (SIGs) - Code, Gadget and Garage; but united by five auxiliary SIGs - Vriddhi, our social initiative, Script, our literary SIG, Robotics, Business and Tectonic, our newest SIG for Civil and Architecture."      
     },
