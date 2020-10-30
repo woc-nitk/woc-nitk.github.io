@@ -36,7 +36,7 @@ export default function Organization({ match }) {
       setModal(true);
   };
 
-  const orgName = orgId.replace(/_/g,' ');
+  let orgName = orgId.replace(/_/g,' ');
 
   const organization=orgsList.find(org => org.name === orgName);
 
@@ -46,6 +46,7 @@ export default function Organization({ match }) {
     projects = projectsList.filter(p => !p.org)
   else
     projects = projectsList.filter(p => p.org === orgName);
+  
 
   return (
     <div className="container org">
@@ -87,9 +88,10 @@ export default function Organization({ match }) {
             <ProjectDetail project={projectDetail} />
         </div>
     </Modal>      
-      <h1>
-        {organization.name}
-      </h1>
+      
+      {/* This condition is only for TEDxNITKSurathkal as the name is too big for small devices */}
+      {organization.name==="TEDxNITKSurathkal"? <h1>TEDx<span style={{fontSize: "0"}}> </span>NITKSurathkal</h1>:<h1>{organization.name}</h1>}
+      
       <p>{organization.description}</p>
       <h2 style={{ marginTop: "40px", marginBottom: "5px" }}>
         Projects under {organization.name}
