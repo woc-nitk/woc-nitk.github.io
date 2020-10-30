@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
+import { createHashHistory } from "history";
+import { wrapHistory } from "oaf-react-router";
 import { ThemeContext } from "../store/ThemeContext";
 import { UserContext } from "../store/UserContext";
 import Home from "./homepage/Home";
@@ -18,6 +20,9 @@ import Footer from "./footer/footer";
 // import Login, { Logout } from "./login/Login";
 // import SignUp from "./signup/applicant";
 // import Profile from "./profilepage/Profile";
+
+const history = createHashHistory();
+wrapHistory(history);
 
 function App() {
     const [theme, setTheme] = useState("light");
@@ -72,7 +77,7 @@ function App() {
 
     return (
         <div className="App" style={{ minHeight: "100vh" }}>
-            <Router>
+            <Router history={history}>
                 <UserContext.Provider value={[user, setUser]}>
                     <ThemeContext.Provider value={[theme, setTheme]}>
                         <div>
