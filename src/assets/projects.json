@@ -210,11 +210,15 @@
             {
                 "email": "lesliemonis@gmail.com",
                 "name": "Leslie Monis"
+            },
+            {
+                "name": "Narayan G",
+                "email": "gnarayang@gmail.com"
             }
         ],
         "title": "IPv6 Support in Network Stack Tester (NeST)",
         "org": "Network Stack Tester (NeST)",
         "summary": "NeST is a python package that handles network testbed setup, configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. NeST internally uses network namespaces to create multiple instances of TCP/IP stack. Currently, only IPv4 addressing is supported in NeST. If the user wants to use IPv6 addresses, the APIs are not available. This project involves understanding the fundamentals of Linux network namespaces, NeST architecture and APIs and subsequently developing the APIs to support IPv6 addressing.",
-        "url": "https://drive.google.com/open?id=1ZGsGG7WvM7pylcalHu8e3k7nvaSdt_BI"
+        "url": "https://drive.google.com/file/d/1hcSoiXwneTS6o052D9HcaRlBzd_obICT/view?usp=sharing"
     }
 ]
