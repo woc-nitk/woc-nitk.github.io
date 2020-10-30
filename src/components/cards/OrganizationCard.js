@@ -44,15 +44,27 @@ const Card = styled.div`
   }
 `;
 
+// const Desc = styled.p`
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   display: -webkit-box;
+//   -webkit-box-orient: vertical;
+//   -webkit-line-clamp: 2;
+//   line-height: 1.5em;
+//   max-height: 3em;
+//   position: absolute;
+//   font-size: 14px;
+//   top: 5em;
+// `;
+
 const Desc = styled.p`
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-height: 1.5em;
-  max-height: 3em;
-  position: absolute;
-  font-size: 16px;
-  top: 5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.5em;
+    max-height: 3em;
+    font-size: 14px;
+    margin-top: 15px;
 `;

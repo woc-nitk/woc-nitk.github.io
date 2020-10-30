@@ -61,45 +61,45 @@ const CollapseMenu = (props) => {
                             Projects
                         </NavLink>
                     </li>
-                    {/* <li>
-            <NavLink
-              to="/organizations"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-              onClick={props.handleNavbar}
-            >
-              Orgs
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/profile"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-              onClick={props.handleNavbar}
-            >
-              Profile
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/login"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-              onClick={props.handleNavbar}
-            >
-              Login
-            </NavLink>
-          </li> */}
+                    <li>
+                      <NavLink
+                        to="/organizations"
+                        exact
+                        activeStyle={{
+                          color: "var(--silver-3)",
+                          borderBottom: "2px solid var(--silver-3)",
+                        }}
+                        onClick={props.handleNavbar}
+                      >
+                        Orgs
+                      </NavLink>
+                    </li>
+              {/* <li>
+                <NavLink
+                  to="/profile"
+                  exact
+                  activeStyle={{
+                    color: "var(--silver-3)",
+                    borderBottom: "2px solid var(--silver-3)",
+                  }}
+                  onClick={props.handleNavbar}
+                >
+                  Profile
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/login"
+                  exact
+                  activeStyle={{
+                    color: "var(--silver-3)",
+                    borderBottom: "2px solid var(--silver-3)",
+                  }}
+                  onClick={props.handleNavbar}
+                >
+                  Login
+                </NavLink>
+              </li> */}
                     {/* <li>
             <NavLink
               to="/signup"

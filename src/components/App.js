@@ -6,8 +6,8 @@ import Home from "./homepage/Home";
 import About from "./aboutpage/About";
 import Projects from "./projectspage/Projects";
 // import Project from "./projectspage/Project";
-// import Organizations from "./organizationspage/Organizations";
-// import Organization from "./organizationspage/Organization";
+import Organizations from "./organizationspage/Organizations";
+import Organization from "./organizationspage/Organization";
 import Nav from "./navbar/Navbar";
 import { useCookies } from "react-cookie";
 import { useMutation } from "@apollo/react-hooks";
@@ -84,37 +84,36 @@ function App() {
                             <div className="page">
                                 <Route path="/" exact component={Home} />
                                 <Route path="/about/" exact component={About} />
-                                {/* <Route path="/login/" exact component={Login} /> */}
-                                {/* <Route path="/logout/" exact component={Logout} /> */}
-                                {/* <Route path="/signup/" exact component={SignUp} /> */}
                                 <Route
                                     path="/projects/"
                                     exact
                                     component={Projects}
+                                    />
+                                <Route path="/organizations/" exact component={Organizations} />
+                                <Route path="/organization/:orgId" exact component={Organization} />
+                                {/* <Route path="/login/" exact component={Login} />
+                                <Route path="/logout/" exact component={Logout} />
+                                <Route path="/signup/" exact component={SignUp} />
+                                <Route
+                                exact
+                                path="/profile"
+                                render={() => <Profile user={user} setUser={setUser} />}
                                 />
-                                {/* <Route path="/organizations/" exact component={Organizations} /> */}
-                                {/* <Route
-                  exact
-                  path="/profile"
-                  render={() => <Profile user={user} setUser={setUser} />}
-                />
-                <Route
-                  exact
-                  path="/project/:projectId"
-                  render={(props) => <Project {...props} user={user} />}
-                />
-                <Route path="/organization/:orgId" exact component={Organization} />
-
-                <Route
-                  path="/admin/project/:projectId"
-                  exact
-                  component={ProjectApplications}
-                />
-                <Route
-                  path="/admin/organization/:orgId"
-                  exact
-                  component={OrganizationProjects}
-                /> */}
+                                <Route
+                                exact
+                                path="/project/:projectId"
+                                render={(props) => <Project {...props} user={user} />}
+                                />
+                                <Route
+                                path="/admin/project/:projectId"
+                                exact
+                                component={ProjectApplications}
+                                />
+                                <Route
+                                path="/admin/organization/:orgId"
+                                exact
+                                component={OrganizationProjects}
+                                /> */}
                             </div>
                         </div>
                         <Footer />

@@ -5,7 +5,7 @@ import projectList from "../../assets/projects.json";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
 
-function ProjectDetail({ project }) {
+export function ProjectDetail({ project }) {
     return (
         <div>
             <h1>{project.title}</h1>

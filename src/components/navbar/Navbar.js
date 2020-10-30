@@ -56,28 +56,28 @@ const Navbar = (props) => {
                         >
                             Projects
                         </NavLink>
-                        {/* <NavLink
-              to="/organizations"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-            >
-              Organizations
-            </NavLink>
-            <NavLink to="/profile" exact activeStyle={{
-              color: "var(--silver-3)",
-              borderBottom: "2px solid var(--silver-3)",
-            }}>
-              Profile
-            </NavLink>
-            <NavLink to="/login" exact activeStyle={{
-              color: "var(--silver-3)",
-              borderBottom: "2px solid var(--silver-3)",
-            }}>
-              Login
-          </NavLink> */}
+                        <NavLink
+                            to="/organizations"
+                            exact
+                            activeStyle={{
+                                color: "var(--silver-3)",
+                                borderBottom: "2px solid var(--silver-3)",
+                            }}
+                        >
+                            Organizations
+                        </NavLink>
+                        {/* <NavLink to="/profile" exact activeStyle={{
+                        color: "var(--silver-3)",
+                        borderBottom: "2px solid var(--silver-3)",
+                        }}>
+                        Profile
+                        </NavLink>
+                        <NavLink to="/login" exact activeStyle={{
+                        color: "var(--silver-3)",
+                        borderBottom: "2px solid var(--silver-3)",
+                        }}>
+                        Login
+                        </NavLink> */}
                         {/* <NavLink to="/signup" exact activeStyle={{
               color: "var(--silver-3)",
               borderBottom: "2px solid var(--silver-3)",

@@ -23,6 +23,7 @@ export default function ProjectCard(props) {
                     WebkitBoxOrient: "vertical",
                     WebkitLineClamp: "2",
                     lineHeight: "1.5em",
+                    color: "#4c566a"
                 }}
             >
                 {props.title}

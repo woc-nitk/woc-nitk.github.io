@@ -1,17 +1,18 @@
 import React from "react";
-import { useQuery } from "@apollo/react-hooks";
-import { getOrganizationsQuery } from "../../queries";
+// import { useQuery } from "@apollo/react-hooks";
+// import { getOrganizationsQuery } from "../../queries";
 import OrganizationCard from "../cards/OrganizationCard";
+import orgsList from '../../assets/organizations.json';
 
 export default function Organizations() {
-  const { loading, data, error } = useQuery(getOrganizationsQuery);
-  if (loading) {
-    return <h1 className="container">Loading...</h1>;
-  }
-  if (error) {
-    console.log(error);
-    return <h1 className="container">Error fetching organizations</h1>;
-  }
+  // const { loading, data, error } = useQuery(getOrganizationsQuery);
+  // if (loading) {
+  //   return <h1 className="container">Loading...</h1>;
+  // }
+  // if (error) {
+  //   console.log(error);
+  //   return <h1 className="container">Error fetching organizations</h1>;
+  // }
 
 return (
   <div className="container">
@@ -32,12 +33,13 @@ return (
     />
 
     <div className="grid">
-      {data.organizations.map((organization) => {
+      {orgsList.map((organization,idx) => {
+        let url=organization.name.replace(/ /g,'_');
         return (
           <OrganizationCard
-            key={organization.id}
+            key={idx}
             title={organization.name}
-            url={`/organization/${organization.id}`}
+            url={`/organization/${url}`}
             desc={organization.description}
           />
         );
