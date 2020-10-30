@@ -19,7 +19,7 @@ const Home = () => {
         <div className="text">
           <h1>NITK<br />Winter of Code</h1>
           <p>Kickstart your open source journey</p>
-          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/XrM7s18Gp9jjsweW6">Propose a project</a>
+          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/31ND1u5RzFJWEELx5">Apply Now!</a>
         </div>
       </div>
       <br />
