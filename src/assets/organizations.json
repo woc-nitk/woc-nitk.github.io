@@ -5,15 +5,15 @@
     },
     {
         "name": "TEDxNITKSurathkal",
-        "description": ""      
+        "description": "Fostered by the vision of serving the student community with the most innovative and inspiring ideas, TEDxNITKSurathkal is a university TEDx event that began at NITK in 2011. Having had five successful editions in 2011, 2012, 2016, 2018 and 2019, TEDxNITKSurathkal is striving for its upcoming annual colloque to explore beyond the conventions and allow people to rethink their notion of what is possible."      
     },
     {
         "name": "NITK Website",
-        "description": ""      
+        "description": "National Institute of Technology Karnataka (NITK), also known as NITK Surathkal, formerly known as Karnataka Regional Engineering College (KREC), is a public engineering university at Surathkal, Mangalore. It was founded in 1960 as KREC while today, it is one of the 32 National Institutes of Technology in India and is recognised as an Institute of National Importance by the Government of India. The NITK Website team works on the institute website and is involved in the development and maintenance of the website."      
     },
     {
         "name": "IRIS",
-        "description": ""   
+        "description": "We are a team of motivated students from NITK Surathkal, developing and expanding a digital portal that ensures that all administrative, academic and alumni related procedures take place methodically. The team has successfully migrated a number of functions which were earlier pen-and-paper procedures (including Admissions, Placements and Course Management), as modules in the system with the aim of integrating all such procedures onto this fully functioning unified system. IRIS is compatible across various software platforms and ensures security of data with strong encryption and a data protection policy in place."   
     },
     {
         "name": "IET NITK",
@@ -21,6 +21,6 @@
     },
     {
         "name": "Miscellaneous",
-        "description": "Projects that are not under any organizations"
+        "description": "Projects that are not under any organizations. These are projects maintained by individuals or independent groups of people."
     }
 ]
