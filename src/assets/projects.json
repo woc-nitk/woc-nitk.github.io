@@ -4,6 +4,10 @@
             {
                 "email": "prakriti.181it233@nitk.edu.in",
                 "name": "Prakriti Goyal"
+            },
+			{
+                "email": "ajayrbharadwaj@gmail.com",
+                "name": "Ajay Bharadwaj"
             }
         ],
         "title": "CRIU",
@@ -13,6 +17,14 @@
     },
     {
         "mentors": [
+        	{
+        		"email": "madhumithanara.171it125@nitk.edu.in",
+        		"name": "Madhumitha Nara"
+        	},
+        	{
+            	"email": "dwaipayanmunshi.181mn010@nitk.edu.in",
+            	"name": "Dwaipayan Munshi"
+            },
             {
                 "email": "prakriti.181it233@nitk.edu.in",
                 "name": "Prakriti Goyal"
@@ -28,6 +40,10 @@
             {
                 "email": "omanshumahawar.181co237@nitk.edu.in",
                 "name": "Omanshu Mahawar"
+            },
+            {
+                "email": "paranjayasaxena@gmail.com",
+                "name": "Paranjaya Saxena"
             }
         ],
         "title": "Resource Sharing Portal",
@@ -40,6 +56,10 @@
             {
                 "email": "abhishek.181co201@nitk.edu.in",
                 "name": "Abhishek Kumar"
+            },
+            {
+                "email": "gaurangvelingkar@gmail.com",
+                "name": "Gaurang Velingkar"
             }
         ],
         "title": "Migrate TEDxNITKSurathkal Website to Jekyll",
@@ -50,8 +70,12 @@
     {
         "mentors": [
             {
-                "email": "manas.181co231@nitk.edu.in",
+                "email": "manasdtrivedi@gmail.com",
                 "name": "Manas Trivedi"
+            },
+            {
+                "email": "sasidhar.swarangi@gmail.com",
+                "name": "Sasidhar Swarangi"
             }
         ],
         "title": "JAlloc",
@@ -62,17 +86,24 @@
     {
         "mentors": [
             {
-                "email": "shanthanu.171co242@nitk.edu.in",
-                "name": "Shanthanu S Rai"
+                "email": "tahiliani@nitk.edu.in",
+                "name": "Mohit P. Tahiliani"
+            },
+            {
+                "email": "sekhardhana529@gmail.com",
+                "name": "Dhanasekhar"
             }
         ],
         "title": "NeST Website Redesign",
-        "org": "",
+        "org": "Network Stack Tester (NeST)",
         "summary": "NeST is a python3 package that handles testbed setup, testbed configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. The project involves redesigning the NeST website and auto generating the documentation page for the package.",
         "url": "https://drive.google.com/open?id=1Xxshz28aEC0r-hcs4bPRsu1bFRJ__fM6JJiOSa631J4"
     },
     {
-        "mentors": [{ "email": "iristeam@nitk.edu.in", "name": "Vithik Shah" }],
+        "mentors": [
+        	{ "email": "vithikshah@gmail.com", "name": "Vithik Shah" },
+        	{ "email": "lkcbharath@gmail.com", "name": "Bharath Adikar" }
+        ],
         "title": "Club Page for NITK Website",
         "org": "NITK Website",
         "summary": "The project aims to create a detailed page for each club containing a calendar of events, list of club members, social media links, statistics and other information for the benefit of everyone who wishes to know more about the club and aren’t (yet) a student or faculty at NITK.",
@@ -81,8 +112,12 @@
     {
         "mentors": [
             {
-                "email": "abhishek.181co201@nitk.edu.in",
+                "email": "abhishekkumar8222@gmail.com",
                 "name": "Abhishek"
+            },
+            {
+                "email": "aditya.jainadityajain.jain@gmail.com",
+                "name": "Aditya Jain"
             }
         ],
         "title": "Puptime",
@@ -92,8 +127,16 @@
     },
     {
         "mentors": [
+        	{
+                "email": "korrajagan12@gmail.com",
+                "name": "Jagan K Babu"
+            },
             {
-                "email": "feyaz.181co119@nitk.edu.in",
+                "email": "yuvrajdalia98@gmail.com",
+                "name": "Yuvraj S Dalia"
+            },
+            {
+                "email": "feyazabubaker@gmail.com",
                 "name": "Feyaz Baker"
             }
         ],
@@ -105,8 +148,16 @@
     {
         "mentors": [
             {
-                "email": "nirmal.181it230@nitk.edu.in",
+                "email": "nirmalhk7@gmail.com",
                 "name": "Nirmal Khedkar"
+            },
+            {
+                "email": "sachin.181ee237@nitk.edu.in",
+                "name": "Sachin Pandey"
+            },
+            {
+                "email": "lakshsadhwani.181mt023@nitk.edu.in",
+                "name": "Laksh Sadhwani"
             }
         ],
         "title": "Club Website & Online Judge",
@@ -119,11 +170,55 @@
             {
                 "email": "gaurav.181cv155@nitk.edu.in",
                 "name": "Gaurav Chaurasia"
+            },
+            {
+                "email": "suhas.171it214@nitk.edu.in",
+                "name": "Suhas Gopinath"
+            },
+            {
+            	"email": "dolly.mailbox.gupta@gmail.com",
+            	"name": "Dolly Gupta"
             }
         ],
         "title": "COVID-TRACKER",
         "org": "IET-NITK",
         "summary": "the basic work of this app is to locate any users nearby with symptoms of any contagious disease so that while traveling that area other users could take extra care and safely travel without any risk. proper security measures would also be considered such as we might not want to show other details on the map just the point or little region",
         "url": "https://docs.google.com/document/d/1B1eUNue_P9IdRcPJsA6jyvRbKRW8t9PLhQAcEKtNlPA/"
+    },
+    {
+        "mentors": [
+            {
+                "email": "adityamiskin.191ec202@nitk.edu.in",
+                "name": "Aditya Miskin"
+            },
+            {
+                "email": "ganesha.191me133@nitk.edu.in",
+                "name": "Ganesh S"
+            }
+        ],
+        "title": "Vehicle Management System",
+        "org": "ACM NITK",
+        "summary": "The aim of the project is to establish a system to track the vehicle movement in and out of an organization.",
+        "url": "https://drive.google.com/open?id=1S_noc4OPZNo8NyK5hJdApnXPkI_tEgqe"
+    },
+    {
+        "mentors": [
+            {
+                "email": "tahiliani@nitk.edu.in",
+                "name": "Mohit P. Tahiliani"
+            },
+            {
+                "email": "lesliemonis@gmail.com",
+                "name": "Leslie Monis"
+            },
+            {
+                "name": "Narayan G",
+                "email": "gnarayang@gmail.com"
+            }
+        ],
+        "title": "IPv6 Support in Network Stack Tester (NeST)",
+        "org": "Network Stack Tester (NeST)",
+        "summary": "NeST is a python package that handles network testbed setup, configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. NeST internally uses network namespaces to create multiple instances of TCP/IP stack. Currently, only IPv4 addressing is supported in NeST. If the user wants to use IPv6 addresses, the APIs are not available. This project involves understanding the fundamentals of Linux network namespaces, NeST architecture and APIs and subsequently developing the APIs to support IPv6 addressing.",
+        "url": "https://drive.google.com/file/d/1hcSoiXwneTS6o052D9HcaRlBzd_obICT/view?usp=sharing"
     }
 ]
