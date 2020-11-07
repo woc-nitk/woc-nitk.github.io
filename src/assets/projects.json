@@ -192,14 +192,14 @@
                 "name": "Aditya Miskin"
             },
             {
-                "email": "ganesha.191me133@nitk.edu.in",
+                "email": "ganeshs.191me133@nitk.edu.in",
                 "name": "Ganesh S"
             }
         ],
         "title": "Vehicle Management System",
         "org": "ACM NITK",
-        "summary": "The aim of the project is to establish a system to track the vehicle movement in and out of an organization.",
-        "url": "https://drive.google.com/open?id=1S_noc4OPZNo8NyK5hJdApnXPkI_tEgqe"
+        "summary": "The projects aims to automate the system of Tracking entry and exit of Vehicles within an organization. We plan to use Image Processing to scan the License Plates, make entries to the DB, using APIs, and make the Information Viewable to an admin using a website.",
+        "url": "https://drive.google.com/file/d/1iwtnBcjidwKGi5yUQeh2BYDxdeVfcKUe/view?usp=sharing"
     },
     {
         "mentors": [
