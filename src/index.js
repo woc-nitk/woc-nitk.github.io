@@ -7,6 +7,13 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import { getCookie } from "./cookieFunctions";
 import { CookiesProvider } from "react-cookie";
 
+import { DefaultToast, ToastProvider } from 'react-toast-notifications';
+export const MyCustomToast = ({ children, ...props }) => (
+  <DefaultToast {...props}  style={{marginTop: "55px"}}>
+    <div>{children}</div>
+  </DefaultToast>
+);
+
 
 const client = new ApolloClient({
   uri: "https://woc-demo-portal.herokuapp.com/",
@@ -25,9 +32,11 @@ const client = new ApolloClient({
 ReactDOM.render(
   <React.StrictMode>
     <CookiesProvider>
-      <ApolloProvider client={client}>
-        <App />
-      </ApolloProvider>
+      <ToastProvider components={{ Toast: MyCustomToast }}>
+        <ApolloProvider client={client}>
+          <App />
+        </ApolloProvider>
+      </ToastProvider>
     </CookiesProvider>
   </React.StrictMode>,
   document.getElementById("root")

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Router, Route } from "react-router-dom";
 import { createHashHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
+import { useToasts } from 'react-toast-notifications'
+
+
 import { ThemeContext } from "../store/ThemeContext";
 import { UserContext } from "../store/UserContext";
 import Home from "./homepage/Home";
@@ -25,6 +28,7 @@ const history = createHashHistory();
 wrapHistory(history);
 
 function App() {
+    const { addToast } = useToasts();
     const [theme, setTheme] = useState("light");
     const [user, setUser] = useState({
         id: "",
@@ -62,6 +66,14 @@ function App() {
             console.log(err);
         },
     });
+
+    useEffect(()=>{
+        let content="List of selected students will be released on December 2, 2020";
+        addToast(content, {
+            appearance: 'info',
+            autoDismiss: false,
+        });
+    },[addToast]);
 
     useEffect(() => {
         // First time when thge page loads, call the mutation
