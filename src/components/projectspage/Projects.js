@@ -4,6 +4,7 @@ import projectList from "../../assets/projects.json";
 // import { getProjectsQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
+Modal.setAppElement('#root');
 
 export function ProjectDetail({ project }) {
     return (
@@ -90,7 +91,8 @@ export default function Projects() {
                 style={{
                     content: {
                         maxWidth: "1000px",
-                        // height:"50rem"
+                        maxHeight: "95vh",
+                        overflow: "scroll",
                         top: "50%",
                         left: "50%",
                         right: "auto",

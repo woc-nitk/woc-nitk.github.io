@@ -26,7 +26,7 @@ const Card = styled.div`
   position: relative;
   font-family: "Montserrat", sans-serif;
   width: 310px;
-  height: 150px;
+  height: 160px;
   border-radius: 20px;
   box-shadow: 0px 3px 10px #888888;
   padding: 20px;

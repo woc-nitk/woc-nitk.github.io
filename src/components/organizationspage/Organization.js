@@ -7,6 +7,9 @@ import projectsList from '../../assets/projects.json';
 import orgsList from '../../assets/organizations.json';
 import { ProjectDetail } from '../projectspage/Projects';
 
+Modal.setAppElement('#root');
+
+
 export default function Organization({ match }) {
   const {
     params: { orgId },
@@ -57,7 +60,8 @@ export default function Organization({ match }) {
         style={{
           content: {
             maxWidth: "1000px",
-            // height:"50rem"
+            maxHeight: "95vh",
+            overflow: "scroll",
             top: "50%",
             left: "50%",
             right: "auto",
