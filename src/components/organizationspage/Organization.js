@@ -68,6 +68,9 @@ export default function Organization({ match }) {
             paddingTop: "1rem",
             boxShadow: "0 0 20px rgba(0,0,0,0.3)"
           },
+          overlay: {
+            zIndex: "3"
+          }
         }}
     >
         <div className="modalContent">

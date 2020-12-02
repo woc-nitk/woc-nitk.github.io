@@ -41,6 +41,20 @@ export function ProjectDetail({ project }) {
                     );
                 })}
             </ul>
+            <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
+            {Array.isArray(project.students) && project.students.length ?
+                <ul>
+                    {project.students.map((student, idx) => {
+                        return (
+                            <li key={idx} style={{ marginLeft: "15px" }}>
+                                {student}
+                            </li>
+                        );
+                    })}
+                </ul>
+            :
+                <p><i>No one</i></p>
+            }
         </div>
     );
 }
@@ -87,6 +101,9 @@ export default function Projects() {
                         paddingTop: "1rem",
                         boxShadow: "0 0 20px rgba(0,0,0,0.3)",
                     },
+                    overlay: {
+                        zIndex: "3"
+                    }
                 }}
             >
                 <div className="modalContent">

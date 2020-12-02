@@ -68,7 +68,7 @@ function App() {
     });
 
     useEffect(()=>{
-        let content="List of selected students will be released on December 2, 2020";
+        let content="List of selected students released! Visit projects page to view selected students.";
         addToast(content, {
             appearance: 'info',
             autoDismiss: false,

@@ -5,7 +5,7 @@ export default function Timeline({ timelines }) {
   return timelines.map((timeline, idx) => {
     const dir = idx % 2 === 0 ? "left" : "right";
     return (
-      <div className="timeline">
+      <div className="timeline" key={idx}>
         <div className={"timeline_container " + dir}>
           <div className=" timeline_content">
             <h2>{timeline.event}</h2>
