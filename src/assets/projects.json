@@ -89,7 +89,7 @@
         "org": "IE NITK",
         "summary": "JAlloc is a web application similar to JoSAA, which can be used for seat allocation. It shall be built using JSP (i.e. inserting Java code into HTML pages) and shall use the MySQL RDBMS. JAlloc is intended to be configurable, to suit the needs of the orgs using it. The primary technologies involved in creating this project are - JSP, Java, MySQL, JDBC, and HTML.",
         "url": "https://drive.google.com/open?id=12zMwNR6RklSohy5XapsHOxNOjEK6Cg0N6AuaOaDin9I",
-        "students": []
+        "students": ["Saish Mendke"]
     },
     {
         "mentors": [
