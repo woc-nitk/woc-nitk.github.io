@@ -110,8 +110,9 @@ export default function Footer() {
                     <div>
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/organizations">Organizations</Link>
+                        <Link to="/guidelines">Guidelines</Link>
+                        {/* <Link to="/projects">Projects</Link> */}
+                        {/* <Link to="/organizations">Organizations</Link> */}
                         {/* <Link to="/profile">Profile</Link> */}
                     </div>
                 </Links>

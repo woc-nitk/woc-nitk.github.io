@@ -5,102 +5,115 @@ import { NavLink } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 
 const CollapseMenu = (props) => {
-    const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
+  const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
 
-    if (props.navbarState === true) {
-        return (
-            <CollapseWrapper
-                style={{
-                    transform: open
-                        .interpolate({
-                            range: [0, 0.2, 0.3, 1],
-                            output: [0, -20, 0, -200],
-                        })
-                        .interpolate(
-                            (openValue) => `translate3d(0, ${openValue}px, 0`
-                        ),
-                }}
+  if (props.navbarState === true) {
+    return (
+      <CollapseWrapper
+        style={{
+          transform: open
+            .interpolate({
+              range: [0, 0.2, 0.3, 1],
+              output: [0, -20, 0, -200],
+            })
+            .interpolate(
+              (openValue) => `translate3d(0, ${openValue}px, 0`
+            ),
+        }}
+      >
+        <NavLinks>
+          <li>
+            <NavLink
+              to="/"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
             >
-                <NavLinks>
-                    <li>
-                        <NavLink
-                            to="/"
-                            exact
-                            activeStyle={{
-                                color: "var(--silver-3)",
-                                borderBottom: "2px solid var(--silver-3)",
-                            }}
-                            onClick={props.handleNavbar}
-                        >
-                            Home
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/about"
-                            exact
-                            activeStyle={{
-                                color: "var(--silver-3)",
-                                borderBottom: "2px solid var(--silver-3)",
-                            }}
-                            onClick={props.handleNavbar}
-                        >
-                            About
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/projects"
-                            exact
-                            activeStyle={{
-                                color: "var(--silver-3)",
-                                borderBottom: "2px solid var(--silver-3)",
-                            }}
-                            onClick={props.handleNavbar}
-                        >
-                            Projects
-                        </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/organizations"
-                        exact
-                        activeStyle={{
-                          color: "var(--silver-3)",
-                          borderBottom: "2px solid var(--silver-3)",
-                        }}
-                        onClick={props.handleNavbar}
-                      >
-                        Orgs
-                      </NavLink>
-                    </li>
-              {/* <li>
-                <NavLink
-                  to="/profile"
-                  exact
-                  activeStyle={{
-                    color: "var(--silver-3)",
-                    borderBottom: "2px solid var(--silver-3)",
-                  }}
-                  onClick={props.handleNavbar}
-                >
-                  Profile
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/login"
-                  exact
-                  activeStyle={{
-                    color: "var(--silver-3)",
-                    borderBottom: "2px solid var(--silver-3)",
-                  }}
-                  onClick={props.handleNavbar}
-                >
-                  Login
-                </NavLink>
-              </li> */}
-                    {/* <li>
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/guidelines"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
+            >
+              Guidelines
+            </NavLink>
+          </li>
+          {/* <li>
+            <NavLink
+              to="/projects"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
+            >
+              Projects
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/organizations"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
+            >
+              Orgs
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/profile"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
+            >
+              Profile
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/login"
+              exact
+              activeStyle={{
+                color: "var(--silver-3)",
+                borderBottom: "2px solid var(--silver-3)",
+              }}
+              onClick={props.handleNavbar}
+            >
+              Login
+            </NavLink>
+          </li>
+          <li>
             <NavLink
               to="/signup"
               exact
@@ -113,11 +126,11 @@ const CollapseMenu = (props) => {
               Signup
             </NavLink>
           </li> */}
-                </NavLinks>
-            </CollapseWrapper>
-        );
-    }
-    return null;
+        </NavLinks>
+      </CollapseWrapper>
+    );
+  }
+  return null;
 };
 
 export default CollapseMenu;

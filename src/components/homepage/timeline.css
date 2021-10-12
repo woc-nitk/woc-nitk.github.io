@@ -6,7 +6,7 @@
 }
 
 .timeline_content{
-  box-shadow: 3px 6px 20px rgba(85, 85, 87, 0.849);
+  box-shadow: 0 5px 50px 0 rgba(0,0,0,0.19);
 }
 
 .timeline_content h2{

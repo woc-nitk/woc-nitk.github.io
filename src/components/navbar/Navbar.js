@@ -47,6 +47,16 @@ const Navbar = (props) => {
                             About
                         </NavLink>
                         <NavLink
+                            to="/guidelines"
+                            exact
+                            activeStyle={{
+                                color: "var(--silver-3)",
+                                borderBottom: "2px solid var(--silver-3)",
+                            }}
+                        >
+                            Guidelines
+                        </NavLink>
+                        {/* <NavLink
                             to="/projects"
                             exact
                             activeStyle={{
@@ -66,24 +76,24 @@ const Navbar = (props) => {
                         >
                             Organizations
                         </NavLink>
-                        {/* <NavLink to="/profile" exact activeStyle={{
-                        color: "var(--silver-3)",
-                        borderBottom: "2px solid var(--silver-3)",
+                        <NavLink to="/profile" exact activeStyle={{
+                            color: "var(--silver-3)",
+                            borderBottom: "2px solid var(--silver-3)",
                         }}>
-                        Profile
+                            Profile
                         </NavLink>
                         <NavLink to="/login" exact activeStyle={{
-                        color: "var(--silver-3)",
-                        borderBottom: "2px solid var(--silver-3)",
+                            color: "var(--silver-3)",
+                            borderBottom: "2px solid var(--silver-3)",
                         }}>
-                        Login
+                            Login
+                        </NavLink>
+                        <NavLink to="/signup" exact activeStyle={{
+                            color: "var(--silver-3)",
+                            borderBottom: "2px solid var(--silver-3)",
+                        }}>
+                            Signup
                         </NavLink> */}
-                        {/* <NavLink to="/signup" exact activeStyle={{
-              color: "var(--silver-3)",
-              borderBottom: "2px solid var(--silver-3)",
-            }}>
-              Signup
-          </NavLink> */}
                     </NavLinks>
                     <RightSide>
                         <BurgerWrapper>
@@ -92,7 +102,6 @@ const Navbar = (props) => {
                                 handleNavbar={props.handleNavbar}
                             />
                         </BurgerWrapper>
-                        {/* <Sun style={{ height: "28px", fill: "var(--text-prim)" }} /> */}
                     </RightSide>
                 </FlexContainer>
             </NavBar>
@@ -111,7 +120,7 @@ const NavBar = styled(animated.nav)`
     top: 0;
     left: 0;
     background: var(--dark-0);
-    z-index: 1;
+    z-index: 10;
     font-size: 1.4rem;
     top: 0;
     position: sticky;
