@@ -3,11 +3,11 @@ import React from "react";
 import Timeline from "./Timeline";
 
 const timeline = [
-  { event: "Deadline to submit project proposals by mentors. (Fill it by 22nd to get it reviewed)", date: "October 24" },
-  { event: "List of selected Projects released. Students start discussing project details with mentors", date: "October 25" },
-  { event: "Students start submitting project proposals", date: "October 30" },
+  { event: "Deadline to submit project proposals by organizations in NITK. Submit by 22nd October to get the project proposals reviewed!", date: "October 24" },
+  { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 25" },
+  { event: "Students can start submitting project proposals", date: "October 30" },
   { event: "Last day for students to submit project proposals", date: "November 10" },
-  { event: "List of selected students released", date: "November 28" },
+  { event: "List of selected students for projects released", date: "November 28" },
   { event: "Coding phase begins", date: "December 1" },
   { event: "Mid evaluation", date: "January 5" },
   { event: "Final evaluation", date: "February 9" }
