@@ -17,7 +17,7 @@ export default function Guidelines() {
       </h1>
 
         <h2>Mentors and participating organizations</h2>
-        <p>To participate in Winter of Code NITK 2020, mentors and participating organizations are required to adhere to the following guidelines for the smooth conduction of the program.</p>
+        <p>To participate in Winter of Code NITK 2021, mentors and participating organizations are required to adhere to the following guidelines for the smooth conduction of the program.</p>
 
         <ul>
           <li>The mentors mentioned in the project proposal will only be considered responsible for the project and will serve as the point of contact</li>
