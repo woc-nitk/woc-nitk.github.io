@@ -27,7 +27,7 @@ export default function Guidelines() {
           <li>The project reviewal committee will be announced after the commencement of the program, and all mentors will have to submit their feedback of the mentees as per the timeline. Mentors will also be evaluated based on the mentee feedback and the decision of continuing the project will be decided by the Winter of Code committee</li>
           <li>In the event that discrepancies arise the decision taken by the Winter of Code team will be final</li>
         </ul>
-        <br />
+
         <h2>Mentees/Students</h2>
         <p>To participate in NITK Winter of Code 2021, mentees are required to adhere to the following guidelines for the smooth conduction of the program.</p>
         <ul>

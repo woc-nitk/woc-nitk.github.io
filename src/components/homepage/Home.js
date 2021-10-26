@@ -21,7 +21,7 @@ const Home = () => {
           <h1>NITK<br />Winter of Code</h1>
           <p>Kickstart your open source journey</p>
           {/* <Link to="/projects" role="button">View Projects</Link> */}
-          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/BXEX2UXeYHKSeZZs9">Apply as a mentor</a>
+          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/bFDF9yeW1f7ihKRK9">Submit an application!</a>
         </div>
       </div>
       <br />

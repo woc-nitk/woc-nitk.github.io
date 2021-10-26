@@ -250,6 +250,24 @@
     {
         "mentors": [
             {
+                "email": "ikjotsd.191cs123@nitk.edu.in",
+                "name": "Ikjot Singh Dhody"
+            },
+            {
+                "email": "rajanjaiswal.191ee235@nitk.edu.in",
+                "name": "Rajan Jaiswal"
+            }
+        ],
+        "title": "NITK Companion App Map Improvements",
+        "org": "WebClub NITK",
+        "summary": "The NITK Companion app is a project that was started with the aim to create a mobile application that can cater to the needs of anyone who will be staying at NITK or visiting NITK for that matter. We have all faced the situation where on admission day, the volunteers tell us to go to some building to get something done but we have no way to get there. Add to this the fact that there are multiple names by which buildings and locations are referred to (unofficially), making it hard to use google maps as well. We aim to solve this and other problems as well.  \n\nThe inspiration for the application came from the \"InstiApp\" of IITB which solves a similar problem, and we aim to develop a similar application for the community of NITK. So far, the application has a mess menu, events and maps features all of which have scope for further improvements. Applicants will be involved with enhancing the map based functionalities in this project.",
+        "url": "https://drive.google.com/open?id=1xC07d4RzAAXw5xtHic6V_-xbK2lOCkacqMIdTAga_uI",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
                 "email": "atreyamaj.181ec206@nitk.edu.in",
                 "name": "Atreya Majumdar"
             }
@@ -278,24 +296,6 @@
     {
         "mentors": [
             {
-                "email": "ikjotsd.191cs123@nitk.edu.in",
-                "name": "Ikjot Singh Dhody"
-            },
-            {
-                "email": "rajanjaiswal.191ee235@nitk.edu.in",
-                "name": "Rajan Jaiswal"
-            }
-        ],
-        "title": "NITK Companion App Map Improvements",
-        "org": "WebClub NITK",
-        "summary": "The NITK Companion app is a project that was started with the aim to create a mobile application that can cater to the needs of anyone who will be staying at NITK or visiting NITK for that matter. We have all faced the situation where on admission day, the volunteers tell us to go to some building to get something done but we have no way to get there. Add to this the fact that there are multiple names by which buildings and locations are referred to (unofficially), making it hard to use google maps as well. We aim to solve this and other problems as well.  \n\nThe inspiration for the application came from the \"InstiApp\" of IITB which solves a similar problem, and we aim to develop a similar application for the community of NITK. So far, the application has a mess menu, events and maps features all of which have scope for further improvements. Applicants will be involved with enhancing the map based functionalities in this project.",
-        "url": "https://drive.google.com/open?id=1xC07d4RzAAXw5xtHic6V_-xbK2lOCkacqMIdTAga_uI",
-        "students": [],
-        "openToAll": false
-    },
-    {
-        "mentors": [
-            {
                 "email": "kausthubtm.191it125@nitk.edu.in",
                 "name": "Kausthub Thekke Madathil"
             },
@@ -308,6 +308,50 @@
         "org": "ACM NITK",
         "summary": "ACM-NITK undertakes many projects and events during the calendar year and we plan on handling and managing them using the iACM APP. The iACM Website is the web version of the iACM App that is used to track and manage various events and activities that ACM NITK oversees. The project involves creating a Django + React application to meet the requirements. ",
         "url": "https://drive.google.com/open?id=1TeT-Ot5cMcrvVMqFCgOgyQfBBgidFkyInSVF5yvkRAc",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "aritrasinha002@gmail.com",
+                "name": "Aritra Sinha"
+            },
+            {
+                "email": "diya.191it215@nitk.edu.in",
+                "name": "Diya Gupta"
+            },
+            {
+                "email": "ksakshithimmaiah.191it124@nitk.edu.in",
+                "name": "K Sakshi Thimmaiah"
+            }
+        ],
+        "title": "IMPRESARIO Backend",
+        "org": "IE NITK",
+        "summary": "Impresario is a Django web application using PostgreSQL as the database. It is created with the intent to keep track of organizations and their sub-organizations. It also keeps track of the members and the events organized under them. Every organization can branch out to have several other sub-organizations, and for each one, users can add/remove members, adjust the privileges, schedule events, etc. We use Google Calendar API to add events to the calendar and send invitations to participants.",
+        "url": "https://drive.google.com/open?id=1CzxMDXEt_OgTn8pd7fDsZs5h8zarhuFZk-kftbRQsXU",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "aritrasinha002@gmail.com",
+                "name": "Aritra Sinha"
+            },
+            {
+                "email": "diya.191it215@nitk.edu.in",
+                "name": "Diya Gupta"
+            },
+            {
+                "email": "ksakshithimmaiah.191it124@nitk.edu.in",
+                "name": "K Sakshi Thimmaiah"
+            }
+        ],
+        "title": "IMPRESARIO Frontend",
+        "org": "IE NITK",
+        "summary": "Impresario is a Django web application using PostgreSQL as the database. It is created with the intent to keep track of organizations and their sub-organizations. It also keeps track of the members and the events organized under them. Every organization can branch out to have several other sub-organizations, and for each one, users can add/remove members, adjust the privileges, schedule events, etc. We use Google Calendar API to add events to the calendar and send invitations to participants.",
+        "url": "https://drive.google.com/open?id=1gTq6i5MHM_VHv8sqr8D3jCOWbvpFwyHNRTRK5t0k5oA",
         "students": [],
         "openToAll": true
     }

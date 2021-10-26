@@ -47,6 +47,9 @@ export default function Organization({ match }) {
 
   if(orgName==="Miscellaneous")
     projects = projectsList.filter(p => !p.org)
+  // NeST expanded is too big on mobile devices
+  else if(orgName==="Network Stack Tester (NeST)")
+    projects = projectsList.filter(p => p.org === "NeST");
   else
     projects = projectsList.filter(p => p.org === orgName);
   
@@ -118,6 +121,7 @@ export default function Organization({ match }) {
               org={project.org}
               title={project.title}
               desc={project.summary}
+              openToAll={project.openToAll}
             />
           );
         })}

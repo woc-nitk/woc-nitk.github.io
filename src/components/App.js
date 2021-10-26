@@ -69,11 +69,16 @@ function App() {
     });
 
     useEffect(() => {
-        let content = "Guidelines for mentors and organizations have been added. Read through them on the guidelines page!";
-        addToast(content, {
-            appearance: 'info',
-            autoDismiss: true,
-        });
+        const content = [
+            "Guidelines for mentees have been added. Read through them on the guidelines page!",
+            "Applications open for students. View all projects at the projects page and apply by 10 Nov!"
+        ];
+        content.forEach(information => {
+            addToast(information, {
+                appearance: 'info',
+                autoDismiss: true,
+            });
+        })
     }, [addToast]);
 
     useEffect(() => {
