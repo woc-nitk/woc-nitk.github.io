@@ -61,7 +61,7 @@ export default function Organization({ match }) {
           content: {
             maxWidth: "1000px",
             maxHeight: "95vh",
-            overflow: "scroll",
+            overflowY: "scroll",
             top: "50%",
             left: "50%",
             right: "auto",
@@ -73,7 +73,7 @@ export default function Organization({ match }) {
             boxShadow: "0 0 20px rgba(0,0,0,0.3)"
           },
           overlay: {
-            zIndex: "3"
+            zIndex: "100"
           }
         }}
     >
@@ -83,14 +83,14 @@ export default function Organization({ match }) {
                 onClick={closeModal}
                 style={{
                     background: "none",
-                    color: "#000000",
+                    color: "var(--dark-5)",
                     border: "none",
                     margin: "0",
                     padding: "0",
                     boxShadow: "none",
                 }}
             >
-                x
+                ×
             </button>
             <ProjectDetail project={projectDetail} />
         </div>

@@ -2,239 +2,313 @@
     {
         "mentors": [
             {
-                "email": "prakriti.181it233@nitk.edu.in",
-                "name": "Prakriti Goyal"
+                "email": "tahiliani@nitk.edu.in",
+                "name": "Dr. Mohit P. Tahiliani"
             },
-			{
-                "email": "ajayrbharadwaj@gmail.com",
-                "name": "Ajay Bharadwaj"
+            {
+                "email": "govindJeevan7@gmail.com",
+                "name": "Govind Jeevan"
             }
         ],
-        "title": "CRIU",
+        "title": "Develop a website for COSH",
+        "org": "COSH NITK",
+        "summary": "Centre for Open-source Software and Hardware (COSH) aims to promote and encourage multi-disciplinary research, education, and development in open-source software and hardware (open to all disciplines of Science and Engineering). The main goal of this project is to build a website for COSH.",
+        "url": "https://drive.google.com/open?id=1gDWx3VEIRi8tQwMhcs-o-pJ4tpV_5L0rqwnmtE1WiVY",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "adityachirania.181co104@nitk.edu.in",
+                "name": "Aditya Chirania"
+            },
+            {
+                "email": "niranjansy.181co136@nitk.edu.in",
+                "name": "Niranjan S Yadiyala"
+            }
+        ],
+        "title": "Stronger test case management and Viewing problems in CodePal",
+        "org": "IEEE NITK",
+        "summary": "CodePal is a Visual Studio Code Extension to help Codeforces Users Code with Convenience. This extension is specially for people who want to save time in a live codeforces contest and upsolve problems comfortably. It has over 2.3k downloads to date and counting.  \n\nThe current CodePal extension has features to compile and run code against test cases, and also add test cases. But what it lacks is the ability to run selected test cases only and delete certain tests. Also currently it only gives verdicts about whether the test passed, failed or timed out, but it would be nice to provide comprehensive details of each test’s run including the time taken and memory utilized.",
+        "url": "https://drive.google.com/open?id=19S7ORk-MrOXbEb33NRI4iCGk8qtZEhpvwopYEkrq6C4",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "nest@nitk.edu.in",
+                "name": "Shanthanu S Rai"
+            },
+            {
+                "email": "tahiliani@nitk.edu.in",
+                "name": "Dr. Mohit P. Tahiliani"
+            }
+        ],
+        "title": "Develop an API to support gnuplot in NeST",
+        "org": "NeST",
+        "summary": "NeST is a python3 package that handles testbed setup, testbed configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. NeST provides ‘.png’ plots for users to visualize the networking parameters.  \n\nThese plots quickly provide important information about the network. But at times there is a need for high quality plots with user chosen plotting parameters. For this, we want NeST to generate “.dat” files. Using this file, users can use a popular plotting tool ‘gnuplot’ to generate customized plots.",
+        "url": "https://drive.google.com/open?id=1GlVXxZ0nml0RQOXXWAINLtjrRwLxvgq6Fav21hrGLEY",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "tahiliani@nitk.edu.in",
+                "name": "Dr. Mohit P. Tahiliani"
+            }
+        ],
+        "title": "Migration of RTLabs website",
+        "org": "CSD NITK",
+        "summary": "Remote Triggered Labs (http://rtlabs.nitk.ac.in/) at Centre for System Design (CSD), NITK Surathkal are funded by the Ministry of Education, Government of India. These labs allow the users to remotely perform engineering experiments over the Internet by using a web interface.  \n\nThe website for RTLabs is hosted in Central Computer Centre (CCC) at NITK, but is running on an old server machine. This project aims to migrate the RTLabs website to a new container which will be provided to the student. Subsequently, we need to test the working of the website once it is migrated to a new container. Lastly, this project also aims to set up a git repository for RTLabs (currently, the source code of RTLabs is not stored in a git repository).",
+        "url": "https://drive.google.com/open?id=1SghaX2N34kiKBop1AbzMFxdwhYXhFpq1zhkXOyaBgn8",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "adityachirania.181co104@nitk.edu.in",
+                "name": "Aditya Chirania"
+            },
+            {
+                "email": "niranjansy.181co136@nitk.edu.in",
+                "name": "Niranjan S Yadiyala"
+            }
+        ],
+        "title": "Automatic Code Submission for Codeforces Problems from CodePal",
+        "org": "IEEE NITK",
+        "summary": "CodePal is a Visual Studio Code Extension to help Codeforces Users Code with Convenience. This extension is specially for people who want to save time in a live codeforces contest and solve problems comfortably. This extension responds quickly to users. It makes use of the Codeforces public API and the VS Code Extension API, and can swiftly filter through the problem list by specifying tags and ratings, create folders for contests and problems containing sample tests of each problem, and compile and run tests automatically on the user’s code.  \n\nCodePal currently has a feature whereby, on the click of a button, the user’s code gets copied onto the clipboard and the submission page of the problem is opened on the user’s default browser. The user then has to paste the code and click on ‘Submit’ on the webpage. The objective of this project is to make the process of submission of a problem even faster, by being able to submit the code directly from CodePal itself through the click of a single button. This feature has been implemented by a few other tools such as Catalyst, Competitive Companion etc. and we wish to draw inspiration from the same and come up with an optimized implementation.",
+        "url": "https://drive.google.com/open?id=15nDCO5If-bN5t3alYm2roBY7E2DKW24SNYTAuvv9LRE",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "harshithasridhar172000@gmail.com",
+                "name": "Harshitha S"
+            },
+            {
+                "email": "rmhanchate2000@gmail.com",
+                "name": "Rahul Hanchate"
+            }
+        ],
+        "title": "Fixing bugs in OpenRISC CPU",
         "org": "",
-        "summary": "CRIU is a checkpoint restore utility for Linux. It is used to freeze applications and save the application state to disk to be resumed later. CRIU obtains process information by injecting “parasite code” into the process. This includes any open files, network connections, child processes, threads, pipes, etc. This project will help the mentees communicate with the org and work on open issues of their choice.",
-        "url": "https://drive.google.com/open?id=16zyqKZxTve1E2V_Cvu69xhowVG98TkgJ1dbKI0CVDkE",
-        "students": ["Nishant Kumar", "Rakshit P"]
+        "summary": "Mor1kx CPU is one of the most sophisticated and reconfigurable OpenRISC processors with various architectural implementations. Formal Verification of Mor1kx Processor identified a few unseen bugs that should be resolved. Bugs can be fixed by modifying the RTL code of the processor without deviating from the actual specifications of the processor. Bug fixes must pass both or1k-tests as well as formal tests applicable to it.",
+        "url": "https://drive.google.com/open?id=1nTTdgWDCl6p-re8B8mUWuh0-sBxe_hNzTPU87FiyfgE",
+        "students": [],
+        "openToAll": false
     },
     {
         "mentors": [
-        	{
-        		"email": "madhumithanara.171it125@nitk.edu.in",
-        		"name": "Madhumitha Nara"
-        	},
-        	{
-            	"email": "dwaipayanmunshi.181mn010@nitk.edu.in",
-            	"name": "Dwaipayan Munshi"
+            {
+                "email": "samarthmayya.191cs152@nitk.edu.in",
+                "name": "Samarth Mayya"
             },
-            {
-                "email": "prakriti.181it233@nitk.edu.in",
-                "name": "Prakriti Goyal"
-            }
-        ],
-        "title": "Redemption: Story App",
-        "org": "IE NITK",
-        "summary": "An Android-based Text Adventure under IE NITK. The application is basically a story told through text. Questions along with some options are displayed to the Player. The concept of the app is similar to Magium (Available on Play Store). Each option would have different outcomes. There are various branching of the story with different endings. Once the App is completely built, it’d be released on the Google Play Store.",
-        "url": "https://drive.google.com/open?id=1T-5GAbNoyalN03KSEqPSjPU38qyH035MHi_TEb7Spmg",
-        "students": [
-            "Satyam Jyotsana Gargee",
-            "T Sree Harsha"
-        ]
-    },
-    {
-        "mentors": [
-            {
-                "email": "omanshumahawar.181co237@nitk.edu.in",
-                "name": "Omanshu Mahawar"
-            },
-            {
-                "email": "paranjayasaxena@gmail.com",
-                "name": "Paranjaya Saxena"
-            }
-        ],
-        "title": "Resource Sharing Portal",
-        "org": "IE NITK",
-        "summary": "Resource Sharing Portal provides a one-stop platform to the students for easy management and accessibility of resources and course materials. The Web Application allows seniors, professors and students to upload and download resources. This project aims to add new functionalities to the existing Web Application.",
-        "url": "https://drive.google.com/open?id=1uX8zkXLZssIh9NipmK62njyWmTi7wvhc",
-        "students": ["Rajat Partani"]
-    },
-    {
-        "mentors": [
             {
                 "email": "abhishek.181co201@nitk.edu.in",
                 "name": "Abhishek Kumar"
-            },
-            {
-                "email": "gaurangvelingkar@gmail.com",
-                "name": "Gaurang Velingkar"
             }
         ],
-        "title": "Migrate TEDxNITKSurathkal Website to Jekyll",
-        "org": "TEDxNITKSurathkal",
-        "summary": "TEDxNITKSurathkal website is currently implemented as a set of flat HTML files, which makes the changes and maintenance a cumbersome process. We are migrating the website to use Jeykll, a static site generator to use templating and data files to simplify the process",
-        "url": "https://drive.google.com/open?id=1Z3hdm7o7TLp6nAsqtxDeHWB6HBBwUSwS",
-        "students": []
+        "title": "Improvements to Bootcamp",
+        "org": "IRIS NITK",
+        "summary": "This project is about:  \n- Deploying a Jekyll website that uses MarkDown files containing the IRIS Bootcamp content, to Github Pages.  \n - Developing and deploying the various demo projects in the IRIS Bootcamp, to Heroku.  \n",
+        "url": "https://drive.google.com/open?id=1nTTdgWDCl6p-re8B8mUWuh0-sBxe_hNzTPU87FiyfgE",
+        "students": [],
+        "openToAll": false
     },
     {
         "mentors": [
+            {
+                "email": "patidar.priyansh936@gmail.com",
+                "name": "Priyansh Patidar"
+            },
+            {
+                "email": "Utkarsh Mahajan",
+                "name": "utkarshrm568@gmail.com"
+            },
+            {
+                "email": "R S Muthukumar",
+                "name": "rsmuthukumar.201ec149@nitk.edu.in"
+            }
+        ],
+        "title": "ClubsCafe",
+        "org": "",
+        "summary": "Clubs Café is about creating a one-stop destination for various events and other club-related activities happening across different institutions in India.",
+        "url": "https://drive.google.com/open?id=1AlCeXiBNf9AGU3rAaj7ySN5-nUMSKY5cvIsjkY-14Dg",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "rao.sush004@gmail.com",
+                "name": "Sushanth Sathesh Rao"
+            }
+        ],
+        "title": "Improving RBS Toolchain",
+        "org": "",
+        "summary": "This project mainly aims to help students to start contributing to the open source repository of Ruby. Ruby has launched a new tool chain for static typing and requires contributions from the community to improve the tool chain.  \n\nRBS is the newly developed language for mentioning types in a Ruby program. RBS has undergone significant changes and is currently waiting for its next major release. RBS is quite stable currently, but still has great scope for improvements.",
+        "url": "https://drive.google.com/open?id=1OY7NTdxPxruSwhb_8x0FkgunMCB_qvfx8JhVdAFJadM",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "rakshit.191cs147@nitk.edu.in",
+                "name": "Rakshit P"
+            }
+        ],
+        "title": "Pharo Consortium",
+        "org": "",
+        "summary": "This project will help the mentees communicate with the Pharo Consortium organization, and work on open issues of their choice in the organization.",
+        "url": "https://drive.google.com/open?id=1IAm8japH90ivXwdkUejLC3yTCpQETgJU3ATjVkY25pI",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "namanmanishtrivedi@gmail.com",
+                "name": "Naman Trivedi"
+            },
+            {
+                "email": "rao.sush004@gmail.com",
+                "name": "Sushanth Sathesh Rao"
+            },
+            {
+                "email": "ashwinprasanna9@gmail.com",
+                "name": "Ashwin P"
+            }
+        ],
+        "title": "NITK Connect",
+        "org": "WebClub NITK",
+        "summary": "An application aimed at promoting information sharing and increasing connections between the students of our college. Has three primary modules.  \n\n*Connect*: Students can search and connect with each other, similar to linkedin.  \n*Blogs Module*: Students can publish blogs through the website to share knowledge or ask questions on any topic. Blogs can be searched using keywords or tags. Users can post comments in the comments section.  \n*Resource Hub*: A resource center that can be used by students to share and store important resources on any course.  \n*Auth Module*: This module handles the User authentication stuff like login signup, anonymous profile toggling between them etc. ",
+        "url": "https://drive.google.com/open?id=1rjT9b6DNeBtu4MlMqtpM6BXg5W__-0mLjFEX8MK7IP8",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "paranjayasaxena@gmail.com",
+                "name": "Paranjaya Saxena"
+            },
             {
                 "email": "manasdtrivedi@gmail.com",
                 "name": "Manas Trivedi"
-            },
-            {
-                "email": "sasidhar.swarangi@gmail.com",
-                "name": "Sasidhar Swarangi"
             }
         ],
-        "title": "JAlloc",
+        "title": "MyDrive",
         "org": "IE NITK",
-        "summary": "JAlloc is a web application similar to JoSAA, which can be used for seat allocation. It shall be built using JSP (i.e. inserting Java code into HTML pages) and shall use the MySQL RDBMS. JAlloc is intended to be configurable, to suit the needs of the orgs using it. The primary technologies involved in creating this project are - JSP, Java, MySQL, JDBC, and HTML.",
-        "url": "https://drive.google.com/open?id=12zMwNR6RklSohy5XapsHOxNOjEK6Cg0N6AuaOaDin9I",
-        "students": ["Saish Mendke"]
+        "summary": "MyDrive is a storage solution for enterprises, similar to Google Drive. It is being built using Node.JS and uses the MongoDB database.",
+        "url": "https://drive.google.com/open?id=1ncdlBJRSaHvdPNrJz-SW4NH8gkZ_enpeZrFh3AHpiLI",
+        "students": [],
+        "openToAll": true
     },
     {
         "mentors": [
             {
-                "email": "tahiliani@nitk.edu.in",
-                "name": "Mohit P. Tahiliani"
+                "email": "riyashah.191cs244@nitk.edu.in",
+                "name": "Riya Shah"
             },
             {
-                "email": "sekhardhana529@gmail.com",
-                "name": "Dhanasekhar"
+                "email": "diya.191it215@nitk.edu.in",
+                "name": "Diya Gupta"
             }
         ],
-        "title": "NeST Website Redesign",
-        "org": "Network Stack Tester (NeST)",
-        "summary": "NeST is a python3 package that handles testbed setup, testbed configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. The project involves redesigning the NeST website and auto generating the documentation page for the package.",
-        "url": "https://drive.google.com/open?id=1Xxshz28aEC0r-hcs4bPRsu1bFRJ__fM6JJiOSa631J4",
-        "students": []
-    },
-    {
-        "mentors": [
-        	{ "email": "vithikshah@gmail.com", "name": "Vithik Shah" },
-        	{ "email": "lkcbharath@gmail.com", "name": "Bharath Adikar" }
-        ],
-        "title": "Club Page for NITK Website",
-        "org": "NITK Website",
-        "summary": "The project aims to create a detailed page for each club containing a calendar of events, list of club members, social media links, statistics and other information for the benefit of everyone who wishes to know more about the club and aren’t (yet) a student or faculty at NITK.",
-        "url": "https://drive.google.com/open?id=128BgygyREs0GzyPxHC9zDHwPiyUEfIaP",
-        "students": []
+        "title": "Github Scraper",
+        "org": "IE NITK",
+        "summary": "Github has a lot of informational content which isn’t easily visible to us. Sometimes the keywords we search for are hidden in the files of the repositories and doesn’t easily come up on Google. So this project creates a customised search engine which scrapes not only on the basis of titles but also based on the content in the repositories, eg. The Readme files, etc.",
+        "url": "https://drive.google.com/open?id=1ZTgpNkPAAeN5q_ibsfnvOBlrTPBvVuvtUyVn12l2gw4",
+        "students": [],
+        "openToAll": true
     },
     {
         "mentors": [
             {
-                "email": "abhishekkumar8222@gmail.com",
-                "name": "Abhishek"
+                "email": "ikjotsd.191cs123@nitk.edu.in",
+                "name": "Ikjot Singh Dhody"
             },
             {
-                "email": "aditya.jainadityajain.jain@gmail.com",
-                "name": "Aditya Jain"
+                "email": "rajanjaiswal.191ee235@nitk.edu.in",
+                "name": "Rajan Jaiswal"
             }
         ],
-        "title": "Puptime",
-        "org": "IRIS",
-        "summary": "Puptime is a lightweight system monitoring service. The students will spend time adding improvements to it like improved logging and user interface, more services.",
-        "url": "https://drive.google.com/open?id=1dW6AGhNhkDkm8928BQz2wmcEJ08cnlVs",
-        "students": ["Harshal Shende"]
-    },
-    {
-        "mentors": [
-        	{
-                "email": "korrajagan12@gmail.com",
-                "name": "Jagan K Babu"
-            },
-            {
-                "email": "yuvrajdalia98@gmail.com",
-                "name": "Yuvraj S Dalia"
-            },
-            {
-                "email": "feyazabubaker@gmail.com",
-                "name": "Feyaz Baker"
-            }
-        ],
-        "title": "XT Game",
-        "org": "IET NITK",
-        "summary": "We're making a front-end for a two player game. It's designed to teach the basics of Django and interactive web development. The game itself is simple to implement. PS: The original version was called Ultimate Tic Tac Toe, but that name is shared by a mathematically weaker version, so we stuck with Xtreme Tic Tac Toe.",
-        "url": "https://drive.google.com/open?id=1XOrfrqGD1NAX_cit_mjGFa-hJ_9o2ziq",
-        "students": ["Saurabh Moksahi"]
+        "title": "Feature additions to NITK Companion App",
+        "org": "WebClub NITK",
+        "summary": "The NITK Companion app is a project that was started with the aim to create a mobile application that can cater to the needs of anyone who will be staying at NITK or visiting NITK for that matter. We have all faced the situation where on admission day, the volunteers tell us to go to some building to get something done but we have no way to get there. Add to this the fact that there are multiple names by which buildings and locations are referred to (unofficially), making it hard to use google maps as well. We aim to solve this and other problems as well.  \n\nThe inspiration for the application came from the \"InstiApp\" of IITB which solves a similar problem, and we aim to develop a similar application for the community of NITK. So far, the application has a mess menu, events and maps features all of which have scope for further improvements. Applicants will be involved with developing new features for the application by creating custom flutter widgets.",
+        "url": "https://drive.google.com/open?id=1eTB4XnTCqb-d",
+        "students": [],
+        "openToAll": false
     },
     {
         "mentors": [
             {
-                "email": "nirmalhk7@gmail.com",
-                "name": "Nirmal Khedkar"
-            },
-            {
-                "email": "sachin.181ee237@nitk.edu.in",
-                "name": "Sachin Pandey"
-            },
-            {
-                "email": "lakshsadhwani.181mt023@nitk.edu.in",
-                "name": "Laksh Sadhwani"
+                "email": "atreyamaj.181ec206@nitk.edu.in",
+                "name": "Atreya Majumdar"
             }
         ],
-        "title": "Club Website & Online Judge",
-        "org": "IET NITK",
-        "summary": "Add additional features to the IET NITK Website, including an online judge for testing applicants in the future.",
-        "url": "https://docs.google.com/document/d/1lhZORcc2F5e_1OjPib3aGxLnXI2DdwupEfgX3rHN6yU/edit?usp=sharing",
-        "students": []
+        "title": "Adding DMPNN to Deepchem",
+        "org": "",
+        "summary": "This project aims to add a very important molecular machine learning model: DMPNN. DMPNN is a graph convolutional model used for molecular property prediction. The model utilizes a hybrid representation which combines both graph convolutions and molecular descriptors. The model thus learns to construct molecular encodings by using convolutions centred on intramolecular bonds, rather than the atoms. This avoids unnecessary loops during the message passing phase.",
+        "url": "https://drive.google.com/open?id=1Nf9_1R30bTlYEf5Ix9JLuZU3dGUOR2tbpBooUBF3PXY",
+        "students": [],
+        "openToAll": true
     },
     {
         "mentors": [
             {
-                "email": "gaurav.181cv155@nitk.edu.in",
-                "name": "Gaurav Chaurasia"
-            },
-            {
-                "email": "suhas.171it214@nitk.edu.in",
-                "name": "Suhas Gopinath"
-            },
-            {
-            	"email": "dolly.mailbox.gupta@gmail.com",
-            	"name": "Dolly Gupta"
+                "email": "sushanth.191ee156@nitk.edu.in",
+                "name": "Sushanth Sathesh Rao"
             }
         ],
-        "title": "COVID-TRACKER",
-        "org": "IET-NITK",
-        "summary": "The basic work of this app is to locate any users nearby with symptoms of any contagious disease so that while traveling that area other users could take extra care and safely travel without any risk. Proper security measures would also be considered such as we might not want to show other details on the map just the point or little region",
-        "url": "https://docs.google.com/document/d/1B1eUNue_P9IdRcPJsA6jyvRbKRW8t9PLhQAcEKtNlPA/",
-        "students": ["Rajan Jaiswal"]
-    },
-    {
-        "mentors": [
-            {
-                "email": "adityamiskin.191ec202@nitk.edu.in",
-                "name": "Aditya Miskin"
-            },
-            {
-                "email": "ganeshs.191me133@nitk.edu.in",
-                "name": "Ganesh S"
-            }
-        ],
-        "title": "Vehicle Management System",
+        "title": "iACM",
         "org": "ACM NITK",
-        "summary": "The projects aims to automate the system of Tracking entry and exit of Vehicles within an organization. We plan to use Image Processing to scan the License Plates, make entries to the DB, using APIs, and make the Information Viewable to an admin using a website.",
-        "url": "https://drive.google.com/file/d/1iwtnBcjidwKGi5yUQeh2BYDxdeVfcKUe/view?usp=sharing",
-        "students": ["Aditya R Rudra"]
+        "summary": "ACM-NITK undertakes many projects and events during the calendar year and we plan on handling and managing them using the iACM APP. This project aims at building a Flutter based application which interacts with a remote backend server to implement the functionalities such as project management, event tracking, etc.",
+        "url": "https://drive.google.com/open?id=1AsrMrsw3SoybC08qd840S2kCaPm1Rb59mb3A8_RgIwk",
+        "students": [],
+        "openToAll": true
     },
     {
         "mentors": [
             {
-                "email": "tahiliani@nitk.edu.in",
-                "name": "Mohit P. Tahiliani"
+                "email": "ikjotsd.191cs123@nitk.edu.in",
+                "name": "Ikjot Singh Dhody"
             },
             {
-                "email": "lesliemonis@gmail.com",
-                "name": "Leslie Monis"
-            },
-            {
-                "name": "Narayan G",
-                "email": "gnarayang@gmail.com"
+                "email": "rajanjaiswal.191ee235@nitk.edu.in",
+                "name": "Rajan Jaiswal"
             }
         ],
-        "title": "IPv6 Support in Network Stack Tester (NeST)",
-        "org": "Network Stack Tester (NeST)",
-        "summary": "NeST is a python package that handles network testbed setup, configuration, collecting and visualizing data by providing a user friendly API, addressing common issues involved in conducting networking experiments. NeST internally uses network namespaces to create multiple instances of TCP/IP stack. Currently, only IPv4 addressing is supported in NeST. If the user wants to use IPv6 addresses, the APIs are not available. This project involves understanding the fundamentals of Linux network namespaces, NeST architecture and APIs and subsequently developing the APIs to support IPv6 addressing.",
-        "url": "https://drive.google.com/file/d/1hcSoiXwneTS6o052D9HcaRlBzd_obICT/view?usp=sharing",
-        "students": ["Saurabh Gole", "Urvesh Rathod"]
+        "title": "NITK Companion App Map Improvements",
+        "org": "WebClub NITK",
+        "summary": "The NITK Companion app is a project that was started with the aim to create a mobile application that can cater to the needs of anyone who will be staying at NITK or visiting NITK for that matter. We have all faced the situation where on admission day, the volunteers tell us to go to some building to get something done but we have no way to get there. Add to this the fact that there are multiple names by which buildings and locations are referred to (unofficially), making it hard to use google maps as well. We aim to solve this and other problems as well.  \n\nThe inspiration for the application came from the \"InstiApp\" of IITB which solves a similar problem, and we aim to develop a similar application for the community of NITK. So far, the application has a mess menu, events and maps features all of which have scope for further improvements. Applicants will be involved with enhancing the map based functionalities in this project.",
+        "url": "https://drive.google.com/open?id=1xC07d4RzAAXw5xtHic6V_-xbK2lOCkacqMIdTAga_uI",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "kausthubtm.191it125@nitk.edu.in",
+                "name": "Kausthub Thekke Madathil"
+            },
+            {
+                "email": "nirmalvnair.191me251@nitk.edu.in",
+                "name": "Nirmal V Nair"
+            }
+        ],
+        "title": "iACM Website",
+        "org": "ACM NITK",
+        "summary": "ACM-NITK undertakes many projects and events during the calendar year and we plan on handling and managing them using the iACM APP. The iACM Website is the web version of the iACM App that is used to track and manage various events and activities that ACM NITK oversees. The project involves creating a Django + React application to meet the requirements. ",
+        "url": "https://drive.google.com/open?id=1TeT-Ot5cMcrvVMqFCgOgyQfBBgidFkyInSVF5yvkRAc",
+        "students": [],
+        "openToAll": true
     }
 ]

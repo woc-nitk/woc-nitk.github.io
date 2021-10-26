@@ -4,15 +4,16 @@ import projectList from "../../assets/projects.json";
 // import { getProjectsQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
+import ReactMarkdown from "react-markdown";
 Modal.setAppElement('#root');
 
 export function ProjectDetail({ project }) {
     return (
-        <div>
+        <div className="project-details">
             <h1>{project.title}</h1>
             <h4 style={{ margin: "10px 0" }}>{project.org}</h4>
             <hr style={{ marginBottom: "25px" }}></hr>
-            <p>{project.summary}</p>
+            <ReactMarkdown children={project.summary}/>
             <a
                 href={project.url}
                 target="_blank"
@@ -42,7 +43,9 @@ export function ProjectDetail({ project }) {
                     );
                 })}
             </ul>
-            <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
+
+            {/* Selected candidates */}
+            {/* <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
             {Array.isArray(project.students) && project.students.length ?
                 <ul>
                     {project.students.map((student, idx) => {
@@ -55,7 +58,7 @@ export function ProjectDetail({ project }) {
                 </ul>
             :
                 <p><i>No one</i></p>
-            }
+            } */}
         </div>
     );
 }
@@ -92,7 +95,7 @@ export default function Projects() {
                     content: {
                         maxWidth: "1000px",
                         maxHeight: "95vh",
-                        overflow: "scroll",
+                        overflowY: "scroll",
                         top: "50%",
                         left: "50%",
                         right: "auto",
@@ -104,7 +107,7 @@ export default function Projects() {
                         boxShadow: "0 0 20px rgba(0,0,0,0.3)",
                     },
                     overlay: {
-                        zIndex: "3"
+                        zIndex: "100"
                     }
                 }}
             >
@@ -114,14 +117,14 @@ export default function Projects() {
                         onClick={closeModal}
                         style={{
                             background: "none",
-                            color: "#000000",
+                            color: "var(--dark-5)",
                             border: "none",
                             margin: "0",
                             padding: "0",
                             boxShadow: "none",
                         }}
                     >
-                        x
+                        ×
                     </button>
                     <ProjectDetail project={projectDetail} />
                 </div>
@@ -151,6 +154,7 @@ export default function Projects() {
                             org={project.org}
                             title={project.title}
                             desc={project.summary}
+                            openToAll={project.openToAll}
                         />
                     );
                 })}

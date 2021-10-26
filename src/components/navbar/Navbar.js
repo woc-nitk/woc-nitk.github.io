@@ -56,7 +56,7 @@ const Navbar = (props) => {
                         >
                             Guidelines
                         </NavLink>
-                        {/* <NavLink
+                         <NavLink
                             to="/projects"
                             exact
                             activeStyle={{
@@ -76,24 +76,6 @@ const Navbar = (props) => {
                         >
                             Organizations
                         </NavLink>
-                        <NavLink to="/profile" exact activeStyle={{
-                            color: "var(--silver-3)",
-                            borderBottom: "2px solid var(--silver-3)",
-                        }}>
-                            Profile
-                        </NavLink>
-                        <NavLink to="/login" exact activeStyle={{
-                            color: "var(--silver-3)",
-                            borderBottom: "2px solid var(--silver-3)",
-                        }}>
-                            Login
-                        </NavLink>
-                        <NavLink to="/signup" exact activeStyle={{
-                            color: "var(--silver-3)",
-                            borderBottom: "2px solid var(--silver-3)",
-                        }}>
-                            Signup
-                        </NavLink> */}
                     </NavLinks>
                     <RightSide>
                         <BurgerWrapper>

@@ -6,6 +6,7 @@ import styled from "styled-components";
 export default function ProjectCard(props) {
     return (
         <Card onClick={() => props.onClick()}>
+            {!props.openToAll && <Badge>❆ NITK only </Badge>}
             {props.org ? (
                 <Org>{props.org}</Org>
             ) : (
@@ -57,6 +58,15 @@ const Card = styled.div`
     }
 `;
 
+const Badge = styled.span`
+    position: absolute;
+    border-radius: 10px;
+    font-size: 8px;
+    color: white;
+    background-color: var(--green);
+    padding: 2px 4px;
+    text-transform: uppercase;
+`;
 const Org = styled.h4`
     font-weight: 300;
     font-size: 16px;
