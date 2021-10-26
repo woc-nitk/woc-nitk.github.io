@@ -15,10 +15,10 @@ import { useCookies } from "react-cookie";
 import { useMutation } from "@apollo/react-hooks";
 import { refreshMutation } from "../queries";
 import Footer from "./footer/footer";
-// import Projects from "./projectspage/Projects";
+import Projects from "./projectspage/Projects";
 // import Project from "./projectspage/Project";
-// import Organizations from "./organizationspage/Organizations";
-// import Organization from "./organizationspage/Organization";
+import Organizations from "./organizationspage/Organizations";
+import Organization from "./organizationspage/Organization";
 // import ProjectApplications from "./profilepage/views/ProjectApplications";
 // import OrganizationProjects from "./profilepage/views/OrganizationProjects";
 // import Login, { Logout } from "./login/Login";
@@ -68,13 +68,18 @@ function App() {
         },
     });
 
-    useEffect(()=>{
-        let content="Guidelines for mentors and organizations have been added. Read through them on the guidelines page!";
-        addToast(content, {
-            appearance: 'info',
-            autoDismiss: true,
-        });
-    },[addToast]);
+    useEffect(() => {
+        const content = [
+            "Guidelines for mentees have been added. Read through them on the guidelines page!",
+            "Applications open for students. View all projects at the projects page and apply by 10 Nov!"
+        ];
+        content.forEach(information => {
+            addToast(information, {
+                appearance: 'info',
+                autoDismiss: true,
+            });
+        })
+    }, [addToast]);
 
     useEffect(() => {
         // First time when thge page loads, call the mutation
@@ -103,14 +108,14 @@ function App() {
                                 <Route path="/" exact component={Home} />
                                 <Route path="/about/" exact component={About} />
                                 <Route path="/guidelines/" exact component={Guidelines} />
-                                {/* <Route
+                                <Route
                                     path="/projects/"
                                     exact
                                     component={Projects}
-                                    />
+                                />
                                 <Route path="/organizations/" exact component={Organizations} />
                                 <Route path="/organization/:orgId" exact component={Organization} />
-                                <Route path="/login/" exact component={Login} />
+                                {/*<Route path="/login/" exact component={Login} />
                                 <Route path="/logout/" exact component={Logout} />
                                 <Route path="/signup/" exact component={SignUp} />
                                 <Route

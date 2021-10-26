@@ -61,7 +61,7 @@ const CollapseMenu = (props) => {
               Guidelines
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               to="/projects"
               exact
@@ -87,45 +87,6 @@ const CollapseMenu = (props) => {
               Orgs
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/profile"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-              onClick={props.handleNavbar}
-            >
-              Profile
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/login"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-              onClick={props.handleNavbar}
-            >
-              Login
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/signup"
-              exact
-              activeStyle={{
-                color: "var(--silver-3)",
-                borderBottom: "2px solid var(--silver-3)",
-              }}
-              onClick={props.handleNavbar}
-            >
-              Signup
-            </NavLink>
-          </li> */}
         </NavLinks>
       </CollapseWrapper>
     );
