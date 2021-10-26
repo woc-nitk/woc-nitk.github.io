@@ -15,7 +15,7 @@
         "summary": "Centre for Open-source Software and Hardware (COSH) aims to promote and encourage multi-disciplinary research, education, and development in open-source software and hardware (open to all disciplines of Science and Engineering). The main goal of this project is to build a website for COSH.",
         "url": "https://drive.google.com/open?id=1gDWx3VEIRi8tQwMhcs-o-pJ4tpV_5L0rqwnmtE1WiVY",
         "students": [],
-        "openToAll": true
+        "openToAll": false
     },
     {
         "mentors": [
@@ -58,6 +58,10 @@
             {
                 "email": "tahiliani@nitk.edu.in",
                 "name": "Dr. Mohit P. Tahiliani"
+            }, 
+            {
+                "email": "kvganga@nitk.edu.in",
+                "name": "Dr. Gangadharan K V"
             }
         ],
         "title": "Migration of RTLabs website",
