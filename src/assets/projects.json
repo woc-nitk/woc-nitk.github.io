@@ -12,7 +12,7 @@
         ],
         "title": "Develop a website for COSH",
         "org": "COSH NITK",
-        "summary": "Centre for Open-source Software and Hardware (COSH) aims to promote and encourage multi-disciplinary research, education, and development in open-source software and hardware (open to all disciplines of Science and Engineering). The main goal of this project is to build a website for COSH.",
+        "summary": "Centre for Open-source Software and Hardware (COSH) aims to promote and encourage multi-disciplinary research, education, and development in open-source software and hardware (open to all disciplines of Science and Engineering). The main goal of this project is to build a website for COSH.  \n\n_Use NITK email to access the project details_",
         "url": "https://drive.google.com/open?id=1gDWx3VEIRi8tQwMhcs-o-pJ4tpV_5L0rqwnmtE1WiVY",
         "students": [],
         "openToAll": false
@@ -58,7 +58,7 @@
             {
                 "email": "tahiliani@nitk.edu.in",
                 "name": "Dr. Mohit P. Tahiliani"
-            }, 
+            },
             {
                 "email": "kvganga@nitk.edu.in",
                 "name": "Dr. Gangadharan K V"
@@ -66,7 +66,7 @@
         ],
         "title": "Migration of RTLabs website",
         "org": "CSD NITK",
-        "summary": "Remote Triggered Labs (http://rtlabs.nitk.ac.in/) at Centre for System Design (CSD), NITK Surathkal are funded by the Ministry of Education, Government of India. These labs allow the users to remotely perform engineering experiments over the Internet by using a web interface.  \n\nThe website for RTLabs is hosted in Central Computer Centre (CCC) at NITK, but is running on an old server machine. This project aims to migrate the RTLabs website to a new container which will be provided to the student. Subsequently, we need to test the working of the website once it is migrated to a new container. Lastly, this project also aims to set up a git repository for RTLabs (currently, the source code of RTLabs is not stored in a git repository).",
+        "summary": "Remote Triggered Labs (http://rtlabs.nitk.ac.in/) at Centre for System Design (CSD), NITK Surathkal are funded by the Ministry of Education, Government of India. These labs allow the users to remotely perform engineering experiments over the Internet by using a web interface.  \n\nThe website for RTLabs is hosted in Central Computer Centre (CCC) at NITK, but is running on an old server machine. This project aims to migrate the RTLabs website to a new container which will be provided to the student. Subsequently, we need to test the working of the website once it is migrated to a new container. Lastly, this project also aims to set up a git repository for RTLabs (currently, the source code of RTLabs is not stored in a git repository).  \n\n_Use NITK email to access the project details_",
         "url": "https://drive.google.com/open?id=1SghaX2N34kiKBop1AbzMFxdwhYXhFpq1zhkXOyaBgn8",
         "students": [],
         "openToAll": false
