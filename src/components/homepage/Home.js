@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Timeline from "./Timeline";
 
 const timeline = [
@@ -20,8 +20,8 @@ const Home = () => {
         <div className="text">
           <h1>NITK<br />Winter of Code</h1>
           <p>Kickstart your open source journey</p>
-          {/* <Link to="/projects" role="button">View Projects</Link> */}
-          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/bFDF9yeW1f7ihKRK9">Submit an application!</a>
+          <Link to="/projects" role="button">View Projects</Link>
+          {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/bFDF9yeW1f7ihKRK9">Submit an application!</a> */}
         </div>
       </div>
       <br />

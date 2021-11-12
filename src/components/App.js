@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Router, Route } from "react-router-dom";
 import { createHashHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
-import { useToasts } from 'react-toast-notifications'
+// import { useToasts } from 'react-toast-notifications'
 
 
 import { ThemeContext } from "../store/ThemeContext";
@@ -29,7 +29,7 @@ const history = createHashHistory();
 wrapHistory(history);
 
 function App() {
-    const { addToast } = useToasts();
+    // const { addToast } = useToasts();
     const [theme, setTheme] = useState("light");
     const [user, setUser] = useState({
         id: "",
@@ -68,18 +68,18 @@ function App() {
         },
     });
 
-    useEffect(() => {
-        const content = [
-            "Guidelines for mentees have been added. Read through them on the guidelines page!",
-            "Applications open for students. View all projects at the projects page and apply by 10 Nov!"
-        ];
-        content.forEach(information => {
-            addToast(information, {
-                appearance: 'info',
-                autoDismiss: true,
-            });
-        })
-    }, [addToast]);
+    // useEffect(() => {
+    //     const content = [
+    //         "Guidelines for mentees have been added. Read through them on the guidelines page!",
+    //         "Applications open for students. View all projects at the projects page and apply by 10 Nov!"
+    //     ];
+    //     content.forEach(information => {
+    //         addToast(information, {
+    //             appearance: 'info',
+    //             autoDismiss: true,
+    //         });
+    //     })
+    // }, [addToast]);
 
     useEffect(() => {
         // First time when thge page loads, call the mutation
