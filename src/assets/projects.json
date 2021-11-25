@@ -190,7 +190,29 @@
                 "name": "Ashwin P"
             }
         ],
-        "title": "NITK Connect",
+        "title": "NITK Connect - Frontend",
+        "org": "WebClub NITK",
+        "summary": "An application aimed at promoting information sharing and increasing connections between the students of our college. The application has four primary modules.  \n\n*Connect*: Students can search and connect with each other, similar to linkedin.  \n*Blogs Module*: Students can publish blogs through the website to share knowledge or ask questions on any topic. Blogs can be searched using keywords or tags. Users can post comments in the comments section.  \n*Resource Hub*: A resource center that can be used by students to share and store important resources on any course.  \n*Auth Module*: This module handles the User authentication stuff like login signup, anonymous profile toggling between them etc. ",
+        "url": "https://drive.google.com/open?id=1rjT9b6DNeBtu4MlMqtpM6BXg5W__-0mLjFEX8MK7IP8",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "namanmanishtrivedi@gmail.com",
+                "name": "Naman Trivedi"
+            },
+            {
+                "email": "rao.sush004@gmail.com",
+                "name": "Sushanth Sathesh Rao"
+            },
+            {
+                "email": "ashwinprasanna9@gmail.com",
+                "name": "Ashwin P"
+            }
+        ],
+        "title": "NITK Connect - Backend",
         "org": "WebClub NITK",
         "summary": "An application aimed at promoting information sharing and increasing connections between the students of our college. The application has four primary modules.  \n\n*Connect*: Students can search and connect with each other, similar to linkedin.  \n*Blogs Module*: Students can publish blogs through the website to share knowledge or ask questions on any topic. Blogs can be searched using keywords or tags. Users can post comments in the comments section.  \n*Resource Hub*: A resource center that can be used by students to share and store important resources on any course.  \n*Auth Module*: This module handles the User authentication stuff like login signup, anonymous profile toggling between them etc. ",
         "url": "https://drive.google.com/open?id=1rjT9b6DNeBtu4MlMqtpM6BXg5W__-0mLjFEX8MK7IP8",
