@@ -45,7 +45,7 @@ export function ProjectDetail({ project }) {
             </ul>
 
             {/* Selected candidates */}
-            {/* <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
+            <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
             {Array.isArray(project.students) && project.students.length ?
                 <ul>
                     {project.students.map((student, idx) => {
@@ -58,7 +58,7 @@ export function ProjectDetail({ project }) {
                 </ul>
             :
                 <p><i>No one</i></p>
-            } */}
+            }
         </div>
     );
 }
