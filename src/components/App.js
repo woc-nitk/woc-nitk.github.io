@@ -19,9 +19,9 @@ import Projects from "./projectspage/Projects";
 // import Project from "./projectspage/Project";
 import Organizations from "./organizationspage/Organizations";
 import Organization from "./organizationspage/Organization";
-import Aproject from "./archivedprojects/Aproject";
+import ArchivedProject from "./archivedprojects/ArchivedProject";
 import Archive from "./archive/Archive";
-import AOrganizations from "./archivedorganizations/AOrganizations";
+import ArchivedOrganizations from "./archivedorganizations/ArchivedOrganizations";
 // import ProjectApplications from "./profilepage/views/ProjectApplications";
 // import OrganizationProjects from "./profilepage/views/OrganizationProjects";
 // import Login, { Logout } from "./login/Login";
@@ -124,12 +124,12 @@ function App() {
                                 <Route
                                     path="/2021/projects"
                                     exact
-                                    component={Aproject}
+                                    component={ArchivedProject}
                                 />
                                 <Route
                                     path="/2021/organizations"
                                     exact
-                                    component={AOrganizations}
+                                    component={ArchivedOrganizations}
                                 />
                                 <Route path="/organizations/" exact component={Organizations} />
                                 <Route path="/organization/:orgId" exact component={Organization} />

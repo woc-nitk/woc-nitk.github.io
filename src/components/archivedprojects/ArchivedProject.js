@@ -1,7 +1,5 @@
 import React from "react";
 import projectList from "../../assets/2021/projects.json";
-// import { useQuery } from "@apollo/react-hooks";
-// import { getProjectsQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
@@ -43,8 +41,6 @@ export function ProjectDetail({ project }) {
                     );
                 })}
             </ul>
-
-            {/* Selected candidates */}
             <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
             {Array.isArray(project.students) && project.students.length ?
                 <ul>
@@ -63,7 +59,7 @@ export function ProjectDetail({ project }) {
     );
 }
 
-export default function Aproject() {
+export default function ArchivedProject() {
     const [openModal, setModal] = React.useState(false);
 
     const [projectDetail, setProject] = React.useState({});
@@ -77,14 +73,6 @@ export default function Aproject() {
         setProject(project);
         setModal(true);
     };
-    // const { loading, data, error } = useQuery(getProjectsQuery);
-    // if (loading) {
-    //   return <h1 className="container">Loading...</h1>;
-    // }
-    // if (error) {
-    //   console.log(error)
-    //   return <h1 className="container">Error fetching projects</h1>;
-    // }
     return (
         <div className="container">
             <Modal
@@ -162,27 +150,3 @@ export default function Aproject() {
         </div>
     );
 }
-
-// export default function Projects() {
-//   return (
-//     <div className="container">
-//       <h1
-//         style={{
-//           fontSize: "36px",
-//           marginTop: "60px",
-//           marginBottom: "5px",
-//         }}
-//       >
-//         Projects
-//       </h1>
-//       <hr
-//         style={{
-//           flex: "0 0 100%",
-//           marginBottom: "50px",
-//         }}
-//       />
-
-//       <p>No projects available</p>
-//     </div>
-//   );
-// }

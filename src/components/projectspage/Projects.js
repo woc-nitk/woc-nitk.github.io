@@ -77,14 +77,6 @@ export default function Projects() {
         setProject(project);
         setModal(true);
     };
-    // const { loading, data, error } = useQuery(getProjectsQuery);
-    // if (loading) {
-    //   return <h1 className="container">Loading...</h1>;
-    // }
-    // if (error) {
-    //   console.log(error)
-    //   return <h1 className="container">Error fetching projects</h1>;
-    // }
     return (
         <div className="container">
             <Modal
@@ -147,7 +139,7 @@ export default function Projects() {
             <div>
                 {projectList.length===0 ? (
                     <h1>
-                        New Projects incoming soon!
+                        New projects are to be announced soon!
                     </h1>
                 ) : (
                     <div className="grid">
@@ -169,27 +161,3 @@ export default function Projects() {
         </div>
     );
 }
-
-// export default function Projects() {
-//   return (
-//     <div className="container">
-//       <h1
-//         style={{
-//           fontSize: "36px",
-//           marginTop: "60px",
-//           marginBottom: "5px",
-//         }}
-//       >
-//         Projects
-//       </h1>
-//       <hr
-//         style={{
-//           flex: "0 0 100%",
-//           marginBottom: "50px",
-//         }}
-//       />
-
-//       <p>No projects available</p>
-//     </div>
-//   );
-// }
