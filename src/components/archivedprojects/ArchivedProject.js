@@ -1,7 +1,5 @@
 import React from "react";
-import projectList from "../../assets/projects.json";
-// import { useQuery } from "@apollo/react-hooks";
-// import { getProjectsQuery } from "../../queries";
+import projectList from "../../assets/2021/projects.json";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
@@ -43,8 +41,6 @@ export function ProjectDetail({ project }) {
                     );
                 })}
             </ul>
-
-            {/* Selected candidates */}
             <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
             {Array.isArray(project.students) && project.students.length ?
                 <ul>
@@ -63,7 +59,7 @@ export function ProjectDetail({ project }) {
     );
 }
 
-export default function Projects() {
+export default function ArchivedProject() {
     const [openModal, setModal] = React.useState(false);
 
     const [projectDetail, setProject] = React.useState({});
@@ -136,27 +132,20 @@ export default function Projects() {
                     marginBottom: "50px",
                 }}
             />
-            <div>
-                {projectList.length===0 ? (
-                    <h1>
-                        New projects are to be announced soon!
-                    </h1>
-                ) : (
-                    <div className="grid">
-                    {projectList.map((project, idx) => {
-                        return (
-                            <ProjectCard
-                                onClick={() => renderModal(project)}
-                                key={idx}
-                                org={project.org}
-                                title={project.title}
-                                desc={project.summary}
-                                openToAll={project.openToAll}
-                            />
-                        );
-                    })}
-                    </div>
-                ) }
+
+            <div className="grid">
+                {projectList.map((project, idx) => {
+                    return (
+                        <ProjectCard
+                            onClick={() => renderModal(project)}
+                            key={idx}
+                            org={project.org}
+                            title={project.title}
+                            desc={project.summary}
+                            openToAll={project.openToAll}
+                        />
+                    );
+                })}
             </div>
         </div>
     );

@@ -31,19 +31,26 @@ return (
         marginBottom: "50px",
       }}
     />
-
-    <div className="grid">
-      {orgsList.map((organization,idx) => {
-        let url=organization.name.replace(/ /g,'_');
-        return (
-          <OrganizationCard
-            key={idx}
-            title={organization.name}
-            url={`/organization/${url}`}
-            desc={organization.description}
-          />
-        );
-      })}
+    <div>
+      {orgsList.length===0 ? (
+        <h1>
+          Organizations coming soon!
+        </h1>
+      ) : (
+          <div className="grid">
+            {orgsList.map((organization,idx) => {
+              let url=organization.name.replace(/ /g,'_');
+              return (
+                <OrganizationCard
+                  key={idx}
+                  title={organization.name}
+                  url={`/organization/${url}`}
+                  desc={organization.description}
+                />
+              );
+            })}
+          </div>
+      )}
     </div>
   </div>
 );

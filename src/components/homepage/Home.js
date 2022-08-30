@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom';
 import Timeline from "./Timeline";
 
 const timeline = [
-  { event: "Deadline to submit project proposals by organizations in NITK. Submit by 22nd October to get the project proposals reviewed!", date: "October 24" },
-  { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 25" },
-  { event: "Students can start submitting project proposals", date: "October 30" },
+  { event: "Deadline to submit project proposals by organizations in NITK. Submit by 30th September to get the project proposals reviewed!", date: "September 30" },
+  { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 5" },
+  { event: "Students can start submitting project proposals", date: "October 6" },
   { event: "Last day for students to submit project proposals", date: "November 10" },
   { event: "List of selected students for projects released", date: "November 28" },
   { event: "Coding phase begins", date: "December 1" },
-  { event: "Mid evaluation", date: "January 5" },
-  { event: "Final evaluation", date: "February 9" }
+  { event: "Mid evaluation", date: "January 4" },
+  { event: "Final evaluation", date: "February 3" }
 ]
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
         <div className="text">
           <h1>NITK<br />Winter of Code</h1>
           <p>Kickstart your open source journey</p>
-          <Link to="/projects" role="button">View Projects</Link>
+          <Link to="/2021" role="button">View Past Projects</Link>
           {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/bFDF9yeW1f7ihKRK9">Submit an application!</a> */}
         </div>
       </div>
