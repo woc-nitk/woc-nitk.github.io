@@ -3,14 +3,14 @@ import React from "react";
 // import { getOrganizationQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
-import projectsList from '../../assets/global/projects.json';
-import orgsList from '../../assets/global/organizations.json';
+import projectsList from '../../assets/2021/projects.json';
+import orgsList from '../../assets/2021/organizations.json';
 import { ProjectDetail } from '../projectspage/Projects';
 
 Modal.setAppElement('#root');
 
 
-export default function Organization({ match }) {
+export default function AOrganization({ match }) {
   const {
     params: { orgId },
   } = match;

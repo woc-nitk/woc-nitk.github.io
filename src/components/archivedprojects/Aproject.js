@@ -1,5 +1,5 @@
 import React from "react";
-import projectList from "../../assets/projects.json";
+import projectList from "../../assets/2021/projects.json";
 // import { useQuery } from "@apollo/react-hooks";
 // import { getProjectsQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";
@@ -63,7 +63,7 @@ export function ProjectDetail({ project }) {
     );
 }
 
-export default function Projects() {
+export default function Aproject() {
     const [openModal, setModal] = React.useState(false);
 
     const [projectDetail, setProject] = React.useState({});
@@ -144,27 +144,20 @@ export default function Projects() {
                     marginBottom: "50px",
                 }}
             />
-            <div>
-                {projectList.length===0 ? (
-                    <h1>
-                        New Projects incoming soon!
-                    </h1>
-                ) : (
-                    <div className="grid">
-                    {projectList.map((project, idx) => {
-                        return (
-                            <ProjectCard
-                                onClick={() => renderModal(project)}
-                                key={idx}
-                                org={project.org}
-                                title={project.title}
-                                desc={project.summary}
-                                openToAll={project.openToAll}
-                            />
-                        );
-                    })}
-                    </div>
-                ) }
+
+            <div className="grid">
+                {projectList.map((project, idx) => {
+                    return (
+                        <ProjectCard
+                            onClick={() => renderModal(project)}
+                            key={idx}
+                            org={project.org}
+                            title={project.title}
+                            desc={project.summary}
+                            openToAll={project.openToAll}
+                        />
+                    );
+                })}
             </div>
         </div>
     );
