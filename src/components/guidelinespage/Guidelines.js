@@ -17,7 +17,7 @@ export default function Guidelines() {
         </h1>
 
         <h2>Participating organizations</h2>
-        <p>To participate in Winter of Code NITK 2021, participating organizations are required to adhere to the following guidelines for the smooth conduction of the program.</p>
+        <p>To participate in Winter of Code NITK 2022, participating organizations are required to adhere to the following <a href="https://docs.google.com/document/d/1oBZICJpT8B7wKZG3MWelWFdB7eNBF9Vox80nnV9ddYc/edit">guidelines</a> for the smooth conduction of the program.</p>
         <h3>Application</h3>
         <p></p>
         <ul>
@@ -36,7 +36,7 @@ export default function Guidelines() {
           <li>An organization shall receive a mention on the <b>Program Website</b> on having at least one project proposal accepted by the <b>NITK Winter of Code</b> organizing committee.</li>
         </ul>       
         <h2>Mentors</h2>
-        <p>To participate in <b>NITK Winter of Code</b> 2021, mentors are required to adhere to the following guidelines for the smooth conduction of the program.</p>
+        <p>To participate in <b>NITK Winter of Code</b> 2022, mentors are required to adhere to the following guidelines for the smooth conduction of the program.</p>
         <h3>Application</h3>
         <p></p>
         <ul>
