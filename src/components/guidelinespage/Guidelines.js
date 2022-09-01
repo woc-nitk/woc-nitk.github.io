@@ -17,7 +17,7 @@ export default function Guidelines() {
         </h1>
 
         <h2>Participating organizations</h2>
-        <p>To participate in Winter of Code NITK 2022, participating organizations are required to adhere to the following <a href="https://docs.google.com/document/d/1oBZICJpT8B7wKZG3MWelWFdB7eNBF9Vox80nnV9ddYc/edit">guidelines</a> for the smooth conduction of the program.</p>
+        <p>To participate in Winter of Code NITK 2022, participating organizations are required to adhere to the following <a href="https://docs.google.com/document/d/1oBZICJpT8B7wKZG3MWelWFdB7eNBF9Vox80nnV9ddYc/edit" target="blank">guidelines</a> for the smooth conduction of the program.</p>
         <h3>Application</h3>
         <p></p>
         <ul>
