@@ -20,8 +20,9 @@ const Home = () => {
         <div className="text">
           <h1>NITK<br />Winter of Code</h1>
           <p>Kickstart your open source journey</p>
-          <Link to="/2021" role="button">View Past Projects</Link>
-          {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/bFDF9yeW1f7ihKRK9">Submit an application!</a> */}
+          {/* <Link to="/projects" role="button">View Projects</Link> */}
+          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as a mentor</a>
+          {/* <Link to="/2021" role="button">View Past Projects</Link> */}
         </div>
       </div>
       <br />
