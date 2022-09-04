@@ -22,7 +22,7 @@ const Home = () => {
           <p>Kickstart your open source journey</p>
           {/* <Link to="/projects" role="button">View Projects</Link> */}
           <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as a mentor</a>
-          {/* <Link to="/2021" role="button">View Past Projects</Link> */}
+          <Link to="/2021" role="button">View Past Projects</Link>
         </div>
       </div>
       <br />
