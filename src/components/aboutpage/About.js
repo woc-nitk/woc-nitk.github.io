@@ -36,7 +36,7 @@ export default function About() {
 
         <h2>Incentives:</h2>
         <ul>
-          <li>Working/building innovating, exciting and positively impacting projects during their winter!<li>
+          <li>Working/building innovating, exciting and positively impacting projects during their winter!</li>
           <li>Hands-on experience with open source and exposure to collaborativie ways of working!</li>
           <li>Understanding how global programs like Google Summer of Code work!</li>
           <li>An amazing opportunity to utilize the winter holidays through an impactful project</li>
