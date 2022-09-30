@@ -86,6 +86,16 @@ const Navbar = (props) => {
                         >
                             Archive
                         </NavLink>
+                        <NavLink
+                            to="/statistics"
+                            exact
+                            activeStyle={{
+                                color: "var(--silver-3)",
+                                borderBottom: "2px solid var(--silver-3)",
+                            }}
+                        >
+                            Statistics
+                        </NavLink>
                     </NavLinks>
                     <RightSide>
                         <BurgerWrapper>

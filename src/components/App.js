@@ -22,6 +22,7 @@ import Organization from "./organizationspage/Organization";
 import ArchivedProject from "./archivedprojects/ArchivedProject";
 import Archive from "./archive/Archive";
 import ArchivedOrganizations from "./archivedorganizations/ArchivedOrganizations";
+import Statistics from "./statistics/Statistics";
 // import ProjectApplications from "./profilepage/views/ProjectApplications";
 // import OrganizationProjects from "./profilepage/views/OrganizationProjects";
 // import Login, { Logout } from "./login/Login";
@@ -133,6 +134,7 @@ function App() {
                                 />
                                 <Route path="/organizations/" exact component={Organizations} />
                                 <Route path="/organization/:orgId" exact component={Organization} />
+                                <Route path="/statistics" exact component={Statistics} />
                                 {/*<Route path="/login/" exact component={Login} />
                                 <Route path="/logout/" exact component={Logout} />
                                 <Route path="/signup/" exact component={SignUp} />
