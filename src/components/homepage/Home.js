@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import Timeline from "./Timeline";
+import NITKLogo from '../../assets/NITK_Logo_1.png'
 
 const timeline = [
   { event: "Deadline to submit project proposals by organizations in NITK. Submit by 30th September to get the project proposals reviewed!", date: "September 30" },
@@ -18,7 +19,7 @@ const Home = () => {
     <>
       <div className="home">
         <div className="text">
-          <h1>NITK<br />Winter of Code</h1>
+          <h1> <img src={NITKLogo} alt="NITK Logo"/><br />NITK Winter of Code</h1>
           <p>Kickstart your open source journey</p>
           {/* <Link to="/projects" role="button">View Projects</Link> */}
           <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as a mentor</a>
