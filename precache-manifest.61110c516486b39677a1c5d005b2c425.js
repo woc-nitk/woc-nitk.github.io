@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26269e3f3f1c35cc76bfeeb418a51cfe",
+    "revision": "1c461216528edf1f01772b2e2b19d016",
     "url": "/index.html"
   },
   {
-    "revision": "547130e6aa69887c83c5",
+    "revision": "ad7fec5edf424befe55f",
     "url": "/static/css/main.b23e0c79.chunk.css"
   },
   {
-    "revision": "a3658f25202241d764c4",
-    "url": "/static/js/2.1a2af9a6.chunk.js"
+    "revision": "b449dc738006f41db881",
+    "url": "/static/js/2.c4155559.chunk.js"
   },
   {
     "revision": "182c4de395c4a023f66d5e10fb749984",
-    "url": "/static/js/2.1a2af9a6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c4155559.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "547130e6aa69887c83c5",
-    "url": "/static/js/main.ad2aaa30.chunk.js"
+    "revision": "ad7fec5edf424befe55f",
+    "url": "/static/js/main.9695353e.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
     "url": "/static/js/runtime-main.09b85ec0.js"
+  },
+  {
+    "revision": "79b3ad4b11704aef56ca37dc5d4fc2d5",
+    "url": "/static/media/NITK_Logo_1.79b3ad4b.png"
   },
   {
     "revision": "5128c200aaef69746e3c9d7bfa48af60",
