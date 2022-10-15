@@ -16,6 +16,47 @@ export default function Guidelines() {
           Guidelines for participating entities
         </h1>
 
+        <h2>Contributors/Mentees</h2>
+        <p>To participate in Winter of Code NITK 2022, mentees/contributors are required to adhere to the following <a href="https://bit.ly/woc-mentee-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
+        <h3>Application</h3>
+        <p></p>
+        <ul>
+          <li>Any student, currently enrolled in an accredited institute, willing to contribute to open source is eligible to apply as a contributor to this Program.</li>
+          <li>The mentee must agree to the guidelines applicable for mentees/contributors under the <b>NITK Winter of Code</b>. The mentee must submit the Google form shared by the NITK Winter of Code organizing committee to be considered eligible for applying to organizations.</li>
+          <li>The <b>Google form for organizations/mentors</b> (a.k.a, Contributor/Mentee Application) must be submitted by the mentee available on the <b>Program Website</b> during the application period for organizations/mentors described in the Program Timeline.</li>
+          <li>The <b>Google form for organizations/mentors</b> must be submitted by by mentees for the project(s) they are applying to. A mentee may apply for a maximum of <b>2</b> projects but will be selected as a contributor for a maximum of <b>1</b> project only.</li>
+          <li>The mentees/contributors are expected to <b>submit a detailed project proposal</b> conforming to the template shared by the <b>NITK Winter of Code</b> organizing committee. Certain organizations/mentors may be permitted to accept applications in a particular format of their choice.</li>
+          <li>The <b>mentors/organizations</b> in the <b>NITK Winter of Code</b> reserve the right to decide to accept or reject a mentee at their sole discretion. In case of any grievances, the applicant is instructed to reach out to the organizing committee of <b>NITK Winter of Code</b>.</li>
+          <li>The <b>NITK Winter of Code</b> organizing committee will announce the selected mentees on the <b>Program Website</b>.</li>
+        </ul>
+        <p></p>
+        <h3>Responsibilities</h3>
+        <p></p>
+        <ul>
+          <li>Providing Evaluation of their Mentor(s).</li>
+          <li>Work with complete diligence to ensure the project objectives are met(which may be subject to change but only after the consent of the mentor in context).</li>
+          <li>Ensure good coding & documentation practices are followed as deemed fit by the organization/mentor.</li>
+          <li>Publish a final report documenting the work done during the project(carried out during <b>NITK Winter of Code</b> alone). No work done outside the duration of <b>NITK Winter of Code</b>, will be considered for evaluations or final report submissions and if violated, may lead to disqualification from the program immediately.</li>
+          <li>If the organizing committee of <b>NITK Winter of Code</b> reasonably believes that a Contributor has failed to meet the foregoing responsibilities, the organizing committee may remove such Contributor from the Program.</li>
+        </ul>
+        <h3>Evaluations</h3>
+        <p></p>
+        <ul>
+          <li>The organizing committee of <b>NITK Winter of Code</b> shall conduct two evaluations during the course of the program, namely - 
+            <ul>
+              <li>
+              Mid Evaluation: On completion of 4 weeks of the program, an evaluation of both mentors and mentees shall be done by obtaining feedback from each entity of the other. It is mandatory that all entities fill out the evaluation form before the stipulated deadline.
+              </li>
+              <li>
+              Final Evaluation: On completion of 8 weeks(end of the program), an evaluation of both mentors and mentees shall be done by obtaining feedback from each entity of the other. As part of this evaluation, the mentee is expected to submit a report documenting the work done as part of the program. It is mandatory that all entities fill out the evaluation form before the stipulated deadline.
+              </li>
+            </ul>
+          </li>
+          <li>Evaluation results are strictly kept confidential and disclosed only to the organizing committee of the <b>NITK Winter of Code</b>. Specific questions are intended to be shared with the other entity and will be specifically called out in the evaluation form.</li>
+          <li>If a mentee/contributor is failed in the mid-evaluation, they will be disqualified with immediate effect from the program. In case of any grievances, the mentees/contributors are instructed to reach out to the organizing committee of <b>NITK Winter of Code</b>.</li>
+          <li>On successful completion(submission of the evaluation form before the deadline), the certificates of each individual shall be generated and shared.</li>
+          <li>Failing to complete evaluations before the stipulated deadline, may lead to revoking of the project and the benefits associated with the completion of the project. No deadline extension shall be granted, except in genuine cases(considered by the organizing committee of <b>NITK Winter of Code</b>).</li>
+        </ul>
         <h2>Participating organizations</h2>
         <p>To participate in Winter of Code NITK 2022, participating organizations are required to adhere to the following <a href="https://bit.ly/woc-mentor-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
         <h3>Application</h3>
