@@ -6,7 +6,7 @@ import NITKLogo from '../../assets/NITK_Logo_1.png'
 const timeline = [
   { event: "Deadline to submit project proposals by organizations in NITK. Submit by 30th September to get the project proposals reviewed!", date: "September 30" },
   { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 5" },
-  { event: "Students can start submitting project proposals", date: "October 6" },
+  { event: "Students can start submitting project proposals", date: "October 15" },
   { event: "Last day for students to submit project proposals", date: "November 10" },
   { event: "List of selected students for projects released", date: "November 28" },
   { event: "Coding phase begins", date: "December 1" },
@@ -22,8 +22,8 @@ const Home = () => {
           <h1> <img src={NITKLogo} alt="NITK Logo"/><br />NITK Winter of Code</h1>
           <p>Kickstart your open source journey</p>
           {/* <Link to="/projects" role="button">View Projects</Link> */}
-          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as a mentor</a>
-          <Link to="/2021" role="button">View Past Projects</Link>
+          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/QopXkFVpQH34AMuA9">Apply as a mentee</a>
+          <Link to="/projects" role="button">View Projects</Link>
         </div>
       </div>
       <br />
