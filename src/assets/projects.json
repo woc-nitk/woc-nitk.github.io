@@ -218,5 +218,19 @@
         "url": "https://docs.google.com/document/d/1KIGoOroe41eRSkUw6Q6PrAj_hIlGKJ4GshhNRVQ1XLQ/edit?usp=sharing",
         "students": [],
         "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "balajinaidu.191ec111@nitk.edu.in",
+                "name": "Balajinaidu V"
+            }
+        ],
+        "title": "Linux package for OpenRoad project",
+        "org": "",
+        "summary": "Create a debian and/or rpm package for OpenRoad project so that installing it can be made easier with all dependencies.",
+        "url": "https://docs.google.com/document/d/1DVIdqbT9E40PRjdY3UVHS6bJ3vLs2E3p_ySn_2mvh5w/edit?usp=sharing",
+        "students": [],
+        "openToAll": true
     }
 ]
