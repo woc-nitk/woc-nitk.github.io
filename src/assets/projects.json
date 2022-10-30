@@ -2,6 +2,24 @@
     {
         "mentors": [
             {
+                "email": "rsmuthukumar.201ec149@nitk.edu.in",
+                "name": "Muthukumar"
+            },
+            {
+                "email": "sushanth.191ee156@nitk.edu.in",
+                "name": "Sushanth Sathesh Rao"
+            }
+        ],
+        "title": "Winter of Code Website",
+        "org": "COSH NITK",
+        "summary": "Build a fully functional website for Winter of Code with features required to coordinate the program smoothly with a beautiful design and great user experience.",
+        "url": "https://docs.google.com/document/d/1vLhwG0mTtmh1BU-qcnvJ2JXnGgDpto3Npahbx_I4vxE/edit?usp=sharing",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
                 "email": "bhaskaraadityasriram.191ee209@nitk.edu.in",
                 "name": "Aditya Sriram Bhaskara"
             }

@@ -22,6 +22,7 @@ const Home = () => {
           <h1> <img src={NITKLogo} alt="NITK Logo"/><br />NITK Winter of Code</h1>
           <p>Kickstart your open source journey</p>
           {/* <Link to="/projects" role="button">View Projects</Link> */}
+          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as mentor</a>
           <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/QopXkFVpQH34AMuA9">Apply as a mentee</a>
           <Link to="/projects" role="button">View Projects</Link>
         </div>
