@@ -292,5 +292,19 @@
         "url": "https://docs.google.com/document/d/1vDFQUOBAPTOnGpC92Z-SOCRGoeBvxpTKAyiLU8Fkp3Y/edit?usp=sharing",
         "students": [],
         "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "aryanab.201me110@nitk.edu.in",
+                "name": "Aryan Amit Barsainyan"
+            }
+        ],
+        "title": "Port Weave Convolution layer to Torch",
+        "org": "",
+        "summary": "DeepChem aims to create high-quality, open-source tools to democratize the use of deep learning in drug discovery, materials science, quantum chemistry, and biology. Among its suite of various machine learning models, it has a wide range of graphs-based neural network model implementations aimed for cheminformatics applications. This project seeks to aid DeepChem’s new goal to shift to more torch-based dependencies. This project aims to port WeaveLayer and WeaveGather classes from the Tensorflow to the PyTorch framework.",
+        "url": "https://docs.google.com/document/d/1XhOpWkjHLel_15mARCHJZh6fFxX8iSF5EaayxmHHFos/edit?usp=sharing",
+        "students": [],
+        "openToAll": true
     }
 ]
