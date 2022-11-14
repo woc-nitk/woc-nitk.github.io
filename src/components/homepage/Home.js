@@ -7,7 +7,7 @@ const timeline = [
   { event: "Deadline to submit project proposals by organizations in NITK. Submit by 30th September to get the project proposals reviewed!", date: "September 30" },
   { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 5" },
   { event: "Students can start submitting project proposals", date: "October 15" },
-  { event: "Last day for students to submit project proposals", date: "November 10" },
+  { event: "Last day for students to submit project proposals", date: "November 22" },
   { event: "List of selected students for projects released", date: "November 28" },
   { event: "Coding phase begins", date: "December 1" },
   { event: "Mid evaluation", date: "January 4" },

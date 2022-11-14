@@ -250,5 +250,47 @@
         "url": "https://docs.google.com/document/d/1DVIdqbT9E40PRjdY3UVHS6bJ3vLs2E3p_ySn_2mvh5w/edit?usp=sharing",
         "students": [],
         "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "akash.182nt002@nitk.edu.in",
+                "name": "Mr. AKASH GUPTA"
+            }
+        ],
+        "title": "CRF Website & Portal Vulnerability Identification & Rectification",
+        "org": "CRF NITK",
+        "summary": "CRF website & Slot booking Portal contains users' contact information, financial details of CRF revenue which needs to be secured for any possible kind of attack!",
+        "url": "https://docs.google.com/document/d/1-jFTmghute99K39OaC7gEoLqC4bBmyPDTqIBhIadytM/edit?usp=sharing",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "office.crf@nitk.edu.in",
+                "name": "Mr. Nishanth K"
+            }
+        ],
+        "title": "Adding UI & UX to CRF Website",
+        "org": "CRF NITK",
+        "summary": "This project is focused on making already hosted website to be compatible with all mobile devices and adding Graphics for beautification of website interface.",
+        "url": "https://docs.google.com/document/d/1vDFQUOBAPTOnGpC92Z-SOCRGoeBvxpTKAyiLU8Fkp3Y/edit?usp=sharing",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "office.crf@nitk.edu.in",
+                "name": "Mr. Nishanth K"
+            }
+        ],
+        "title": "Debugging & Optimizing CRF Booking Portal Backend Code",
+        "org": "CRF NITK",
+        "summary": "CRF Booking Portal is an online window to allow users to book slots for equipment available in CRF",
+        "url": "https://docs.google.com/document/d/1vDFQUOBAPTOnGpC92Z-SOCRGoeBvxpTKAyiLU8Fkp3Y/edit?usp=sharing",
+        "students": [],
+        "openToAll": false
     }
 ]
