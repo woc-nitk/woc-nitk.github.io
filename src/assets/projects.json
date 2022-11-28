@@ -164,7 +164,7 @@
         "org": "IRIS NITK",
         "summary": "IRIS dashboard consists of widgets for Announcements, Attendance, Courses, CEMS, and many others. IRIS aims to provide every user a great User Experience by offering complete flexibility in building a tailor-made dashboard that suits one's own requirements. The main goal of this project is to allow IRIS users to customize their dashboards by moving, rearranging, or hiding these widgets. The project also aims at adding more widgets from the different modules of IRIS to allow complete flexibility and customization.",
         "url": "https://docs.google.com/document/d/1kHrxuS8vdmyDhavmdLEhjOSP092lt1ZD5LMpISFwjYs/edit",
-        "students": [],
+        "students": ["Vedika Gadia"],
         "openToAll": false
     },
     {
