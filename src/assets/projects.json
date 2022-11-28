@@ -14,7 +14,7 @@
         "org": "COSH NITK",
         "summary": "Build a fully functional website for Winter of Code with features required to coordinate the program smoothly with a beautiful design and great user experience.",
         "url": "https://docs.google.com/document/d/1vLhwG0mTtmh1BU-qcnvJ2JXnGgDpto3Npahbx_I4vxE/edit?usp=sharing",
-        "students": [],
+        "students": ["Shalini CE"],
         "openToAll": false
     },
     {
@@ -28,7 +28,7 @@
         "org": "",
         "summary": "An interactive D3 based  website that gives an overview of Wifi, with more emphasis on Rate Adaptation Algorithms",
         "url": "https://docs.google.com/document/d/1mdOKkdahevdu1yA_SoDj15BFNfKoTc4lRHckH1GvUh0/edit?usp=sharing",
-        "students": [],
+        "students": ["Fahim Ahmed", "Mayur K Nair"],
         "openToAll": false
     },
     {
@@ -46,7 +46,7 @@
         "org": "IEEE NITK",
         "summary": "With a clear example in front of us today, we know how a disease can make its way through a population and cause havoc in the community. However, knowing a few characteristics of the disease such as – it’s mode of transmission, mortality rate and rate of spread the outbreak can be modelled and studied and an efficient vaccination routine can be figured out. In this project, we have modelled a disease outbreak and used that model to generate a vaccination strategy.",
         "url": "https://docs.google.com/document/d/1uAPC5shqyym0hrMZKQMygmQQpdS9wwuDmMrIku7ZruI/edit?usp=sharing",
-        "students": [],
+        "students": ["Ankit Dash"],
         "openToAll": true
     },
     {
@@ -64,7 +64,7 @@
         "org": "IRIS NITK",
         "summary": "Creating a staging server which will let developers/product managers deploy different versions ( like branches) from a repository. This could be implemented by having a containerised frontend web application which will send deploy messages to a queue which runs on a client. The queue could be a job scheduler like celery/Sidekiq or crontab also. The need for a message queue is to achieve truly asynchronous deployments which are loosely coupled with the django web application.",
         "url": "https://docs.google.com/document/d/1qH_eEBGbZVgp1b6sDq2X9epAZfJxCQQyKYHRRAACSjE/edit?usp=sharing",
-        "students": [],
+        "students": ["Abdullah Mohamed Rafi"],
         "openToAll": false
     },
     {
@@ -118,7 +118,7 @@
         "org": "",
         "summary": "The project started as a learning venture trying to figure out what ‘Web Scraping’ is. In doing so, we tried to develop a useful application. I’m sure many of us - “CP guys” forget about the contests often and manually scheduling them isn’t all that appealing. This is where CPing comes to the rescue. The light, fast and user-friendly android flutter application lists all the ongoing and scheduled future contests on sites such as Codeforces and allows us to add these to our Google Calendar with the click of a button.",
         "url": "https://docs.google.com/document/d/1LkGBL7BcVBIgVur4oEyvTF1y9xljPpGP4CHdziS8vok/edit",
-        "students": [],
+        "students": ["Bhavani Jangir"],
         "openToAll": true
     },
     {
@@ -132,7 +132,7 @@
         "org": "COSH NITK",
         "summary": "Design and develop an admin interface for the COSH website which would allow admin to manage website data easily.",
         "url": "https://docs.google.com/document/d/1VALzLygXGXokceXgX1RS7at5Dd0Zmci8TXtWfUx-T0E/edit?usp=sharing",
-        "students": [],
+        "students": ["Shubham Rasal"],
         "openToAll": false
     },
     {
@@ -178,7 +178,7 @@
         "org": "IRIS NITK",
         "summary": "This project will aim to digitize the entire process of logging entries before entering any building on the NITK campus. The main aim is to streamline the process, making it less tedious and also more effective. Digitizing these logs will make it much simpler for the administration to browse through them and perform simple filtering and searching tasks. The project has an important design phase, and will need to explore the same keeping security considerations in mind.",
         "url": "https://docs.google.com/document/d/18xoV2-d01f_QH3FWzIHnZ1mtdb-Zo_eUFYwgJrnk4iw/edit?usp=sharing",
-        "students": [],
+        "students": ["Devaansh Kumar"],
         "openToAll": false
     },
     {
@@ -192,7 +192,7 @@
         "org": "IRIS NITK",
         "summary": "implement an open source proctoring solution with gaze detection and estimation as one of the primary features. There are multiple possible solutions to this problem with their own pros and cons, so the project will involve some benchmarking and system design aspects too.",
         "url": "https://docs.google.com/document/d/1qacQNVENfXG2PaPAc9_K4zipJHtzL6BBBk93i0LQ_J0/edit?usp=sharing",
-        "students": [],
+        "students": ["Saliq Gowhar Khan"],
         "openToAll": true
     },
     {
@@ -206,7 +206,7 @@
         "org": "IEEE NITK",
         "summary": "CodePal is a Visual Studio Code Extension to help Codeforces Users Code with Convenience. This extension is especially for people who want to save time in a live CodeForces contest and upsolve problems comfortably.",
         "url": "https://docs.google.com/document/d/15KECGjFwVI2eBObziJAq-wDuwlCQZSXrc1RxYcmIYUM/edit?usp=sharing",
-        "students": [],
+        "students": ["Royal Pinto"],
         "openToAll": false
     },
     {
@@ -248,7 +248,7 @@
         "org": "",
         "summary": "Create a debian and/or rpm package for OpenRoad project so that installing it can be made easier with all dependencies.",
         "url": "https://docs.google.com/document/d/1DVIdqbT9E40PRjdY3UVHS6bJ3vLs2E3p_ySn_2mvh5w/edit?usp=sharing",
-        "students": [],
+        "students": ["Vinay Keshava"],
         "openToAll": true
     },
     {
@@ -262,7 +262,7 @@
         "org": "CRF NITK",
         "summary": "CRF website & Slot booking Portal contains users' contact information, financial details of CRF revenue which needs to be secured for any possible kind of attack!",
         "url": "https://docs.google.com/document/d/1-jFTmghute99K39OaC7gEoLqC4bBmyPDTqIBhIadytM/edit?usp=sharing",
-        "students": [],
+        "students": ["Siddarth Bhat"],
         "openToAll": false
     },
     {
@@ -276,7 +276,7 @@
         "org": "CRF NITK",
         "summary": "This project is focused on making already hosted website to be compatible with all mobile devices and adding Graphics for beautification of website interface.",
         "url": "https://docs.google.com/document/d/1vDFQUOBAPTOnGpC92Z-SOCRGoeBvxpTKAyiLU8Fkp3Y/edit?usp=sharing",
-        "students": [],
+        "students": ["KIRAN REDDY"],
         "openToAll": false
     },
     {
@@ -304,7 +304,7 @@
         "org": "",
         "summary": "DeepChem aims to create high-quality, open-source tools to democratize the use of deep learning in drug discovery, materials science, quantum chemistry, and biology. Among its suite of various machine learning models, it has a wide range of graphs-based neural network model implementations aimed for cheminformatics applications. This project seeks to aid DeepChem’s new goal to shift to more torch-based dependencies. This project aims to port WeaveLayer and WeaveGather classes from the Tensorflow to the PyTorch framework.",
         "url": "https://docs.google.com/document/d/1XhOpWkjHLel_15mARCHJZh6fFxX8iSF5EaayxmHHFos/edit?usp=sharing",
-        "students": [],
+        "students": ["NIMISHA DEY"],
         "openToAll": true
     }
 ]
