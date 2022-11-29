@@ -82,7 +82,7 @@
         "org": "",
         "summary": "The app is meant for managing the activities of student bodies in universities but it may be used by professional business organisations as well.",
         "url": "https://docs.google.com/document/d/1IRnVHoWwtNadheapI4oXBFdXe5jwHV_nHc0Vk3kAHNw/edit?usp=sharing",
-        "students": [],
+        "students": ["Aman Shenoy"],
         "openToAll": true
     },
     {
@@ -100,7 +100,7 @@
         "org": "",
         "summary": "5miles is a mobile application that lets nearby users interact anonymously through a chat service. ",
         "url": "https://docs.google.com/document/d/1wx--2WDur-2asTjDU3BLLATsvML7uin8ThOgz499i_4/edit?usp=sharing",
-        "students": [],
+        "students": ["Karan Dhinakaran"],
         "openToAll": true
     },
     {
@@ -220,7 +220,7 @@
         "org": "",
         "summary": "Create a TURNITIN equivalent free software to do plagiarism checking of research articles / thesis etc.",
         "url": "https://docs.google.com/document/d/1JV2_AvfZWRikb0reYeSmbcdmkHQS2dJkdhFIfXks5s4/edit?usp=sharing",
-        "students": [],
+        "students": ["Bharadwaja MeherRushi Chittapragada", "INBASEKARAN PERUMAL"],
         "openToAll": false
     },
     {
@@ -234,7 +234,7 @@
         "org": "",
         "summary": "Create a web app for the following. Register a candidate faculty applying to NITK, Surathkal. Enter all the required details for the faculty position application. Calculate credit points based on data supplied. Option to upload files supporting candidature to be given. Connect to a payment portal (billdesk - through IRIS finance module). On successful application submission, create a PDF of the application and send an email to the candidate.",
         "url": "https://docs.google.com/document/d/1KIGoOroe41eRSkUw6Q6PrAj_hIlGKJ4GshhNRVQ1XLQ/edit?usp=sharing",
-        "students": [],
+        "students": ["ANISH KUMBHAR", "AYUSHMAAN SRIVASTAVA", "SALIQ GOWHAR KHAN"],
         "openToAll": true
     },
     {
