@@ -51,7 +51,7 @@ export function ProjectDetail({ project }) {
                     {project.students.map((student, idx) => {
                         return (
                             <li key={idx} style={{ marginLeft: "15px" }}>
-                                {student}
+                                {student.name}
                             </li>
                         );
                     })}
