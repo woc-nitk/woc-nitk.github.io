@@ -150,7 +150,7 @@
         "org": "IRIS NITK",
         "summary": "The IRIS-NodeBB Forum was created to bring together NITK students' different interests, expertise, and experience on a single platform that enables users to exchange ideas, opinions, and proposals. The forum is currently only available as a web application. NodeBB offers REST APIs but does not have a mobile application like Telegram. The primary purpose of this project is to create a mobile app for NodeBB utilising the existing REST APIs.",
         "url": "https://docs.google.com/document/d/1npEZr7b5sH4-DlRQ0RsXtFkrrU0ojmpS-VwkY-OPF70/edit?usp=sharing",
-        "students": [],
+        "students": ["Krishna Kumar"],
         "openToAll": true
     },
     {
