@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+.header {
+    background-image: url("F://woc-nitk.github.io//src//assets//bg_new.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: -60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header h1 {
+    font-size: 8rem;
+    font-weight: 400;
+}
+
+.header h3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.header .year {
+    font-style: 7.5rem;
+    font-weight: 800;
+}
+
+.header .headline {
+    margin-left: 16rem;
+    padding-top: 18rem;
+    width: 60%;
+}
+
+.header .options {
+    margin-top: 3rem;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 8.5rem;
+}
+
+.header .options button {
+    margin-right: 2.5rem;
+} 
+
+.btn2 {
+    opacity: 50%;
+}
+

@@ -2,6 +2,11 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import Timeline from "./Timeline";
 import NITKLogo from '../../assets/NITK_Logo_1.png'
+import Header from "./Header"
+import AboutBrief from "./AboutBrief"
+import Connect from "./Connect"
+import Register from "./Register"
+import './home.css';
 
 const timeline = [
   { event: "Deadline to submit project proposals by organizations in NITK. Submit by 30th September to get the project proposals reviewed!", date: "September 30" },
@@ -16,20 +21,28 @@ const timeline = [
 
 const Home = () => {
   return (
+    // <div className="home-page">
+    //   <div className="home">
+    //     <div className="text">
+    //       <h1>NITK Winter of Code</h1>
+    //       <h1>2022</h1>
+    //       <p>Kickstart your open source journey...</p>
+    //     </div>
+    //     <div>
+    //       <button>Register Now</button>
+    //       <button>Learn more</button>
+    //     </div>
+    //   </div>
+    //   <br />
+    //   <h1 style={{ textAlign: "center", fontSize: "36px" }}>Timeline</h1>
+    //   <Timeline timelines={timeline} />
+    // </div>
     <>
-      <div className="home">
-        <div className="text">
-          <h1> <img src={NITKLogo} alt="NITK Logo"/><br />NITK Winter of Code</h1>
-          <p>Kickstart your open source journey</p>
-          {/* <Link to="/projects" role="button">View Projects</Link> */}
-          {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as mentor</a>
-          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/QopXkFVpQH34AMuA9">Apply as a mentee</a> */}
-          <Link to="/projects" role="button">View Projects and Selected Candidates</Link>
-        </div>
-      </div>
-      <br />
-      <h1 style={{ textAlign: "center", fontSize: "36px" }}>Timeline</h1>
-      <Timeline timelines={timeline} />
+    <Header/>
+    <AboutBrief/>
+    <Register/>
+    <Timeline timelines={ timeline }/>
+    <Connect />
     </>
   );
 };
