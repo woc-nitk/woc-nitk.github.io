@@ -45,3 +45,54 @@
     opacity: 50%;
 }
 
+.about-brief {
+    background-color: #e8f9fd;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12rem;
+}
+
+.about-brief .l-more {
+    background-color: #a6a6a6;
+    margin-left: calc(50% - 12rem);
+    opacity: 70%;
+    margin-top: 1rem;
+}
+
+.about-brief .text {
+    width: 40%;
+    margin-left: 20rem;
+    align-items: flex-start;
+}
+
+.about-brief .numbers {
+    margin-left: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15rem;
+}
+
+.numbers .info {
+    width: 50%;
+}
+
+.about-brief h1 {
+    font-size: 7rem;
+    margin-bottom: 0.1rem;
+    font-weight: 500;
+}
+
+.about-brief h2 {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.about-brief p {
+    font-size: 2.1rem;
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+
+
