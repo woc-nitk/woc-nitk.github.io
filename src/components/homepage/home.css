@@ -7,6 +7,26 @@
     padding-top: 0px;
     margin-top: -60px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.header .pointer {
+    width: 15%;
+    margin-top: -15rem;
+    margin-left: -5rem;
+    height: 60%;
+    margin-bottom: -15rem;
+}
+
+.header .coding {
+    width: 30%;
+    margin-left: -40rem;
+}
+
+.header img {
+    width: 800px;
+    height: 700px;
+    mix-blend-mode: multiply;
 }
 
 .header h1 {
@@ -26,7 +46,7 @@
 
 .header .headline {
     margin-left: 16rem;
-    padding-top: 18rem;
+    padding-top: 14rem;
     width: 60%;
 }
 
@@ -192,6 +212,198 @@
     width: 50%;
     margin-top: 4rem;
     box-shadow: 5px 10px 8px #888888;
+}
+
+
+@media (max-width: 1025px) {
+    .header .headline {
+        margin-left: 7rem;
+        padding-top: 5rem;
+    }
+    .header .coding {
+        margin-left: -20rem;
+        margin-top: 5rem;
+    }
+    .header img {
+        width: 600px;
+        height: 500px;
+    }
+    .header .pointer {
+        margin-top: -10rem;
+        margin-left: -2rem;
+        height: 30%;
+        margin-bottom: -2rem;
+    }
+    .header .options {
+        margin-top: 2rem;
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 6rem;
+    }
+
+    .about-brief {
+        flex-direction: column;
+        margin-bottom: -15rem;
+    }
+    
+    .about-brief .l-more {
+        margin-top: 0.5rem;
+        margin-bottom: 4rem;
+    }
+    
+    .about-brief .text {
+        width: 70%;
+        margin-left: 15rem;
+    }
+    
+    .about-brief .numbers {
+        margin-left: 15rem;
+    }
+    
+    .numbers .info {
+        width: 50%;
+    }
+}
+
+@media (max-width: 769px) {
+    .header .headline {
+        margin-left: 8rem;
+        padding-top: 15rem;
+    }
+    .header .coding {
+        margin-left: -25rem;
+        margin-top: 5rem;
+    }
+    .header img {
+        width: 600px;
+        height: 500px;
+    }
+    .header .pointer {
+        margin-top: -12rem;
+        margin-left: -5rem;
+        height: 40%;
+        margin-bottom: -6rem;
+    }
+    .header .options {
+        margin-top: 2rem;
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 0rem;
+    }  
+    .header button {
+        font-size: 1.5rem;
+    }
+    .header h1 {
+        font-size: 6rem;
+    }  
+    .header h3 {
+        font-size: 2.5rem;
+    }
+    .about-brief .text {
+        width: 70%;
+        margin-left: 10rem;
+    }
+    
+    .about-brief .numbers {
+        margin-left: 10rem;
+    }
+        
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 4rem;
+    }
+    
+    .contact h3 {
+        font-size: 2rem;
+        text-align: left;
+    }
+    
+    .contact p {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .header .headline {
+        margin-left: 3rem;
+        padding-top: 12rem;
+        width: 100%;
+        height: auto;
+    }
+    .header .coding {
+        display: none;
+    }
+    .header .pointer {
+        display: none;
+    }
+    .header .options {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }  
+    .header button {
+        font-size: 1.5rem;
+        width: 50%;
+        margin-left: 7rem;
+    }
+    .header h1 {
+        font-size: 5rem;
+    }  
+    .header h3 {
+        font-size: 3rem;
+    }
+
+    .about-brief {
+        flex-direction: column;
+        margin-bottom: -15rem;
+        padding-top: 5rem;
+    }
+    
+    .about-brief .l-more {
+        font-size: 1.4rem;
+        margin-left: 0rem;
+    }
+    
+    .about-brief .text {
+        width: 80%;
+        margin-left: 5rem;
+    }
+    
+    .about-brief .numbers {
+        margin-left: 5rem;
+    }
+    
+    .numbers .info {
+        width: 50%;
+    }
+
+    .about-brief h1 {
+        font-size: 5rem;
+        margin-bottom: 0.1rem;
+        font-weight: 500;
+    }
+    
+    .about-brief h2 {
+        font-size: 4rem;
+    }
+    
+    .about-brief p {
+        font-size: 1.6rem;
+    }
+
+    .contact .handles {
+        margin-right: 7rem;
+        margin-left: 8rem;
+    }
+
+    .connect h2 {
+        font-size: 4rem;
+    }
+    
+    .connect img {
+        width: 70%;
+    }
 }
 
 

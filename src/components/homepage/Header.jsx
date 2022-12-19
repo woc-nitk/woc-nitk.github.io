@@ -1,4 +1,6 @@
 import React from 'react'
+import coding from '../../assets/coding.gif'
+import pointer from '../../assets/pointer.gif'
 
 const Header = () => {
   return (
@@ -11,8 +13,9 @@ const Header = () => {
             <button><b>Register Now</b></button>
             <button className='btn2'>Learn more</button>
             </div>
-            
+            <img className='pointer' src={pointer} alt="" />
         </div>
+        <div className='coding'><img src= {coding} alt="" /></div>
     </section>
   )
 }
