@@ -27,7 +27,7 @@ h1 {
     display: flex;
     /* justify-content: space-between; */
     margin-top: 10rem;
-    margin-left: 14rem;
+    margin-left: 5rem;
 }
 
 .entity {
@@ -35,6 +35,7 @@ h1 {
     padding: 3rem;
     text-align: center;
     margin: 4rem;
+    width: 300px;
 }
 
 .entity img {
@@ -43,7 +44,7 @@ h1 {
 }
 
 .entity h2 {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .entity-info {
@@ -61,11 +62,11 @@ h1 {
 }
 
 .participants h2 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .participants p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .participants h3 {
@@ -89,4 +90,8 @@ h1 {
 
 .mentor {
     background-color: #E8F9FD;
+}
+
+.guidelines:last-child {
+    margin-bottom: -6rem;
 }
