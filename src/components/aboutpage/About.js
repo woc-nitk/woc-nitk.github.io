@@ -1,11 +1,45 @@
 import React from "react";
+import OwlCarousel from 'react-owl-carousel2'
+import 'react-owl-carousel2/lib/styles.css'
+import 'react-owl-carousel2/src/owl.theme.default.css'
 
+import InfoData from "../../assets/aboutData.js"
+import AboutCard from "../cards/AboutCard.js"
+import "./about.css"
 
 
 export default function About() {
+  
+    const options = {
+    items: 1,
+    nav: true,
+    rewind: true,
+    autoplay: true, 
+    navText: ["<i class='fa fa-angle-left fa-2x' aria-hidden='true'></i>" , "<i class='fa fa-angle-right fa-2x'></i>"]
+};
+
   return (
-    <>
-      <div className=" about container">
+    <div className='about'>
+     
+     <h1 className="page-title">About NITK Winter of Code</h1>
+
+    
+     <OwlCarousel options={options} >
+     {InfoData.info.map((segment) => (
+          <AboutCard 
+            key={segment.title}
+            title={segment.title}
+            desc = {segment.desc}
+            picture = {segment.picture}
+            />
+        ))}
+     </OwlCarousel>
+    </div>
+  );
+}
+  
+
+      {/* <div className=" about container">
         <h1
           style={{
             fontSize: "36px",
@@ -42,7 +76,5 @@ export default function About() {
           <li>An amazing opportunity to utilize the winter holidays through an impactful project</li>
           <li>Certificate issued by COSH NITK at the end of completion, both for mentors and students (Mentors can decide if students are eligible for certificates)</li>
         </ul>
-      </div>
-    </>
-  );
-}
+      </div> */}
+  
