@@ -106,4 +106,99 @@
   
   .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: rgb(10, 62, 68); }
+
+@media only screen and (max-width: 1024px) {
+.about-card {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.about-title {
+    padding-top: 1rem;
+}
+
+.about-content {
+    padding-top: 3rem;
+}
+
+.about-content .desc {
+    width: 70%;
+    padding-left: 4rem;
+    font-size: 15px;
+}
+
+.about-content img {
+    max-width: 300px;
+    padding-top: 2rem;
+    height: 250px;
+}
+
+.owl-nav .owl-next {
+  bottom: -2rem;
+}
+
+.owl-nav .owl-prev {
+  bottom: -2rem;
+}
+
+.owl-dots {
+  bottom: 3%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .about-card {
+      margin-left: 4rem;
+      margin-right: 4rem;
+  }
+  .about-title {
+      padding-top: 1rem;
+      font-size: 4rem;
+  }
+  
+  .about-content {
+      padding-top: 3rem;
+  }
+  
+  .about-content .desc {
+      width: 70%;
+      padding-left: 3rem;
+      font-size: 12px;
+  }
+      
+  .owl-dots {
+    bottom: 4%;
+  }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .page-title {
+      font-size: 3rem;
+    }
+
+    .about-card {
+      margin-top: 4rem;
+      max-height: 100vh;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+    
+    .about-content img {
+      visibility: hidden;
+      width: 0px;
+      height: 0px;
+    }
+
+    .about-content .desc {
+      width: 2000rem;
+      padding-left: 1rem;
+      font-size: 10px;
+   }
+        
+    .owl-dots {
+      bottom: 3%;
+      left: 40%;
+    }
+    }
   
