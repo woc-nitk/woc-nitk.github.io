@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+.about {
+    min-height: 100vh;
+    background-color: #E8F9FD;
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.about-card {
+    background-color: #D2E2E4;
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    /* margin-bottom: -16rem; */
+    padding-bottom: 3rem;
+    /* text-align: center; */
+    /* height: 84vh; */
+}
+.about-title {
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 500;
+    color: rgb(106, 107, 108);
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.about-content .desc {
+    width: 70%;
+    padding-left: 5rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3b3f41;
+}
+
+.about-content img {
+    max-width: 400px;
+    padding-top: 5rem;
+    padding-right: 3rem;
+    mix-blend-mode: multiply;
+    padding-top: 0rem;
+    height: 300px;
+}
+
+
+.owl-carousel {
+    position: relative;
+  }
+  
+  .owl-nav {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 100%;
+  }
+  
+  .owl-nav .owl-next {
+    position: absolute;
+    right: 5.5%;
+  }
+  
+  .owl-nav .owl-prev {
+    position: absolute;
+    left: 6.5%;
+  }
+  
+  .owl-dots {
+    position: absolute;
+    z-index: 1;
+    bottom: 2%;
+    left: 48%;
+  }
+  
+  .owl-theme .owl-nav [class*='owl-'] {
+    color: rgb(47, 129, 143);
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px;
+    padding: 2px 8px;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .owl-theme .owl-nav [class*='owl-']:hover {
+      background: rgb(144, 189, 202);
+      color: rgb(39, 81, 86);
+      text-decoration: none; 
+  }
+  
+  .owl-theme .owl-dots .owl-dot span {
+    background: rgb(122, 145, 155);
+   }
+  
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(10, 62, 68); }
+
+@media only screen and (max-width: 1024px) {
+.about-card {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.about-title {
+    padding-top: 1rem;
+}
+
+.about-content {
+    padding-top: 3rem;
+}
+
+.about-content .desc {
+    width: 70%;
+    padding-left: 4rem;
+    font-size: 15px;
+}
+
+.about-content img {
+    max-width: 300px;
+    padding-top: 2rem;
+    height: 250px;
+}
+
+.owl-nav .owl-next {
+  bottom: -2rem;
+}
+
+.owl-nav .owl-prev {
+  bottom: -2rem;
+}
+
+.owl-dots {
+  bottom: 3%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .about-card {
+      margin-left: 4rem;
+      margin-right: 4rem;
+  }
+  .about-title {
+      padding-top: 1rem;
+      font-size: 4rem;
+  }
+  
+  .about-content {
+      padding-top: 3rem;
+  }
+  
+  .about-content .desc {
+      width: 70%;
+      padding-left: 3rem;
+      font-size: 12px;
+  }
+      
+  .owl-dots {
+    bottom: 4%;
+  }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .page-title {
+      font-size: 3rem;
+    }
+
+    .about-card {
+      margin-top: 4rem;
+      max-height: 100vh;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+    
+    .about-content img {
+      visibility: hidden;
+      width: 0px;
+      height: 0px;
+    }
+
+    .about-content .desc {
+      width: 2000rem;
+      padding-left: 1rem;
+      font-size: 10px;
+   }
+        
+    .owl-dots {
+      bottom: 3%;
+      left: 40%;
+    }
+    }
+  

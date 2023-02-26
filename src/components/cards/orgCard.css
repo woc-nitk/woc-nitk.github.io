@@ -1,0 +1,27 @@
+.org-card {
+    background-color: #F9FCFC;
+    width: 400px;
+    /* height: 300px; */
+    margin: 40px;
+    padding: 30px;
+    border: 3px solid #85C8D1;
+    border-radius: 20px;
+}
+
+.org-card h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.org-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-height: 1.5em;
+    max-height: 150px;
+    font-size: 1.7rem;
+    margin-top: 15px;
+}

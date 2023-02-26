@@ -1,5 +1,5 @@
 import React from "react";
-import projectList from "../../assets/projects.json";
+import projectList from "../../assets/projects";
 // import { useQuery } from "@apollo/react-hooks";
 // import { getProjectsQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";

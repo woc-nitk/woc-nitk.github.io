@@ -1,7 +1,7 @@
 import React from "react";
 // import { useQuery } from "@apollo/react-hooks";
 // import { getOrganizationQuery } from "../../queries";
-import ProjectCard from "../cards/ProjectCard";
+import ProjectCard from "../cards/ProjectNewCard";
 import Modal from "react-modal";
 import projectsList from '../../assets/global/projects.json';
 import orgsList from '../../assets/global/organizations.json';

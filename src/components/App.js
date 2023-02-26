@@ -15,10 +15,11 @@ import { useCookies } from "react-cookie";
 import { useMutation } from "@apollo/react-hooks";
 import { refreshMutation } from "../queries";
 import Footer from "./footer/footer";
-import Projects from "./projectspage/Projects";
+import Projects from "./projectspage/ProjectsNew";
 // import Project from "./projectspage/Project";
-import Organizations from "./organizationspage/Organizations";
-import Organization from "./organizationspage/Organization";
+// import Organizations from "./organizationspage/Organizations";
+import Organizations from "./organizationspage/OrgNew";
+// import Organization from "./organizationspage/Organization";
 import ArchivedProject from "./archivedprojects/ArchivedProject";
 import Archive from "./archive/Archive";
 import ArchivedOrganizations from "./archivedorganizations/ArchivedOrganizations";
@@ -133,7 +134,7 @@ function App() {
                                     component={ArchivedOrganizations}
                                 />
                                 <Route path="/organizations/" exact component={Organizations} />
-                                <Route path="/organization/:orgId" exact component={Organization} />
+                                {/* <Route path="/organization/:orgId" exact component={Organization} /> */}
                                 <Route path="/statistics" exact component={Statistics} />
                                 {/*<Route path="/login/" exact component={Login} />
                                 <Route path="/logout/" exact component={Logout} />
