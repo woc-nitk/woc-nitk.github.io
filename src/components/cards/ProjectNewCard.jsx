@@ -23,12 +23,12 @@ const ProjectCard = ({
       <div className='project-header'>
         <div><h3>Contributors</h3> {students}</div>
         <div><h3>Mentors</h3> {guides}</div>
-        <div><h3>Organization</h3>{org}</div>
+        <div><h3>Organization</h3>&nbsp;{org}</div>
       </div>
       <h2 className='project-title'>{title}</h2>
       <p>{summary}</p>
       <div className='details'>
-        <button className='link'><a>More Details</a></button>
+        <button className='link'><a href={url} target = "_blank">More Details</a></button>
         <h3 className='domain'>Domain: </h3>
       </div>
     </div>

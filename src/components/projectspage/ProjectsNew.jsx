@@ -5,7 +5,7 @@ import './projects.css'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='projects-page'>
       <h1>Projects</h1>
       <div className='projects-container'>
          {projects.links.map((segment) => (
