@@ -1,8 +1,24 @@
 import React from "react";
 import OrganizationCard from "../cards/OrganizationCard";
-import orgsList from '../../assets/2021/organizations.json';
+// import orgsList from '../../assets/2021/organizations.json';
 
-export default function ArchivedOrganizations() {
+export default function ArchivedOrganizations({ match }) {
+
+  const {
+    params: { year },
+  } = match;
+
+  // console.log(year);
+
+  // to import archived json based on year
+  let orgsList;
+  if (year === '2021') {
+    orgsList = require('../../assets/2021/organizations.json');
+  } else {
+    orgsList = require('../../assets/2022/organizations.json');
+  }
+
+
 return (
   <div className="container">
     <h1

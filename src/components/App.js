@@ -118,17 +118,17 @@ function App() {
                                     component={Projects}
                                 />
                                 <Route
-                                    path="/2021"
+                                    path="/archive"
                                     exact
                                     component={Archive}
                                 />
                                 <Route
-                                    path="/2021/projects"
+                                    path="/:year/projects"
                                     exact
                                     component={ArchivedProject}
                                 />
                                 <Route
-                                    path="/2021/organizations"
+                                    path="/:year/organizations"
                                     exact
                                     component={ArchivedOrganizations}
                                 />

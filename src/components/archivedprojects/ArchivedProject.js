@@ -1,5 +1,5 @@
 import React from "react";
-import projectList from "../../assets/2021/projects.json";
+//import projectList from "../../assets/2021/projects.json";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
@@ -59,7 +59,24 @@ export function ProjectDetail({ project }) {
     );
 }
 
-export default function ArchivedProject() {
+export default function ArchivedProject({ match }) {
+    const {
+        params: { year },
+    } = match;
+
+    // console.log(year);
+
+    // to import archived json based on year
+    let projectList;
+    if (year === '2021') {
+        projectList = require('../../assets/2021/projects.json');
+    } else {
+        projectList = require('../../assets/2022/projects.json');
+    }
+
+    // console.log(projectList);
+
+
     const [openModal, setModal] = React.useState(false);
 
     const [projectDetail, setProject] = React.useState({});
