@@ -24,7 +24,7 @@ const Home = () => {
           {/* <Link to="/projects" role="button">View Projects</Link> */}
           {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/5kSa1WCYg2nikwCX9">Apply as mentor</a>
           <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/QopXkFVpQH34AMuA9">Apply as a mentee</a> */}
-          <Link to="/projects" role="button">View Projects and Selected Candidates</Link>
+          <Link to="/projects" role="button">Projects to be announced soon!</Link>
         </div>
       </div>
       <br />
