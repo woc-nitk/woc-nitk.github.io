@@ -1,71 +1,27 @@
 import React from "react";
-import projectList from "../../assets/2021/projects.json";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
-import ReactMarkdown from "react-markdown";
+import { ProjectDetail } from '../projectspage/Projects';
+
 Modal.setAppElement('#root');
 
-export function ProjectDetail({ project }) {
-    return (
-        <div className="project-details">
-            <h1>{project.title}</h1>
-            <h4 style={{ margin: "10px 0" }}>{project.org}</h4>
-            <hr style={{ marginBottom: "25px" }}></hr>
-            <ReactMarkdown children={project.summary}/>
-            <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                    display: "block",
-                    margin: "5px 0",
-                    color: "#0088cc",
-                    fontWeight: "600",
-                    textDecoration: "none",
-                }}
-            >
-                More Details
-            </a>
-            <h3>Mentors:</h3>
-            <ul>
-                {project.mentors.map((mentor, idx) => {
-                    return (
-                        <li key={idx} style={{ marginLeft: "15px" }}>
-                            <a
-                                style={{ color: "#0088cc" }}
-                                href={`mailto:${mentor.email}`}
-                            >
-                                {mentor.name}
-                            </a>
-                        </li>
-                    );
-                })}
-            </ul>
-            <h3 style={{marginTop: "10px"}}>Selected candidates:</h3>
-            {Array.isArray(project.students) && project.students.length ?
-                <ul>
-                    {project.students.map((student, idx) => {
-                        return (
-                            <li key={idx} style={{ marginLeft: "15px" }}>
-                                {student}
-                            </li>
-                        );
-                    })}
-                </ul>
-            :
-                <p><i>No one</i></p>
-            }
-        </div>
-    );
-}
+export default function ArchivedProject({ match }) {
+    const {
+        params: { year },
+    } = match;
 
-export default function ArchivedProject() {
+    let projectList;
+    if (year === '2021') {
+        projectList = require('../../assets/2021/projects.json');
+    } else {
+        projectList = require('../../assets/2022/projects.json');
+    }
+
     const [openModal, setModal] = React.useState(false);
 
     const [projectDetail, setProject] = React.useState({});
 
     const closeModal = () => {
-        // setProject({});
         setModal(false);
     };
 
@@ -92,7 +48,7 @@ export default function ArchivedProject() {
                         transform: "translate(-50%,-50%)",
                         padding: "3rem",
                         paddingTop: "1rem",
-                        boxShadow: "0 0 20px rgba(0,0,0,0.3)",
+                        boxShadow: "0 0 20px rgba(0,0,0,0.3)"
                     },
                     overlay: {
                         zIndex: "100"
@@ -132,7 +88,6 @@ export default function ArchivedProject() {
                     marginBottom: "50px",
                 }}
             />
-
             <div className="grid">
                 {projectList.map((project, idx) => {
                     return (

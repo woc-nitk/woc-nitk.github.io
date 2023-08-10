@@ -77,7 +77,7 @@ const Navbar = (props) => {
                             Organizations
                         </NavLink>
                         <NavLink
-                            to="/2021"
+                            to="/archive"
                             exact
                             activeStyle={{
                                 color: "var(--silver-3)",

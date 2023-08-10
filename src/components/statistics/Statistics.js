@@ -36,24 +36,24 @@ function optionGenerator(txt) {
     return opts;
 }
 
-const labels = ['2019', '2020', '2021'];
+const labels = ['2019', '2020', '2021', '2022'];
 
 export const data = {
     labels,
     datasets: [
       {
         label: 'Projects',
-        data: [15,13,21],
+        data: [15,13,21,20],
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
       {
         label: 'Mentors',
-        data: [24,31,43],
+        data: [24,31,43,27],
         backgroundColor: 'rgba(53, 162, 235, 0.5)',
       },
       {
         label: 'Mentees',
-        data: [31,12,14],
+        data: [31,12,14,22],
         backgroundColor: '#ebcb8b',
       },
     ],

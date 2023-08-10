@@ -17,7 +17,7 @@ export default function Guidelines() {
         </h1>
 
         <h2>Contributors/Mentees</h2>
-        <p>To participate in Winter of Code NITK 2022, mentees/contributors are required to adhere to the following <a href="https://bit.ly/woc-mentee-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
+        <p>To participate in Winter of Code NITK 2023, mentees/contributors are required to adhere to the following <a href="https://bit.ly/woc-mentee-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
         <h3>Application</h3>
         <p></p>
         <ul>
@@ -58,7 +58,7 @@ export default function Guidelines() {
           <li>Failing to complete evaluations before the stipulated deadline, may lead to revoking of the project and the benefits associated with the completion of the project. No deadline extension shall be granted, except in genuine cases(considered by the organizing committee of <b>NITK Winter of Code</b>).</li>
         </ul>
         <h2>Participating organizations</h2>
-        <p>To participate in Winter of Code NITK 2022, participating organizations are required to adhere to the following <a href="https://bit.ly/woc-mentor-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
+        <p>To participate in Winter of Code NITK 2023, participating organizations are required to adhere to the following <a href="https://bit.ly/woc-mentor-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
         <h3>Application</h3>
         <p></p>
         <ul>
@@ -77,7 +77,7 @@ export default function Guidelines() {
           <li>An organization shall receive a mention on the <b>Program Website</b> on having at least one project proposal accepted by the <b>NITK Winter of Code</b> organizing committee.</li>
         </ul>       
         <h2>Mentors</h2>
-        <p>To participate in <b>NITK Winter of Code</b> 2022, mentors are required to adhere to the following <a href="https://bit.ly/woc-mentor-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
+        <p>To participate in <b>NITK Winter of Code</b> 2023, mentors are required to adhere to the following <a href="https://bit.ly/woc-mentor-guidelines" target="blank">guidelines</a> for the smooth conduction of the program.</p>
         <h3>Application</h3>
         <p></p>
         <ul>
