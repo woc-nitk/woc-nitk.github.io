@@ -4,10 +4,10 @@ import Timeline from "./Timeline";
 import NITKLogo from '../../assets/NITK_Logo_1.png'
 
 const timeline = [
-  { event: "Deadline to submit project proposals by organizations in NITK. Submit by 17th September to get the project proposals reviewed!", date: "September 17" },
-  { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 2" },
-  { event: "Students can start submitting project proposals", date: "October 4" },
-  { event: "Last day for students to submit project proposals", date: "November 10" },
+  { event: "Deadline to submit project proposals by organizations in NITK. Submit by 6th October to get the project proposals reviewed!", date: "October 6" },
+  { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 10" },
+  { event: "Students can start submitting project proposals", date: "October 12" },
+  { event: "Last day for students to submit project proposals", date: "November 12" },
   { event: "List of selected students for projects released", date: "November 24" },
   { event: "Coding phase begins", date: "December 9" },
   { event: "Mid evaluation", date: "January 9" },
