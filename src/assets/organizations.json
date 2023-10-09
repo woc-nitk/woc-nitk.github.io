@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "name": "IRIS NITK",
+        "description": "We are a team of motivated students from NITK Surathkal, developing and expanding a digital portal that ensures that all administrative, academic and alumni related procedures take place methodically. The team has successfully migrated a number of functions which were earlier pen-and-paper procedures (including Admissions, Placements and Course Management), as modules in the system with the aim of integrating all such procedures onto this fully functioning unified system. IRIS is compatible across various software platforms and ensures security of data with strong encryption and a data protection policy in place."
+    },
+    {
+        "name": "WebClub NITK",
+        "description": "Web Enthusiasts' Club NITK is a group of Computer Science enthusiasts trying to help the community of NITK."
+    },
+    {
+        "name": "DeepChem",
+        "description": "DeepChem is a Python library for machine learning and deep learning on molecular and quantum datasets. It is built on top of PyTorch, and other popular ML frameworks. It is designed to make it easy to apply ML to new domains, and to build and benchmark new models. It is also designed to make it easy to use ML in production, by providing easy-to-use model export and deployment API."
+    }
+]

@@ -3,8 +3,8 @@ import React from "react";
 // import { getOrganizationQuery } from "../../queries";
 import ProjectCard from "../cards/ProjectCard";
 import Modal from "react-modal";
-import projectsList from '../../assets/global/projects.json';
-import orgsList from '../../assets/global/organizations.json';
+import projectsList from '../../assets/projects.json';
+import orgsList from '../../assets/organizations.json';
 import { ProjectDetail } from '../projectspage/Projects';
 
 Modal.setAppElement('#root');
@@ -30,29 +30,29 @@ export default function Organization({ match }) {
   const [projectDetail, setProject] = React.useState({});
 
   const closeModal = () => {
-      // setProject({});
-      setModal(false);
+    // setProject({});
+    setModal(false);
   };
 
   const renderModal = (project) => {
-      setProject(project);
-      setModal(true);
+    setProject(project);
+    setModal(true);
   };
 
-  let orgName = orgId.replace(/_/g,' ');
+  let orgName = orgId.replace(/_/g, ' ');
 
-  const organization=orgsList.find(org => org.name === orgName);
+  const organization = orgsList.find(org => org.name === orgName);
 
   let projects;
 
-  if(orgName==="Miscellaneous")
+  if (orgName === "Miscellaneous")
     projects = projectsList.filter(p => !p.org)
   // NeST expanded is too big on mobile devices
-  else if(orgName==="Network Stack Tester (NeST)")
+  else if (orgName === "Network Stack Tester (NeST)")
     projects = projectsList.filter(p => p.org === "NeST");
   else
     projects = projectsList.filter(p => p.org === orgName);
-  
+
 
   return (
     <div className="container org">
@@ -79,28 +79,28 @@ export default function Organization({ match }) {
             zIndex: "100"
           }
         }}
-    >
+      >
         <div className="modalContent">
-            <button
-                className="closeModal"
-                onClick={closeModal}
-                style={{
-                    background: "none",
-                    color: "var(--dark-5)",
-                    border: "none",
-                    margin: "0",
-                    padding: "0",
-                    boxShadow: "none",
-                }}
-            >
-                ×
-            </button>
-            <ProjectDetail project={projectDetail} />
+          <button
+            className="closeModal"
+            onClick={closeModal}
+            style={{
+              background: "none",
+              color: "var(--dark-5)",
+              border: "none",
+              margin: "0",
+              padding: "0",
+              boxShadow: "none",
+            }}
+          >
+            ×
+          </button>
+          <ProjectDetail project={projectDetail} />
         </div>
-    </Modal>      
-      
+      </Modal>
+
       {/* This condition is only for TEDxNITKSurathkal as the name is too big for small devices */}
-      {organization.name==="TEDxNITKSurathkal"? <h1>TEDx<span style={{fontSize: "0"}}> </span>NITKSurathkal</h1>:<h1>{organization.name}</h1>}
+      {organization.name === "TEDxNITKSurathkal" ? <h1>TEDx<span style={{ fontSize: "0" }}> </span>NITKSurathkal</h1> : <h1>{organization.name}</h1>}
       <p>{organization.description}</p>
       <h2 style={{ marginTop: "40px", marginBottom: "5px" }}>
         Projects under {organization.name}
@@ -112,7 +112,7 @@ export default function Organization({ match }) {
         }}
       />
       <div className="grid">
-        {projects.map((project,idx) => {
+        {projects.map((project, idx) => {
           return (
             <ProjectCard
               onClick={() => renderModal(project)}
