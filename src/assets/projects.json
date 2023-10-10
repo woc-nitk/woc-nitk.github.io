@@ -4,6 +4,10 @@
             {
                 "email": "sushanth.191ee156@nitk.edu.in",
                 "name": "Sushanth Sathesh Rao"
+            },
+            {
+                "email": "rameshkinim@nitk.edu.in",
+                "name": "Ramesh Kini M"
             }
         ],
         "title": "Secure FileShare",
@@ -18,6 +22,10 @@
             {
                 "email": "sathvikhebbar.201cs254@nitk.edu.in",
                 "name": "Sathvik Hebbar"
+            },
+            {
+                "email": "shifalirs18@gmail.com",
+                "name": "Shifali R S"
             }
         ],
         "title": "Forest - the toy HTTP server",
@@ -32,6 +40,14 @@
             {
                 "email": "sathvikhebbar.201cs254@nitk.edu.in",
                 "name": "Sathvik Hebbar"
+            },
+            {
+                "email": "samhitar.201me250@nitk.edu.in",
+                "name": "Samhita"
+            },
+            {
+                "email": "sankpaltejas.201cs253@nitk.edu.in",
+                "name": "Tejas"
             }
         ],
         "title": "Orchid - Your go-to communication app",
@@ -111,7 +127,7 @@
             }
         ],
         "title": "Porting RobustMultitask Model from Tensorflow to PyTorch",
-        "org": "DeepChem",
+        "org": "",
         "summary": "PyTorch is becoming increasingly popular as the preferred backend for developing algorithms, thanks to its sustainability. DeepChem has decided to port its TensorFlow and Jax Models to PyTorch. This project aims to successfully port two of DeepChem's models. RobustMultitaskRegressor and RobustMultitaskClassifier are to be ported.",
         "url": "https://docs.google.com/document/d/10OUTtn6JkiM9Vya6nt5465o0S_kzai6Z1LMXAHXyL0s/edit",
         "students": [],
@@ -129,7 +145,7 @@
             }
         ],
         "title": "Porting ProgressiveMultitask Model from Tensorflow to PyTorch",
-        "org": "DeepChem",
+        "org": "",
         "summary": "PyTorch is becoming increasingly popular as the preferred backend for developing algorithms, thanks to its sustainability. DeepChem has decided to port its TensorFlow and Jax Models to PyTorch. This project aims to successfully port two of DeepChem's models. ProgressiveMultitaskRegressor and ProgressiveMultitaskClassifier are to be ported.",
         "url": "https://docs.google.com/document/d/1BPQOsbOwzCOEfSu9P8XhF57UFD1sn5KyaiI-UKwZJjY/edit",
         "students": [],

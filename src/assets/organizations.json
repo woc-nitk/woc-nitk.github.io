@@ -8,7 +8,7 @@
         "description": "Web Enthusiasts' Club NITK is a group of Computer Science enthusiasts trying to help the community of NITK."
     },
     {
-        "name": "DeepChem",
-        "description": "DeepChem is a Python library for machine learning and deep learning on molecular and quantum datasets. It is built on top of PyTorch, and other popular ML frameworks. It is designed to make it easy to apply ML to new domains, and to build and benchmark new models. It is also designed to make it easy to use ML in production, by providing easy-to-use model export and deployment API."
+        "name": "Miscellaneous",
+        "description": "Projects that are not under any organizations. These are projects maintained by individuals or independent groups of people."
     }
 ]
