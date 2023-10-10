@@ -1,1 +1,168 @@
-[]
+[
+    {
+        "mentors": [
+            {
+                "email": "sushanth.191ee156@nitk.edu.in",
+                "name": "Sushanth Sathesh Rao"
+            },
+            {
+                "email": "rameshkinim@nitk.edu.in",
+                "name": "Ramesh Kini M"
+            }
+        ],
+        "title": "Secure FileShare",
+        "org": "",
+        "summary": "Building a web application to support secure file sharing between users / or any entity. Currently, NITK wishes to implement a file sharing software for sharing confidential files with external entities for specific reasons. Currently, there is a lack of software that can provide this “secure” storage and sharing of files. Hence, there is a need for building this software to securely share files between entities with a seamless user experience, flexibility and ease of configuration for various use cases.",
+        "url": "https://docs.google.com/document/d/1GV49V0_TxOA_M1GjtQth0fEqid2qEo0uGxK-VDibopY/edit?usp=sharing",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "sathvikhebbar.201cs254@nitk.edu.in",
+                "name": "Sathvik Hebbar"
+            },
+            {
+                "email": "shifalirs18@gmail.com",
+                "name": "Shifali R S"
+            }
+        ],
+        "title": "Forest - the toy HTTP server",
+        "org": "",
+        "summary": "This project aims to implement a basic, configurable HTTP server over TCP.",
+        "url": "https://docs.google.com/document/d/1a5G6IgycSZj7NG_8SX6as_YuBLSe4VqubR_FCt0GXtE/edit?usp=sharing",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "sathvikhebbar.201cs254@nitk.edu.in",
+                "name": "Sathvik Hebbar"
+            },
+            {
+                "email": "samhitar.201me250@nitk.edu.in",
+                "name": "Samhita"
+            },
+            {
+                "email": "sankpaltejas.201cs253@nitk.edu.in",
+                "name": "Tejas"
+            }
+        ],
+        "title": "Orchid - Your go-to communication app",
+        "org": "",
+        "summary": "Orchid is a dynamic application for real-time seamless personal and team messaging and collaboration. Stock Orchid aims to provide direct and thread-based messaging, task distribution for teams, file sharing and role management for individuals and organisations alike. ",
+        "url": "https://docs.google.com/document/d/1sAmd2v981cal01HJrPd5pDXdjynCOhAV-F2KP_JuFG0/edit",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "rsmuthukumar.201ec149@nitk.edu.in",
+                "name": "Muthukumar"
+            },
+            {
+                "email": "hrushikeshj.201cs220@nitk.edu.in",
+                "name": "Hrushikesh J"
+            },
+            {
+                "email": "anirudhprabhakaran.201ec106@nitk.edu.in",
+                "name": "Anirudh Prabhakaran"
+            }
+        ],
+        "title": "Testing and Consultancy Portal Phase 2",
+        "org": "IRIS NITK",
+        "summary": "Testing and Consultancy portal is a module in IRIS that allows faculty and staff to digitally process their T&C proposals. It is a very intricate module that spans with a lot of features. Through this medium, we expect the mentee to finish a small subset of features for a version 2 of the same.",
+        "url": "https://docs.google.com/document/d/1sef6FLutjqHb55DQsWSDI3D_QVt_fNDdnz5cpItuIPA/edit?usp=sharing",
+        "students": [],
+        "openToAll": false
+    },
+    {
+        "mentors": [
+            {
+                "email": "chinmaysharma1020@gmail.com",
+                "name": "Chinmaya Sharma"
+            },
+            {
+                "email": "amoghumesh02@gmail.com",
+                "name": "Amogh Umesh"
+            }
+        ],
+        "title": "CTFd Docker Plugin",
+        "org": "WebClub NITK",
+        "summary": "A docker plugin for CTFd, for creating docker challenges which provisions containers for each team based on demand and performs container lifecycle management using Docker Engine APIs. Plugin must support multiple instances of Docker engines and balance requests between multiple daemons, as well as keep track of how many containers are running in each, and maintain the optimal number of containers such that the VMs the engines are running on do not get choked.",
+        "url": "https://docs.google.com/document/d/1_Pp6dM_67e39hWd2ldbDl_Qn6hXKCvGsGcijxBAyF08/edit?usp=sharing",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "vinayakvatsalyaj.201it266@nitk.edu.in",
+                "name": "Vinayak Vatsalya J"
+            },
+            {
+                "email": "mrrishi.201me131@nitk.edu.in",
+                "name": "M R Rishi"
+            }
+        ],
+        "title": "Staging Server",
+        "org": "IRIS",
+        "summary": "This project is an extension of an existing Staging Server used by IRIS, focusing on enhancing its functionality. The primary objectives include adding validation to existing features and implementing role-based access control (RBAC) along with the addition of tags to deployments. ",
+        "url": "https://docs.google.com/document/d/1kN9YY0rYsk0kdpO7wPbRNjwWJwBS-83d0j6bgJ4VV2k/",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "riyasingh3909@gmail.com",
+                "name": "Riya Singh"
+            },
+            {
+                "email": "aryan.barsainyan@gmail.com",
+                "name": "Aryan Amit Barsainyan"
+            }
+        ],
+        "title": "Porting RobustMultitask Model from Tensorflow to PyTorch",
+        "org": "",
+        "summary": "PyTorch is becoming increasingly popular as the preferred backend for developing algorithms, thanks to its sustainability. DeepChem has decided to port its TensorFlow and Jax Models to PyTorch. This project aims to successfully port two of DeepChem's models. RobustMultitaskRegressor and RobustMultitaskClassifier are to be ported.",
+        "url": "https://docs.google.com/document/d/10OUTtn6JkiM9Vya6nt5465o0S_kzai6Z1LMXAHXyL0s/edit",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "riyasingh3909@gmail.com",
+                "name": "Riya Singh"
+            },
+            {
+                "email": "aryan.barsainyan@gmail.com",
+                "name": "Aryan Amit Barsainyan"
+            }
+        ],
+        "title": "Porting ProgressiveMultitask Model from Tensorflow to PyTorch",
+        "org": "",
+        "summary": "PyTorch is becoming increasingly popular as the preferred backend for developing algorithms, thanks to its sustainability. DeepChem has decided to port its TensorFlow and Jax Models to PyTorch. This project aims to successfully port two of DeepChem's models. ProgressiveMultitaskRegressor and ProgressiveMultitaskClassifier are to be ported.",
+        "url": "https://docs.google.com/document/d/1BPQOsbOwzCOEfSu9P8XhF57UFD1sn5KyaiI-UKwZJjY/edit",
+        "students": [],
+        "openToAll": true
+    },
+    {
+        "mentors": [
+            {
+                "email": "shubham.211it066@nitk.edu.in",
+                "name": "Shubham S Rasal"
+            }
+        ],
+        "title": "ExamArchive: Your Academic Question Paper Hub",
+        "org": "",
+        "summary": "The PYQ (Previous Year Question Paper) Archive project aims to develop a centralized repository for collecting, organizing, and making accessible previous year question papers from various educational institutions and examinations. This platform will primarily serve students and educators seeking valuable resources for exam preparation and academic reference.",
+        "url": "https://docs.google.com/document/d/1YvfZh9_2kTTWNPw3lJZ1l9aa6sFWahp4snfKhMK0aGA/edit?usp=sharing",
+        "students": [],
+        "openToAll": true
+    }
+]

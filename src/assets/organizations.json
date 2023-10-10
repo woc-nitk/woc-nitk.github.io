@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "name": "IRIS NITK",
+        "description": "We are a team of motivated students from NITK Surathkal, developing and expanding a digital portal that ensures that all administrative, academic and alumni related procedures take place methodically. The team has successfully migrated a number of functions which were earlier pen-and-paper procedures (including Admissions, Placements and Course Management), as modules in the system with the aim of integrating all such procedures onto this fully functioning unified system. IRIS is compatible across various software platforms and ensures security of data with strong encryption and a data protection policy in place."
+    },
+    {
+        "name": "WebClub NITK",
+        "description": "Web Enthusiasts' Club NITK is a group of Computer Science enthusiasts trying to help the community of NITK."
+    },
+    {
+        "name": "Miscellaneous",
+        "description": "Projects that are not under any organizations. These are projects maintained by individuals or independent groups of people."
+    }
+]
