@@ -8,7 +8,7 @@ const timeline = [
   { event: "List of selected projects released. Students start discussing project details with mentors", date: "October 10" },
   { event: "Students can start submitting project proposals", date: "October 12" },
   { event: "Last day for students to submit project proposals", date: "November 12" },
-  { event: "List of selected students for projects released", date: "November 24" },
+  { event: "List of selected students for projects released", date: "December 2" },
   { event: "Coding phase begins", date: "December 9" },
   { event: "Mid evaluation", date: "January 9" },
   { event: "Final evaluation", date: "February 9" }
