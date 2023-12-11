@@ -23,7 +23,7 @@ const Home = () => {
           <p>Kickstart your open source journey</p>
           {/* <Link to="/projects" role="button">View Projects</Link> */}
           {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/QrPDNqwABhkDRmNz6">Apply as a mentor</a> */}
-          <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/Szhz5Us6xdwCjSkh6">Apply as a mentee</a> 
+          {/* <a rel="noopener noreferrer" role="button" target="_blank" href="https://forms.gle/Szhz5Us6xdwCjSkh6">Apply as a mentee</a>  */}
           <Link to="/projects" role="button">View Projects</Link> 
         </div>
       </div>
